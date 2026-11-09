@@ -6,53 +6,993 @@ METHOD:PUBLISH
 X-WR-CALNAME:Antalya Etkinlik Takvimi
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:cf18f04cb31a@antalya-etkinlik-takvimi
-DTSTAMP:20261109T180917Z
+UID:34a0ed20b1c0@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261110T200000
+DTEND;TZID=Europe/Istanbul:20261110T223000
+SUMMARY:Jeanne D'arc'n Öteki Ölümü
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/jeanne-darcn-oteki-olumu-dada
+URL:https://biletinial.com/tr-tr/tiyatro/jeanne-darcn-oteki-olumu-dada
+END:VEVENT
+BEGIN:VEVENT
+UID:edb323cc6c5d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261111T200000
+DTEND;TZID=Europe/Istanbul:20261111T223000
+SUMMARY:Levent Yüksel
+LOCATION:Antalya Açıkhava Tiyatrosu
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1500\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/levent-yuksel
+URL:https://biletinial.com/tr-tr/muzik/levent-yuksel
+END:VEVENT
+BEGIN:VEVENT
+UID:6b225de42587@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261111T200000
+DTEND;TZID=Europe/Istanbul:20261111T223000
+SUMMARY:Herkes Kocama Benziyor
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor
+URL:https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor
+END:VEVENT
+BEGIN:VEVENT
+UID:a5a9cef0f280@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261111T200000
+DTEND;TZID=Europe/Istanbul:20261111T223000
+SUMMARY:Kırmızı Başlıklı Kız
+LOCATION:Tiyatro Özgün Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺250\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kirmizi-baslikli-kiz-ozgun
+URL:https://biletinial.com/tr-tr/tiyatro/kirmizi-baslikli-kiz-ozgun
+END:VEVENT
+BEGIN:VEVENT
+UID:5271561aee07@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261111T203000
+DTEND;TZID=Europe/Istanbul:20261111T230000
+SUMMARY:11 Kasım | Sanat Performance'ta Sahne Senin! - Karaoke Night
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/karaoke-night-sanat-performance-biletler-passo/13926324
+URL:https://www.passo.com.tr/tr/etkinlik/karaoke-night-sanat-performance-biletler-passo/13926324
+END:VEVENT
+BEGIN:VEVENT
+UID:3f4770008d41@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
 DTSTART;TZID=Europe/Istanbul:20261111T210000
 DTEND;TZID=Europe/Istanbul:20261111T233000
-SUMMARY:Antalya Açıkhava Tiyatrosu Konser & Sahne Takvimi
-LOCATION:Antalya Açıkhava Tiyatrosu\, Konyaaltı / Antalya
-DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Bubilet\nFiyat/Durum: Resmi Satış Sayfası\nBilet ve Detaylar: https://www.bubilet.com.tr/antalya
-URL:https://www.bubilet.com.tr/antalya
+SUMMARY:Detaylı İncele
+LOCATION:Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/ayded-babylon-konser-etkinlik-bilet/13018320
+URL:https://www.passo.com.tr/tr/etkinlik/ayded-babylon-konser-etkinlik-bilet/13018320
 END:VEVENT
 BEGIN:VEVENT
-UID:8dedc24626be@antalya-etkinlik-takvimi
-DTSTAMP:20261109T180917Z
-DTSTART;TZID=Europe/Istanbul:20261112T220000
-DTEND;TZID=Europe/Istanbul:20261113T003000
-SUMMARY:Holly Stone Performance Hall Antalya Canlı Konserler
-LOCATION:Holly Stone Performance Hall\, Kaleiçi / Antalya
-DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Bubilet\nFiyat/Durum: Bilet Al\nBilet ve Detaylar: https://www.bubilet.com.tr/antalya
-URL:https://www.bubilet.com.tr/antalya
+UID:94be5f07001f@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261112T200000
+DTEND;TZID=Europe/Istanbul:20261112T223000
+SUMMARY:Sesler - Salih Bademci
+LOCATION:Antalya AKM Aspendos Salonu
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1250\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/sesler-salih-bademci
+URL:https://biletinial.com/tr-tr/tiyatro/sesler-salih-bademci
 END:VEVENT
 BEGIN:VEVENT
-UID:dd8f201e7be7@antalya-etkinlik-takvimi
-DTSTAMP:20261109T180917Z
+UID:e7a7cedcb97d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261112T200000
+DTEND;TZID=Europe/Istanbul:20261112T223000
+SUMMARY:Ormanın Kalbi
+LOCATION:Tiyatro Özgün Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺250\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ormanin-kalbi
+URL:https://biletinial.com/tr-tr/tiyatro/ormanin-kalbi
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c4a9904da3@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261112T200000
+DTEND;TZID=Europe/Istanbul:20261112T223000
+SUMMARY:Doğaçlama Bayii
+LOCATION:N8 Sahne Black Box Theatre\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺600\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/dogaclama-bayii-ipktnshne
+URL:https://biletinial.com/tr-tr/tiyatro/dogaclama-bayii-ipktnshne
+END:VEVENT
+BEGIN:VEVENT
+UID:ee4bc3e834eb@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
 DTSTART;TZID=Europe/Istanbul:20261113T200000
 DTEND;TZID=Europe/Istanbul:20261113T223000
-SUMMARY:Antalya Devlet Tiyatrosu & Haşim İşcan Kültür Merkezi Oyunları
-LOCATION:Haşim İşcan Kültür Merkezi\, Muratpaşa / Antalya
-DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: Biletinial'da İncele\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/antalya
-URL:https://biletinial.com/tr-tr/tiyatro/antalya
+SUMMARY:Atatürk'ü Anma Konseri - Antalya Devlet Senfoni Orkestrası
+LOCATION:A.K.M. Aspendos Salonu\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺215\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/ataturku-anma-konseri-adso
+URL:https://biletinial.com/tr-tr/muzik/ataturku-anma-konseri-adso
 END:VEVENT
 BEGIN:VEVENT
-UID:a50bd42a6367@antalya-etkinlik-takvimi
-DTSTAMP:20261109T180917Z
+UID:7004a7234d46@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T200000
+DTEND;TZID=Europe/Istanbul:20261113T223000
+SUMMARY:90’lar Kafası: Nihat Sırdar
+LOCATION:Antalya Bahçe
+DESCRIPTION:Kategori: Festival & Parti\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/nihat-sirdar-ile-dj-performans-90lar-kafasi
+URL:https://biletinial.com/tr-tr/muzik/nihat-sirdar-ile-dj-performans-90lar-kafasi
+END:VEVENT
+BEGIN:VEVENT
+UID:33bf60259c52@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T200000
+DTEND;TZID=Europe/Istanbul:20261113T223000
+SUMMARY:Tarla Kuşuydu Juliet
+LOCATION:Yıldız Kenter Sahnesi - Işıklar\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/tarla-kusuydu-juliet-ast
+URL:https://biletinial.com/tr-tr/tiyatro/tarla-kusuydu-juliet-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:b3c7bdcf933d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T200000
+DTEND;TZID=Europe/Istanbul:20261113T223000
+SUMMARY:Salih Tıraş Stand Up
+LOCATION:Antalya
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺600\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup
+URL:https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup
+END:VEVENT
+BEGIN:VEVENT
+UID:9997b656ac83@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T203000
+DTEND;TZID=Europe/Istanbul:20261113T230000
+SUMMARY:13 Kasım | Sanat Performance'ta Sahne Senin! - Karaoke Night
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/karaoke-night-sanat-performance-biletler-passo/13926325
+URL:https://www.passo.com.tr/tr/etkinlik/karaoke-night-sanat-performance-biletler-passo/13926325
+END:VEVENT
+BEGIN:VEVENT
+UID:5aa1b263c39c@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T203000
+DTEND;TZID=Europe/Istanbul:20261113T230000
+SUMMARY:13 Kasım | 90'lar Dans Gecesi
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Festival & Parti\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/90-lar-dans-gecesi-sanat-performance-biletler-passo/13919322
+URL:https://www.passo.com.tr/tr/etkinlik/90-lar-dans-gecesi-sanat-performance-biletler-passo/13919322
+END:VEVENT
+BEGIN:VEVENT
+UID:8b7317b2556a@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T203000
+DTEND;TZID=Europe/Istanbul:20261113T230000
+SUMMARY:13 Kasım | Okan Reis - Akustik Sahne
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/okan-reis-akustik-sahne-sanat-performance-biletler-passo/13977320
+URL:https://www.passo.com.tr/tr/etkinlik/okan-reis-akustik-sahne-sanat-performance-biletler-passo/13977320
+END:VEVENT
+BEGIN:VEVENT
+UID:23ea993f2892@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261113T213000
+DTEND;TZID=Europe/Istanbul:20261114T000000
+SUMMARY:Detaylı İncele
+LOCATION:Antalya
+DESCRIPTION:Kategori: Festival & Parti\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/flashback-90lar-turkce-pop-partisi-babylon-konser-etkinlik-bilet/12754319
+URL:https://www.passo.com.tr/tr/etkinlik/flashback-90lar-turkce-pop-partisi-babylon-konser-etkinlik-bilet/12754319
+END:VEVENT
+BEGIN:VEVENT
+UID:24df386fee00@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
 DTSTART;TZID=Europe/Istanbul:20261114T200000
 DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:Antalya Stand-Up & Açık Mikrofon Komedi Gecesi
-LOCATION:Türkan Şoray Kültür Merkezi\, Muratpaşa / Antalya
-DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: Biletinial'da İncele\nBilet ve Detaylar: https://biletinial.com/tr-tr/etkinlik-takvimi/7
-URL:https://biletinial.com/tr-tr/etkinlik-takvimi/7
+SUMMARY:Prime Orchestra Rock Sympho Show
+LOCATION:Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1420\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show
+URL:https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show
 END:VEVENT
 BEGIN:VEVENT
-UID:ac2ae24f25d3@antalya-etkinlik-takvimi
-DTSTAMP:20261109T180917Z
-DTSTART;TZID=Europe/Istanbul:20261115T210000
-DTEND;TZID=Europe/Istanbul:20261115T233000
-SUMMARY:Jolly Joker Antalya Sahne Performansları & Konserler
-LOCATION:Jolly Joker Antalya\, Lara / Muratpaşa / Antalya
-DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/search/TURKIYE/tr?city_sb=Antalya#!city_sb:Antalya
-URL:https://www.biletix.com/search/TURKIYE/tr?city_sb=Antalya#!city_sb:Antalya
+UID:5722d0e83c64@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Bengi İdil Uras ile Beng Beng Show
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺850\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/bengi-idil-uras-ile-beng-beng-show
+URL:https://biletinial.com/tr-tr/tiyatro/bengi-idil-uras-ile-beng-beng-show
+END:VEVENT
+BEGIN:VEVENT
+UID:42b9877908ab@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Ermişler Ya Da Günahkarlar
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
+URL:https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:35eda6aefe63@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:KUŞLAR
+LOCATION:Haşim İşcan K.M - DT Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺105\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt
+URL:https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt
+END:VEVENT
+BEGIN:VEVENT
+UID:ce8ae725e0d4@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Akide Şekeri
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
+URL:https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:ae8f1671360f@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Parçacık
+LOCATION:Yıldız Kenter Sahnesi - Işıklar\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺80\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/parcacik-ast
+URL:https://biletinial.com/tr-tr/tiyatro/parcacik-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:64f7404b1806@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Hadi Öldürsene Canikom
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-dada
+URL:https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-dada
+END:VEVENT
+BEGIN:VEVENT
+UID:4baf21ce2764@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Aspendos Balon Turu - Kasım & Aralık AyıAspendos Antik Tiyatro Yanı09 Kas 2026 - 31 Ara 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:cb26d006443c@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Antalya Kum Heykel Müzesi - 2026Antalya Kum Heykel Müzesi09 Kas 2026 - 31 Ara 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:8fcf8cb57cca@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:DataCube - Real-Time AI Experience Kasım TakvimiThe Cube09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5ASOA/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5ASOA/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:826a3293cd90@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Mozaik Lamba Atölyesi - KasımLegends Of Istanbul09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5LYH7/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5LYH7/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:d7dbe6b45972@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:The Land of Legends Theme ParkThe Land of Legends09 Kas 2026 - 31 Ara 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:924a2f9fd0a4@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Parfüm Atölyesi - KasımLegends Of Istanbul09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5LYH8/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5LYH8/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:ffc670f2bdfe@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Frida Kahlonun Günlükleri SergisiAkasya Kültür Sanat09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5MTRQ/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5MTRQ/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:ac65c5f9c257@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Nickelodeon Play Tersane İstanbulNickelodeon Play! Tersane İstanbul09 Kas 2026 - 31 Ara 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5AG04/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5AG04/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:eb470a26c15f@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Yetişkin Çikolata Atölyesi - KasımKahve Dünyası - İzmir Alsancak09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5CT79/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5CT79/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:c16c0e412459@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Yetişkin Çikolata Atölyesi - KasımKozzy Kahve Dünyası09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5CT83/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5CT83/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:0cf7c3a40b6d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Yetişkin Çikolata Atölyesi - KasımVeliefendi Kahve Dünyası09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5CT81/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5CT81/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:fd3b260e9314@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Bir Kadın Cinayetinin Son GünüBakırköy Butik Sahne09 Kas 2026 - 29 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5BBEI/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5BBEI/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:f90e72a34524@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Vadideki ZambakTaksim İstiklal Sahne09 Kas 2026 - 17 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5FKI3/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5FKI3/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:8361fba351bf@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Bir İshaksın Bir CemilBakırköy Butik Sahne09 Kas 2026 - 29 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5BBZH/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5BBZH/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:b346b5118c71@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Jane EyreTaksim İstiklal Sahne09 Kas 2026 - 16 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5FKI4/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5FKI4/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:699d67f6f43a@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Nazım Hikmet'ten Piraye'ye MektuplarBakırköy Butik Sahne09 Kas 2026 - 29 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5BBZN/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5BBZN/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:1eafee451072@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Kahve Atölyesi - KasımVeliefendi Kahve Dünyası09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5CT80/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5CT80/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:1876ae30fb9f@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Kahve Atölyesi - KasımKahve Dünyası - İzmir Alsancak09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5CT77/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5CT77/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:2d2791459d1d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Bir Delinin Hatıra DefteriKadıköy BBS Sahne09 Kas 2026 - 30 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5EFAA/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5EFAA/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:e0815a686cb0@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Canlı CesetBakırköy Butik Sahne09 Kas 2026 - 29 Kas 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5BBEK/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5BBEK/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:aae6484c3033@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T203000
+DTEND;TZID=Europe/Istanbul:20261114T230000
+SUMMARY:14 Kasım | Rıza - Akustik Sahne
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/riza-akustik-sahne-sanat-performance-biletler-passo/13964332
+URL:https://www.passo.com.tr/tr/etkinlik/riza-akustik-sahne-sanat-performance-biletler-passo/13964332
+END:VEVENT
+BEGIN:VEVENT
+UID:95bc2eca5d62@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T203000
+DTEND;TZID=Europe/Istanbul:20261114T230000
+SUMMARY:14 Kasım | 90'lar Dans Gecesi
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Festival & Parti\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/90-lar-dans-gecesi-sanat-performance-biletler-passo/13919323
+URL:https://www.passo.com.tr/tr/etkinlik/90-lar-dans-gecesi-sanat-performance-biletler-passo/13919323
+END:VEVENT
+BEGIN:VEVENT
+UID:08f4b2e5d5d9@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T203000
+DTEND;TZID=Europe/Istanbul:20261114T230000
+SUMMARY:14 Kasım | Sanat Performance'ta Sahne Senin! - Karaoke Night
+LOCATION:Sanat Performance\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/karaoke-night-sanat-performance-biletler-passo/13926326
+URL:https://www.passo.com.tr/tr/etkinlik/karaoke-night-sanat-performance-biletler-passo/13926326
+END:VEVENT
+BEGIN:VEVENT
+UID:66ed32e6e253@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261114T210000
+DTEND;TZID=Europe/Istanbul:20261114T233000
+SUMMARY:An Epic Symphony: Hayko Cepkin
+LOCATION:Harbiye Cemil Topuzlu Açıkhava Tiyatrosu\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/an-epic-symphony-hayko-cepkin-harbiye-acikhava-biletleri/13690320
+URL:https://www.passo.com.tr/tr/etkinlik/an-epic-symphony-hayko-cepkin-harbiye-acikhava-biletleri/13690320
+END:VEVENT
+BEGIN:VEVENT
+UID:fae03e0ae03a@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261115T200000
+DTEND;TZID=Europe/Istanbul:20261115T223000
+SUMMARY:Kübik Prens
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺400\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kubik-prens
+URL:https://biletinial.com/tr-tr/tiyatro/kubik-prens
+END:VEVENT
+BEGIN:VEVENT
+UID:19c5f6a90358@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261117T200000
+DTEND;TZID=Europe/Istanbul:20261117T223000
+SUMMARY:Romeo+Juliet=Aşk(?)
+LOCATION:Yıldız Kenter Sahnesi - Işıklar\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺80\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/romeo-juliet-ask-ast
+URL:https://biletinial.com/tr-tr/tiyatro/romeo-juliet-ask-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:1a0787578b1e@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261119T200000
+DTEND;TZID=Europe/Istanbul:20261119T223000
+SUMMARY:Sabahat Akkiraz
+LOCATION:Manavgat Atatürk Kültür Merkezi\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1135\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/sabahat-akkiraz
+URL:https://biletinial.com/tr-tr/muzik/sabahat-akkiraz
+END:VEVENT
+BEGIN:VEVENT
+UID:a83d8a4609b6@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261119T200000
+DTEND;TZID=Europe/Istanbul:20261119T223000
+SUMMARY:Ceren Gündoğdu Candle Session
+LOCATION:Alanya Kültür Merkezi B Salonu-\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1200\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/ceren-gundogdu-candle-session
+URL:https://biletinial.com/tr-tr/muzik/ceren-gundogdu-candle-session
+END:VEVENT
+BEGIN:VEVENT
+UID:d66d9c4461b1@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261119T200000
+DTEND;TZID=Europe/Istanbul:20261119T223000
+SUMMARY:Başar Keklik
+LOCATION:Antalya Holly Stone
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺399\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/basar-keklik
+URL:https://biletinial.com/tr-tr/muzik/basar-keklik
+END:VEVENT
+BEGIN:VEVENT
+UID:f12dd6b90fec@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261120T200000
+DTEND;TZID=Europe/Istanbul:20261120T223000
+SUMMARY:Gürer Aykal Yönetiminde | Çaykovski 5 & Weber - Antalya Devlet Senfoni Orkestrası - DenizBank Konserleri
+LOCATION:A.K.M. Aspendos Salonu\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺215\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/gurer-aykal-yonetiminde-caykovski-5-weber-antalya-devlet-senfoni-orkestrasi
+URL:https://biletinial.com/tr-tr/muzik/gurer-aykal-yonetiminde-caykovski-5-weber-antalya-devlet-senfoni-orkestrasi
+END:VEVENT
+BEGIN:VEVENT
+UID:f49ca7d28142@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261120T200000
+DTEND;TZID=Europe/Istanbul:20261120T223000
+SUMMARY:Tiyatro Sporu
+LOCATION:Tiyatro ADA Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺300\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/tiyatro-sporu-ada
+URL:https://biletinial.com/tr-tr/tiyatro/tiyatro-sporu-ada
+END:VEVENT
+BEGIN:VEVENT
+UID:71333bbd40fe@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Şarkılar Eskiden Daha mı Güzeldi
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1100\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/suat-suna
+URL:https://biletinial.com/tr-tr/muzik/suat-suna
+END:VEVENT
+BEGIN:VEVENT
+UID:58be9a17c521@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Zelişah & Mustafa Konseri
+LOCATION:Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺750\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/zelisah-mustafa-konseri
+URL:https://biletinial.com/tr-tr/muzik/zelisah-mustafa-konseri
+END:VEVENT
+BEGIN:VEVENT
+UID:352a616f84e9@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Hadi Öldürsene Canikom
+LOCATION:Antalya Atatürk Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1045\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi
+URL:https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi
+END:VEVENT
+BEGIN:VEVENT
+UID:15eb573fe350@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Kendine Özgün Doğaçlama - İnteraktif Oyunlar
+LOCATION:Tiyatro Özgün Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺250\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kendine-ozgun-dogaclama-interaktif-oyunlar
+URL:https://biletinial.com/tr-tr/tiyatro/kendine-ozgun-dogaclama-interaktif-oyunlar
+END:VEVENT
+BEGIN:VEVENT
+UID:279f7d66d656@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261124T200000
+DTEND;TZID=Europe/Istanbul:20261124T223000
+SUMMARY:Hacivat - Karagöz
+LOCATION:Tiyatro Özgün Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺250\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/hacivat-karagoz
+URL:https://biletinial.com/tr-tr/tiyatro/hacivat-karagoz
+END:VEVENT
+BEGIN:VEVENT
+UID:f7916add1e86@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261125T200000
+DTEND;TZID=Europe/Istanbul:20261125T223000
+SUMMARY:Miray Akovalıgil 'Ya Bende Bir Şey Yoksa?'
+LOCATION:Antalya AKM Aspendos Salonu
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/miray-akovaligil-ya-bende-bir-sey-yoksa
+URL:https://biletinial.com/tr-tr/tiyatro/miray-akovaligil-ya-bende-bir-sey-yoksa
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb40b9c6897@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261125T200000
+DTEND;TZID=Europe/Istanbul:20261125T223000
+SUMMARY:Ayan Beyan Doğaçlama
+LOCATION:Kırmızı Kalem Çadır Sahne\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ayan-beyan-dogaclama-kks
+URL:https://biletinial.com/tr-tr/tiyatro/ayan-beyan-dogaclama-kks
+END:VEVENT
+BEGIN:VEVENT
+UID:16e34efb2b91@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261126T200000
+DTEND;TZID=Europe/Istanbul:20261126T223000
+SUMMARY:Düş Payı
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/dus-payi
+URL:https://biletinial.com/tr-tr/tiyatro/dus-payi
+END:VEVENT
+BEGIN:VEVENT
+UID:513a2fe305bf@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261126T200000
+DTEND;TZID=Europe/Istanbul:20261126T223000
+SUMMARY:Espresso ve Eskiler
+LOCATION:Mall of Antalya Küçük Salon
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺400\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/espresso-ve-eskiler
+URL:https://biletinial.com/tr-tr/tiyatro/espresso-ve-eskiler
+END:VEVENT
+BEGIN:VEVENT
+UID:292cfeddb85a@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261127T200000
+DTEND;TZID=Europe/Istanbul:20261127T223000
+SUMMARY:İclal Aydın Ama Değil\, RAĞMEN
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1050\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ama-degil-ragmen
+URL:https://biletinial.com/tr-tr/tiyatro/ama-degil-ragmen
+END:VEVENT
+BEGIN:VEVENT
+UID:28d0c38941fd@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261128T200000
+DTEND;TZID=Europe/Istanbul:20261128T223000
+SUMMARY:Aşk Hikayen Düşmüş
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus
+URL:https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus
+END:VEVENT
+BEGIN:VEVENT
+UID:39809886993c@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261128T200000
+DTEND;TZID=Europe/Istanbul:20261128T223000
+SUMMARY:Sergen Deveci Ketenpere / Olan Stand Up
+LOCATION:Konyaaltı Nazım Hikmet KM Tarık Akan Salonu\, Antalya
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺750\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/sergen-deveci-ketenpere-olan-stand-up
+URL:https://biletinial.com/tr-tr/tiyatro/sergen-deveci-ketenpere-olan-stand-up
+END:VEVENT
+BEGIN:VEVENT
+UID:9b304daba2f8@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261128T200000
+DTEND;TZID=Europe/Istanbul:20261128T223000
+SUMMARY:Aşk Olsun
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ask-olsun-tiyatro
+URL:https://biletinial.com/tr-tr/tiyatro/ask-olsun-tiyatro
+END:VEVENT
+BEGIN:VEVENT
+UID:b60efc33a525@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261128T213000
+DTEND;TZID=Europe/Istanbul:20261129T000000
+SUMMARY:Detaylı İncele
+LOCATION:Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Passo\nFiyat/Durum: Passo'da İncele\nBilet ve Detaylar: https://www.passo.com.tr/tr/etkinlik/carpenter-brut-paribu-art-biletleri/11901319
+URL:https://www.passo.com.tr/tr/etkinlik/carpenter-brut-paribu-art-biletleri/11901319
+END:VEVENT
+BEGIN:VEVENT
+UID:6902c9952771@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261129T200000
+DTEND;TZID=Europe/Istanbul:20261129T223000
+SUMMARY:KIRMIZI CÜCE
+LOCATION:Haşim İşcan K.M - DT Sahnesi\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺80\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kirmizi-cuce
+URL:https://biletinial.com/tr-tr/tiyatro/kirmizi-cuce
+END:VEVENT
+BEGIN:VEVENT
+UID:b12ff534b5ca@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261130T200000
+DTEND;TZID=Europe/Istanbul:20261130T223000
+SUMMARY:Öldüresiye Sevgili
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/olduresiye-sevgili
+URL:https://biletinial.com/tr-tr/tiyatro/olduresiye-sevgili
+END:VEVENT
+BEGIN:VEVENT
+UID:bc6ed1531b65@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261202T200000
+DTEND;TZID=Europe/Istanbul:20261202T223000
+SUMMARY:İlker Gümüşoluk - Tek Kişilik Gösteri
+LOCATION:Antalya Nazım Hikmet Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ilkergumusoluk-tekkisilikgosteri
+URL:https://biletinial.com/tr-tr/tiyatro/ilkergumusoluk-tekkisilikgosteri
+END:VEVENT
+BEGIN:VEVENT
+UID:6746c755dfe3@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261203T200000
+DTEND;TZID=Europe/Istanbul:20261203T223000
+SUMMARY:Mahşer-i Cümbüş
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/mahseri-cumbus-sanart
+URL:https://biletinial.com/tr-tr/tiyatro/mahseri-cumbus-sanart
+END:VEVENT
+BEGIN:VEVENT
+UID:a57f18d9944c@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261205T200000
+DTEND;TZID=Europe/Istanbul:20261205T223000
+SUMMARY:Uykusuz Bir Rüya\, Salim
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim
+URL:https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim
+END:VEVENT
+BEGIN:VEVENT
+UID:cb18968baa6d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261205T200000
+DTEND;TZID=Europe/Istanbul:20261205T223000
+SUMMARY:Pınar Fidan Stand Up
+LOCATION:Antalya Konyaaltı Nazım Hikmet Kültür Merkezi
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺750\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/pinar-fidan-stand-up-modasahne
+URL:https://biletinial.com/tr-tr/tiyatro/pinar-fidan-stand-up-modasahne
+END:VEVENT
+BEGIN:VEVENT
+UID:bf316bb0532f@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261206T200000
+DTEND;TZID=Europe/Istanbul:20261206T223000
+SUMMARY:Hayatım Yalan - Mehmet Ali Erbil
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1250\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/hayatim-yalan-mehmet-ali-erbil
+URL:https://biletinial.com/tr-tr/tiyatro/hayatim-yalan-mehmet-ali-erbil
+END:VEVENT
+BEGIN:VEVENT
+UID:9a7f4ce3887d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261208T200000
+DTEND;TZID=Europe/Istanbul:20261208T223000
+SUMMARY:Efkan Şeşen
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/efkan-sesen
+URL:https://biletinial.com/tr-tr/muzik/efkan-sesen
+END:VEVENT
+BEGIN:VEVENT
+UID:982d42127ed5@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261208T200000
+DTEND;TZID=Europe/Istanbul:20261208T223000
+SUMMARY:Ruh Salatası
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺850\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ruh-salatasi
+URL:https://biletinial.com/tr-tr/tiyatro/ruh-salatasi
+END:VEVENT
+BEGIN:VEVENT
+UID:b96975b4d130@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261209T200000
+DTEND;TZID=Europe/Istanbul:20261209T223000
+SUMMARY:Ezginin Günlüğü
+LOCATION:Antalya Holly Stone
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/ezginin-gunlugu
+URL:https://biletinial.com/tr-tr/muzik/ezginin-gunlugu
+END:VEVENT
+BEGIN:VEVENT
+UID:9f74b3243428@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261209T200000
+DTEND;TZID=Europe/Istanbul:20261209T223000
+SUMMARY:Fazlı Polat - Şaka Şaka Stand-Up
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/fazli-polat-saka-saka-stand-up
+URL:https://biletinial.com/tr-tr/tiyatro/fazli-polat-saka-saka-stand-up
+END:VEVENT
+BEGIN:VEVENT
+UID:bfb0235f4d53@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261210T200000
+DTEND;TZID=Europe/Istanbul:20261210T223000
+SUMMARY:Özgür Turhan - Yepyenisi
+LOCATION:Antalya Konyaaltı Nazım Hikmet Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ozgur-turhan-yepyenisi
+URL:https://biletinial.com/tr-tr/tiyatro/ozgur-turhan-yepyenisi
+END:VEVENT
+BEGIN:VEVENT
+UID:87f2a81b3b14@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261211T200000
+DTEND;TZID=Europe/Istanbul:20261211T223000
+SUMMARY:Emrah Kaman Yüksek Gelirim 2
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺900\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/emrah-kaman-yuksek-gelirim-versiyon-iki
+URL:https://biletinial.com/tr-tr/tiyatro/emrah-kaman-yuksek-gelirim-versiyon-iki
+END:VEVENT
+BEGIN:VEVENT
+UID:7cc4936e80c2@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261213T200000
+DTEND;TZID=Europe/Istanbul:20261213T223000
+SUMMARY:The Illusionist - Enver Ertaş
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/the-ullusionist-enver-ertas
+URL:https://biletinial.com/tr-tr/tiyatro/the-ullusionist-enver-ertas
+END:VEVENT
+BEGIN:VEVENT
+UID:ac3493c30439@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261213T200000
+DTEND;TZID=Europe/Istanbul:20261213T223000
+SUMMARY:Sefa Doğanay – Tek mi Sandınız?
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺950\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/sefa-doganay-kokpit
+URL:https://biletinial.com/tr-tr/tiyatro/sefa-doganay-kokpit
+END:VEVENT
+BEGIN:VEVENT
+UID:88430d4a0b8f@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261214T200000
+DTEND;TZID=Europe/Istanbul:20261214T223000
+SUMMARY:Morkomedyen Stand Up
+LOCATION:Antalya Atatürk Kültür Merkezi
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺1299\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/morkomedyen
+URL:https://biletinial.com/tr-tr/tiyatro/morkomedyen
+END:VEVENT
+BEGIN:VEVENT
+UID:551ef2e405fc@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261214T200000
+DTEND;TZID=Europe/Istanbul:20261214T223000
+SUMMARY:Musti Kusti - Stand Up (Yeni Gösteri)
+LOCATION:Antalya
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺750\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/musti-kusti-stand-up-yeni-gosteri
+URL:https://biletinial.com/tr-tr/tiyatro/musti-kusti-stand-up-yeni-gosteri
+END:VEVENT
+BEGIN:VEVENT
+UID:4a59f7648658@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261215T200000
+DTEND;TZID=Europe/Istanbul:20261215T223000
+SUMMARY:Shirley Valentine - Sumru Yavrucuk
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/shirley-valetine-ozkyorg
+URL:https://biletinial.com/tr-tr/tiyatro/shirley-valetine-ozkyorg
+END:VEVENT
+BEGIN:VEVENT
+UID:6559b408f4cc@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261215T200000
+DTEND;TZID=Europe/Istanbul:20261215T223000
+SUMMARY:Erkek Aklı Oksimoron
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺900\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/erkek-akli-oksimoron-tyndn
+URL:https://biletinial.com/tr-tr/tiyatro/erkek-akli-oksimoron-tyndn
+END:VEVENT
+BEGIN:VEVENT
+UID:a148aad41f33@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261216T200000
+DTEND;TZID=Europe/Istanbul:20261216T223000
+SUMMARY:Lumera - Sezen Aksu Şarkıları
+LOCATION:Antalya Akm Aspendos Salonu
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/lumera-trio-sezen-aksu-sarkilari
+URL:https://biletinial.com/tr-tr/muzik/lumera-trio-sezen-aksu-sarkilari
+END:VEVENT
+BEGIN:VEVENT
+UID:fcbb249d7b7b@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261217T200000
+DTEND;TZID=Europe/Istanbul:20261217T223000
+SUMMARY:Tuna Kiremitçi - Şairin Şarkıları
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/tuna-kiremitci-sairin-sarkilari-akustik
+URL:https://biletinial.com/tr-tr/muzik/tuna-kiremitci-sairin-sarkilari-akustik
+END:VEVENT
+BEGIN:VEVENT
+UID:c8f5d00f795b@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261218T200000
+DTEND;TZID=Europe/Istanbul:20261218T223000
+SUMMARY:Bruckner’ın Görkemli Dünyası | Antalya Devlet Senfoni Orkestrası - DenizBank Konserleri
+LOCATION:A.K.M. Aspendos Salonu\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺215\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/brucknerin-gorkemli-dunyasi-antalya-devlet-senfoni-orkestrasi
+URL:https://biletinial.com/tr-tr/muzik/brucknerin-gorkemli-dunyasi-antalya-devlet-senfoni-orkestrasi
+END:VEVENT
+BEGIN:VEVENT
+UID:85e13d48192b@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261218T200000
+DTEND;TZID=Europe/Istanbul:20261218T223000
+SUMMARY:Tolga Sağ Bir Tel Bir Nefes
+LOCATION:Konyaaltı Belediyesi Feslikan Salonu\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/tolga-sag-bir-tel-bir-nefes
+URL:https://biletinial.com/tr-tr/muzik/tolga-sag-bir-tel-bir-nefes
+END:VEVENT
+BEGIN:VEVENT
+UID:7cda706682d7@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261218T200000
+DTEND;TZID=Europe/Istanbul:20261218T223000
+SUMMARY:Anlatanadam
+LOCATION:Antalya Konyaaltı Nazım Hikmet Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺950\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/anlatanadam
+URL:https://biletinial.com/tr-tr/tiyatro/anlatanadam
+END:VEVENT
+BEGIN:VEVENT
+UID:66bfeb7d735e@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261220T200000
+DTEND;TZID=Europe/Istanbul:20261220T223000
+SUMMARY:Ayna Konseri
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1200\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/ayna-konserii
+URL:https://biletinial.com/tr-tr/muzik/ayna-konserii
+END:VEVENT
+BEGIN:VEVENT
+UID:39e923737319@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261222T200000
+DTEND;TZID=Europe/Istanbul:20261222T223000
+SUMMARY:Özel Bir Rica
+LOCATION:Antalya Türkan Şoray Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1285\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ozel-bir-rica
+URL:https://biletinial.com/tr-tr/tiyatro/ozel-bir-rica
+END:VEVENT
+BEGIN:VEVENT
+UID:1400af83d96e@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20261223T200000
+DTEND;TZID=Europe/Istanbul:20261223T223000
+SUMMARY:Aşk Listesi
+LOCATION:Antalya Konyaaltı Nazım Hikmet Kültür Merkezi
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1285\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ask-listesi-
+URL:https://biletinial.com/tr-tr/tiyatro/ask-listesi-
+END:VEVENT
+BEGIN:VEVENT
+UID:0f1397539490@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20270123T200000
+DTEND;TZID=Europe/Istanbul:20270123T223000
+SUMMARY:Ozbi Konseri
+LOCATION:Holly Stone Performance Hall Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺800\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/ozbi-konseri
+URL:https://biletinial.com/tr-tr/muzik/ozbi-konseri
+END:VEVENT
+BEGIN:VEVENT
+UID:9bda38a3d12c@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20270127T200000
+DTEND;TZID=Europe/Istanbul:20270127T223000
+SUMMARY:Kızımın Adı Ada'ydı
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kizimin-adi-adaydi
+URL:https://biletinial.com/tr-tr/tiyatro/kizimin-adi-adaydi
+END:VEVENT
+BEGIN:VEVENT
+UID:ca6bfb8e8477@antalya-etkinlik-takvimi
+DTSTAMP:20261109T182850Z
+DTSTART;TZID=Europe/Istanbul:20270128T200000
+DTEND;TZID=Europe/Istanbul:20270128T223000
+SUMMARY:Kanaviçe
+LOCATION:Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kanavice
+URL:https://biletinial.com/tr-tr/tiyatro/kanavice
 END:VEVENT
 END:VCALENDAR
