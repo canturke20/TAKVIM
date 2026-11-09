@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Antalya Etkinlik Takvimi ve Firsat Paneli//TR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Antalya Etkinlik Takvimi
+X-WR-TIMEZONE:Europe/Istanbul
+BEGIN:VEVENT
+UID:cf18f04cb31a@antalya-etkinlik-takvimi
+DTSTAMP:20261109T180917Z
+DTSTART;TZID=Europe/Istanbul:20261111T210000
+DTEND;TZID=Europe/Istanbul:20261111T233000
+SUMMARY:Antalya Açıkhava Tiyatrosu Konser & Sahne Takvimi
+LOCATION:Antalya Açıkhava Tiyatrosu\, Konyaaltı / Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Bubilet\nFiyat/Durum: Resmi Satış Sayfası\nBilet ve Detaylar: https://www.bubilet.com.tr/antalya
+URL:https://www.bubilet.com.tr/antalya
+END:VEVENT
+BEGIN:VEVENT
+UID:8dedc24626be@antalya-etkinlik-takvimi
+DTSTAMP:20261109T180917Z
+DTSTART;TZID=Europe/Istanbul:20261112T220000
+DTEND;TZID=Europe/Istanbul:20261113T003000
+SUMMARY:Holly Stone Performance Hall Antalya Canlı Konserler
+LOCATION:Holly Stone Performance Hall\, Kaleiçi / Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Bubilet\nFiyat/Durum: Bilet Al\nBilet ve Detaylar: https://www.bubilet.com.tr/antalya
+URL:https://www.bubilet.com.tr/antalya
+END:VEVENT
+BEGIN:VEVENT
+UID:dd8f201e7be7@antalya-etkinlik-takvimi
+DTSTAMP:20261109T180917Z
+DTSTART;TZID=Europe/Istanbul:20261113T200000
+DTEND;TZID=Europe/Istanbul:20261113T223000
+SUMMARY:Antalya Devlet Tiyatrosu & Haşim İşcan Kültür Merkezi Oyunları
+LOCATION:Haşim İşcan Kültür Merkezi\, Muratpaşa / Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: Biletinial'da İncele\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/antalya
+URL:https://biletinial.com/tr-tr/tiyatro/antalya
+END:VEVENT
+BEGIN:VEVENT
+UID:a50bd42a6367@antalya-etkinlik-takvimi
+DTSTAMP:20261109T180917Z
+DTSTART;TZID=Europe/Istanbul:20261114T200000
+DTEND;TZID=Europe/Istanbul:20261114T223000
+SUMMARY:Antalya Stand-Up & Açık Mikrofon Komedi Gecesi
+LOCATION:Türkan Şoray Kültür Merkezi\, Muratpaşa / Antalya
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: Biletinial'da İncele\nBilet ve Detaylar: https://biletinial.com/tr-tr/etkinlik-takvimi/7
+URL:https://biletinial.com/tr-tr/etkinlik-takvimi/7
+END:VEVENT
+BEGIN:VEVENT
+UID:ac2ae24f25d3@antalya-etkinlik-takvimi
+DTSTAMP:20261109T180917Z
+DTSTART;TZID=Europe/Istanbul:20261115T210000
+DTEND;TZID=Europe/Istanbul:20261115T233000
+SUMMARY:Jolly Joker Antalya Sahne Performansları & Konserler
+LOCATION:Jolly Joker Antalya\, Lara / Muratpaşa / Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/search/TURKIYE/tr?city_sb=Antalya#!city_sb:Antalya
+URL:https://www.biletix.com/search/TURKIYE/tr?city_sb=Antalya#!city_sb:Antalya
+END:VEVENT
+END:VCALENDAR

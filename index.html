@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antalya Etkinlik Takvimi & Fırsat Paneli</title>
+  <meta name="description" content="Antalya'daki güncel konser, tiyatro, stand-up, festival ve atölye etkinliklerini Bubilet, Biletinial, Biletix ve Passo üzerinden tek ekranda takip edin." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-primary: #0b0f19;
+      --bg-secondary: #111827;
+      --bg-card: rgba(22, 31, 50, 0.78);
+      --bg-card-hover: rgba(30, 42, 68, 0.95);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-highlight: rgba(251, 146, 60, 0.45);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent-orange: #f97316;
+      --accent-amber: #fbbf24;
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+      --accent-purple: #a855f7;
+      --accent-rose: #f43f5e;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --shadow-card: 0 14px 34px -10px rgba(0, 0, 0, 0.55);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-primary);
+      background-image:
+        radial-gradient(circle at 12% 10%, rgba(249, 115, 22, 0.14), transparent 32%),
+        radial-gradient(circle at 88% 15%, rgba(6, 182, 212, 0.12), transparent 32%),
+        radial-gradient(circle at 50% 90%, rgba(168, 85, 247, 0.08), transparent 40%);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.5;
+      padding-bottom: 4rem;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* Üst Bilgi & Hero */
+    header.hero {
+      padding: 2.75rem 0 2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .hero-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .city-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      border-radius: 999px;
+      background: rgba(249, 115, 22, 0.14);
+      border: 1px solid rgba(249, 115, 22, 0.35);
+      color: #fdba74;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .city-pill span.dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-emerald);
+      box-shadow: 0 0 10px var(--accent-emerald);
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-ics {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.62rem 1.1rem;
+      border-radius: var(--radius-md);
+      background: rgba(6, 182, 212, 0.14);
+      border: 1px solid rgba(6, 182, 212, 0.4);
+      color: #67e8f9;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-ics:hover {
+      background: rgba(6, 182, 212, 0.25);
+      transform: translateY(-1px);
+    }
+
+    .hero-title {
+      font-size: clamp(1.85rem, 3.6vw, 2.85rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.6rem;
+      background: linear-gradient(95deg, #ffffff 0%, #fed7aa 55%, #fb923c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 760px;
+    }
+
+    /* İstatistik Kartları */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 1.75rem;
+    }
+
+    .stat-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.2rem;
+      backdrop-filter: blur(12px);
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-weight: 600;
+    }
+
+    .stat-value {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-top: 0.2rem;
+    }
+
+    /* Arama ve Filtre Paneli */
+    .controls-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      margin-bottom: 2rem;
+      backdrop-filter: blur(14px);
+      box-shadow: var(--shadow-card);
+    }
+
+    .search-row {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 0.85rem;
+      margin-bottom: 1.1rem;
+    }
+
+    @media (max-width: 768px) {
+      .search-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .search-input-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-input-wrap svg {
+      position: absolute;
+      left: 1rem;
+      color: var(--text-muted);
+      width: 18px;
+      height: 18px;
+      pointer-events: none;
+    }
+
+    input#searchInput,
+    select.filter-select {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 0.78rem 1rem 0.78rem 2.7rem;
+      border-radius: var(--radius-md);
+      font-size: 0.94rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    select.filter-select {
+      padding-left: 1rem;
+      min-width: 185px;
+      cursor: pointer;
+    }
+
+    input#searchInput:focus,
+    select.filter-select:focus {
+      border-color: var(--accent-orange);
+    }
+
+    /* Kategori Butonları */
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+    }
+
+    .cat-btn {
+      background: rgba(15, 23, 42, 0.75);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 0.52rem 1rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .cat-btn:hover {
+      color: var(--text-main);
+      border-color: rgba(255, 255, 255, 0.22);
+    }
+
+    .cat-btn.active {
+      background: linear-gradient(135deg, #f97316, #ea580c);
+      color: #ffffff;
+      border-color: transparent;
+      box-shadow: 0 4px 14px rgba(249, 115, 22, 0.35);
+    }
+
+    .cat-count {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+    }
+
+    /* Etkinlik Kartları Grid */
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.35rem;
+    }
+
+    .event-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease;
+      box-shadow: var(--shadow-card);
+      position: relative;
+    }
+
+    .event-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--border-highlight);
+      background: var(--bg-card-hover);
+    }
+
+    .card-media {
+      position: relative;
+      height: 185px;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      overflow: hidden;
+    }
+
+    .card-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .event-card:hover .card-media img {
+      transform: scale(1.05);
+    }
+
+    .card-badges {
+      position: absolute;
+      top: 0.8rem;
+      left: 0.8rem;
+      right: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.5rem;
+      z-index: 2;
+    }
+
+    .badge-category {
+      padding: 0.32rem 0.72rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      backdrop-filter: blur(10px);
+      background: rgba(15, 23, 42, 0.85);
+      color: #f8fafc;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .badge-source {
+      padding: 0.28rem 0.65rem;
+      border-radius: 8px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .source-Bubilet { background: #10b981; color: #052e16; }
+    .source-Biletinial { background: #38bdf8; color: #082f49; }
+    .source-Biletix { background: #facc15; color: #422006; }
+    .source-Passo { background: #f43f5e; color: #fff1f2; }
+
+    .card-body {
+      padding: 1.25rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .event-title {
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .event-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 0.42rem;
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .meta-item svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      color: var(--accent-orange);
+    }
+
+    .card-footer {
+      padding: 1rem 1.25rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      background: rgba(11, 15, 25, 0.38);
+    }
+
+    .event-price {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--accent-amber);
+    }
+
+    .btn-buy {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.6rem 1.05rem;
+      border-radius: var(--radius-md);
+      background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+      color: #ffffff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .btn-buy:hover {
+      opacity: 0.93;
+      transform: translateX(2px);
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 4rem 1.5rem;
+      background: var(--bg-card);
+      border: 1px dashed var(--border-subtle);
+      border-radius: var(--radius-lg);
+      color: var(--text-muted);
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.84rem;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header class="hero">
+      <div class="hero-top">
+        <div class="city-pill">
+          <span class="dot"></span>
+          <span>Sadece Antalya • Doğrulanmış Etkinlik Akışı</span>
+        </div>
+        <div class="hero-actions">
+          <a href="./antalya_etkinlikler.ics" download="antalya_etkinlikler.ics" class="btn-ics">
+            📅 Takvime Ekle (.ICS İndir)
+          </a>
+        </div>
+      </div>
+
+      <h1 class="hero-title">Antalya Etkinlik Takvimi & Fırsat Paneli</h1>
+      <p class="hero-subtitle">
+        Antalya'daki konser, tiyatro, stand-up, festival ve sahne etkinlikleri her gün otomatik taranır.
+        İlgilendiğiniz etkinliğin doğrudan resmi bilet satış sayfasına gidebilirsiniz.
+      </p>
+
+      <div class="stats-bar">
+        <div class="stat-box">
+          <div class="stat-label">Aktif Antalya Etkinliği</div>
+          <div class="stat-value" id="statTotal">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Stand-Up & Tiyatro</div>
+          <div class="stat-value" id="statStage">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Konser & Festival</div>
+          <div class="stat-value" id="statMusic">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Son Otomatik Güncelleme</div>
+          <div class="stat-value" id="statUpdated" style="font-size: 1.05rem; margin-top: 0.45rem;">Yükleniyor...</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls-section">
+      <div class="search-row">
+        <div class="search-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Sanatçı, oyun, mekan veya ilçe ara (örn: Holly Stone, Açıkhava, Stand-Up, Kaş)..."
+          />
+        </div>
+
+        <select id="sourceFilter" class="filter-select" aria-label="Bilet Platformu Seçin">
+          <option value="ALL">Tüm Bilet Siteleri</option>
+          <option value="Bubilet">Bubilet</option>
+          <option value="Biletinial">Biletinial</option>
+          <option value="Biletix">Biletix</option>
+          <option value="Passo">Passo</option>
+        </select>
+
+        <select id="sortFilter" class="filter-select" aria-label="Sıralama Seçin">
+          <option value="DATE_ASC">Tarihe Göre (En Yakın)</option>
+          <option value="TITLE_ASC">İsme Göre (A - Z)</option>
+        </select>
+      </div>
+
+      <div class="category-pills" id="categoryPills">
+        <!-- JS ile dinamik oluşturulur -->
+      </div>
+    </section>
+
+    <main class="events-grid" id="eventsGrid">
+      <div class="empty-state">Antalya etkinlikleri yükleniyor...</div>
+    </main>
+
+    <footer>
+      <p>Antalya Etkinlik Takvimi & Fırsat Paneli • GitHub Actions + Playwright ile her gün otomatik güncellenir.</p>
+    </footer>
+  </div>
+
+  <script>
+    const CATEGORY_ORDER = [
+      "Tümü",
+      "Konser & Müzik",
+      "Stand-Up & Komedi",
+      "Tiyatro & Sahne",
+      "Festival & Parti",
+      "Atölye & Çocuk"
+    ];
+
+    const FALLBACK_IMAGES = {
+      "Konser & Müzik": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80",
+      "Stand-Up & Komedi": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=800&q=80",
+      "Tiyatro & Sahne": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=800&q=80",
+      "Festival & Parti": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=800&q=80",
+      "Atölye & Çocuk": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+    };
+
+    let allEvents = [];
+    let activeCategory = "Tümü";
+
+    function normalizeTr(str) {
+      if (!str) return "";
+      return str
+        .replace(/İ/g, "i")
+        .replace(/I/g, "ı")
+        .replace(/Ğ/g, "ğ")
+        .replace(/Ü/g, "ü")
+        .replace(/Ş/g, "ş")
+        .replace(/Ö/g, "ö")
+        .replace(/Ç/g, "ç")
+        .toLowerCase();
+    }
+
+    function escapeHtml(str) {
+      if (!str) return "";
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    async function loadEvents() {
+      try {
+        const res = await fetch(`./events.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error("events.json okunamadı");
+        const data = await res.json();
+
+        allEvents = Array.isArray(data.events) ? data.events : [];
+        document.getElementById("statUpdated").textContent = data.updated_at || "Bugün";
+        updateStats();
+        renderCategoryPills();
+        renderEvents();
+      } catch (err) {
+        console.error(err);
+        document.getElementById("eventsGrid").innerHTML = `
+          <div class="empty-state">
+            <h3>Veri dosyası (events.json) henüz yüklenemedi</h3>
+            <p style="margin-top:0.5rem;">Lütfen <code>python scraper.py</code> komutunu çalıştırın veya sayfayı bir yerel sunucu üzerinden açın.</p>
+          </div>
+        `;
+      }
+    }
+
+    function updateStats() {
+      document.getElementById("statTotal").textContent = allEvents.length;
+      const stageCount = allEvents.filter(e =>
+        e.category === "Stand-Up & Komedi" || e.category === "Tiyatro & Sahne"
+      ).length;
+      const musicCount = allEvents.filter(e =>
+        e.category === "Konser & Müzik" || e.category === "Festival & Parti"
+      ).length;
+
+      document.getElementById("statStage").textContent = stageCount;
+      document.getElementById("statMusic").textContent = musicCount;
+    }
+
+    function renderCategoryPills() {
+      const container = document.getElementById("categoryPills");
+      container.innerHTML = "";
+
+      CATEGORY_ORDER.forEach(cat => {
+        const count = cat === "Tümü"
+          ? allEvents.length
+          : allEvents.filter(e => e.category === cat).length;
+
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = `cat-btn ${activeCategory === cat ? "active" : ""}`;
+        btn.innerHTML = `
+          <span>${escapeHtml(cat)}</span>
+          <span class="cat-count">${count}</span>
+        `;
+        btn.addEventListener("click", () => {
+          activeCategory = cat;
+          renderCategoryPills();
+          renderEvents();
+        });
+        container.appendChild(btn);
+      });
+    }
+
+    function renderEvents() {
+      const grid = document.getElementById("eventsGrid");
+      const query = normalizeTr(document.getElementById("searchInput").value.trim());
+      const sourceVal = document.getElementById("sourceFilter").value;
+      const sortVal = document.getElementById("sortFilter").value;
+
+      let filtered = allEvents.filter(ev => {
+        if (activeCategory !== "Tümü" && ev.category !== activeCategory) return false;
+        if (sourceVal !== "ALL" && ev.source !== sourceVal) return false;
+        if (query) {
+          const haystack = normalizeTr(`${ev.title} ${ev.venue} ${ev.category} ${ev.source} ${ev.date_display}`);
+          if (!haystack.includes(query)) return false;
+        }
+        return true;
+      });
+
+      filtered.sort((a, b) => {
+        if (sortVal === "TITLE_ASC") {
+          return a.title.localeCompare(b.title, "tr");
+        }
+        return (a.date_iso || "").localeCompare(b.date_iso || "");
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <h3>Aramanızla eşleşen Antalya etkinliği bulunamadı</h3>
+            <p style="margin-top:0.4rem;">Farklı bir kategori veya arama kelimesi deneyebilirsiniz.</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(ev => {
+        const fallbackImg = FALLBACK_IMAGES[ev.category] || FALLBACK_IMAGES["Konser & Müzik"];
+        const imgSrc = ev.image && ev.image.startsWith("http") ? ev.image : fallbackImg;
+
+        return `
+          <article class="event-card">
+            <div>
+              <div class="card-media">
+                <div class="card-badges">
+                  <span class="badge-category">${escapeHtml(ev.category)}</span>
+                  <span class="badge-source source-${escapeHtml(ev.source)}">${escapeHtml(ev.source)}</span>
+                </div>
+                <img
+                  src="${escapeHtml(imgSrc)}"
+                  alt="${escapeHtml(ev.title)}"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='${fallbackImg}';"
+                />
+              </div>
+
+              <div class="card-body">
+                <h2 class="event-title">${escapeHtml(ev.title)}</h2>
+                <div class="event-meta">
+                  <div class="meta-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <span>${escapeHtml(ev.date_display)}</span>
+                  </div>
+                  <div class="meta-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>${escapeHtml(ev.venue)}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div class="event-price">${escapeHtml(ev.price || "Bilet Al")}</div>
+              <a
+                href="${escapeHtml(ev.url)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-buy"
+              >
+                <span>Bilet Al / Sayfaya Git</span>
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    document.getElementById("searchInput").addEventListener("input", renderEvents);
+    document.getElementById("sourceFilter").addEventListener("change", renderEvents);
+    document.getElementById("sortFilter").addEventListener("change", renderEvents);
+
+    loadEvents();
+  </script>
+</body>
+</html>

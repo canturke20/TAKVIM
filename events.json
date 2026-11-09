@@ -1,0 +1,77 @@
+{
+  "city": "Antalya",
+  "updated_at": "2026-11-09 21:09",
+  "total_count": 5,
+  "categories": [
+    "Konser & Müzik",
+    "Stand-Up & Komedi",
+    "Tiyatro & Sahne"
+  ],
+  "sources": [
+    "Biletinial",
+    "Biletix",
+    "Bubilet"
+  ],
+  "events": [
+    {
+      "id": "cf18f04cb31a",
+      "title": "Antalya Açıkhava Tiyatrosu Konser & Sahne Takvimi",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-11T21:00:00",
+      "date_display": "11 Kasım 2026 • 21:00",
+      "venue": "Antalya Açıkhava Tiyatrosu, Konyaaltı / Antalya",
+      "price": "Resmi Satış Sayfası",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80",
+      "url": "https://www.bubilet.com.tr/antalya",
+      "source": "Bubilet"
+    },
+    {
+      "id": "8dedc24626be",
+      "title": "Holly Stone Performance Hall Antalya Canlı Konserler",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-12T22:00:00",
+      "date_display": "12 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall, Kaleiçi / Antalya",
+      "price": "Bilet Al",
+      "image": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=800&q=80",
+      "url": "https://www.bubilet.com.tr/antalya",
+      "source": "Bubilet"
+    },
+    {
+      "id": "dd8f201e7be7",
+      "title": "Antalya Devlet Tiyatrosu & Haşim İşcan Kültür Merkezi Oyunları",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-13T20:00:00",
+      "date_display": "13 Kasım 2026 • 20:00",
+      "venue": "Haşim İşcan Kültür Merkezi, Muratpaşa / Antalya",
+      "price": "Biletinial'da İncele",
+      "image": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=800&q=80",
+      "url": "https://biletinial.com/tr-tr/tiyatro/antalya",
+      "source": "Biletinial"
+    },
+    {
+      "id": "a50bd42a6367",
+      "title": "Antalya Stand-Up & Açık Mikrofon Komedi Gecesi",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-14T20:00:00",
+      "date_display": "14 Kasım 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi, Muratpaşa / Antalya",
+      "price": "Biletinial'da İncele",
+      "image": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=800&q=80",
+      "url": "https://biletinial.com/tr-tr/etkinlik-takvimi/7",
+      "source": "Biletinial"
+    },
+    {
+      "id": "ac2ae24f25d3",
+      "title": "Jolly Joker Antalya Sahne Performansları & Konserler",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-15T21:00:00",
+      "date_display": "15 Kasım 2026 • 21:00",
+      "venue": "Jolly Joker Antalya, Lara / Muratpaşa / Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=800&q=80",
+      "url": "https://www.biletix.com/search/TURKIYE/tr?city_sb=Antalya#!city_sb:Antalya",
+      "source": "Biletix"
+    }
+  ]
+}

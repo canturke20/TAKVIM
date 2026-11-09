@@ -1,0 +1,40 @@
+name: Antalya Etkinlik Takvimi Otomatik Güncelleyici
+
+on:
+  schedule:
+    # Her sabah Türkiye saatiyle 08:00'de (05:00 UTC) otomatik çalışır
+    - cron: '0 5 * * *'
+  workflow_dispatch: # GitHub Actions sekmesinden tek tıkla manuel çalıştırma imkanı
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo dosyalarını çek
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Bağımlılıkları ve Playwright Chromium tarayıcısını kur
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Antalya Etkinlik Kazıyıcısını (scraper.py) çalıştır
+        run: python scraper.py
+
+      - name: Güncellenen events.json ve antalya_etkinlikler.ics dosyalarını repoya kaydet
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add events.json antalya_etkinlikler.ics
+          git diff --staged --quiet || git commit -m "chore: Antalya etkinlik verileri otomatik güncellendi ($(date +'%Y-%m-%d'))"
+          git push
