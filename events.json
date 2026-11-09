@@ -1,6 +1,6 @@
 {
   "city": "Antalya",
-  "updated_at": "09.11.2026 21:37",
+  "updated_at": "09.11.2026 21:40",
   "total_count": 64,
   "categories": [
     "Atölye & Çocuk",
@@ -14,6 +14,42 @@
     "Biletix"
   ],
   "events": [
+    {
+      "id": "233ea98fb93d",
+      "title": "Aspendos Balon Turu - Kasım & Aralık Ayı",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-09T20:00:00",
+      "date_display": "9 Kasım 2026 • 20:00",
+      "venue": "Aspendos Antik Tiyatro Yanı, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
+      "url": "https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "d7ec36347fdc",
+      "title": "Antalya Kum Heykel Müzesi - 2026",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-09T20:00:00",
+      "date_display": "9 Kasım 2026 • 20:00",
+      "venue": "Antalya Kum Heykel Müzesi",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/antalyakum-bu26wde.avif",
+      "url": "https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "1e6d6256c672",
+      "title": "The Land of Legends Theme Park",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-09T20:00:00",
+      "date_display": "9 Kasım 2026 • 20:00",
+      "venue": "The Land of Legends, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/thelandof-9-10-26-su.avif",
+      "url": "https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr",
+      "source": "Biletix"
+    },
     {
       "id": "34a0ed20b1c0",
       "title": "Jeanne D'arc'n Öteki Ölümü",
@@ -147,18 +183,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "24df386fee00",
-      "title": "Prime Orchestra Rock Sympho Show",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Kepez Mimar Sinan Kongre Merkezi, Antalya",
-      "price": "₺1420",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/prime-orchestra-rock-sympho-show-2026105132540a3b330236ff409389b15757e5e5d6a5.jpg",
-      "url": "https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show",
-      "source": "Biletinial"
-    },
-    {
       "id": "5722d0e83c64",
       "title": "Bengi İdil Uras ile Beng Beng Show",
       "category": "Stand-Up & Komedi",
@@ -171,18 +195,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "42b9877908ab",
-      "title": "Ermişler Ya Da Günahkarlar",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
-      "source": "Biletinial"
-    },
-    {
       "id": "35eda6aefe63",
       "title": "KUŞLAR",
       "category": "Tiyatro & Sahne",
@@ -192,18 +204,6 @@
       "price": "₺105",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kuslar-antalya-dt-2025107150558550c68fd4e146dbacda97d60f110674.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
-      "source": "Biletinial"
-    },
-    {
-      "id": "ce8ae725e0d4",
-      "title": "Akide Şekeri",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Doğu Garajı Büyük Sahne, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/akide-sekeri-antalya-sehir-tiyatrolari-2026102013751dedb481ac9ff465da4bbba61a55951fd.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast",
       "source": "Biletinial"
     },
     {
@@ -229,42 +229,6 @@
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/hadi-oldursene-canikom-dada-2025422173640e32ce4815fa6454fa0117ac68742374e.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-dada",
       "source": "Biletinial"
-    },
-    {
-      "id": "4baf21ce2764",
-      "title": "Aspendos Balon Turu - Kasım & Aralık Ayı",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Aspendos Antik Tiyatro Yanı, Serik / Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
-      "url": "https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "cb26d006443c",
-      "title": "Antalya Kum Heykel Müzesi (Sandland)",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Lara Halk Plajı, Muratpaşa / Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
-      "url": "https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "d7dbe6b45972",
-      "title": "The Land of Legends Theme Park",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "The Land of Legends, Belek / Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
-      "url": "https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr",
-      "source": "Biletix"
     },
     {
       "id": "fae03e0ae03a",
@@ -384,6 +348,30 @@
       "price": "₺1045",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/hadi-oldursene-canikom-tiyatro-oyunu-2026316125547374f54101b3c4bad8ba9d90340df019c.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi",
+      "source": "Biletinial"
+    },
+    {
+      "id": "42b9877908ab",
+      "title": "Ermişler Ya Da Günahkarlar",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-21T20:00:00",
+      "date_display": "21 Kasım 2026 • 20:00",
+      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
+      "price": "₺130",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
+      "source": "Biletinial"
+    },
+    {
+      "id": "ce8ae725e0d4",
+      "title": "Akide Şekeri",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-21T20:00:00",
+      "date_display": "21 Kasım 2026 • 20:00",
+      "venue": "Doğu Garajı Büyük Sahne, Antalya",
+      "price": "₺130",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/akide-sekeri-antalya-sehir-tiyatrolari-2026102013751dedb481ac9ff465da4bbba61a55951fd.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast",
       "source": "Biletinial"
     },
     {
@@ -780,6 +768,18 @@
       "price": "₺500",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kanavice-2026891623153e7827c4a9b41e4a4e1b3c7636ac6a5.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/kanavice",
+      "source": "Biletinial"
+    },
+    {
+      "id": "24df386fee00",
+      "title": "Prime Orchestra Rock Sympho Show",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-02-02T20:00:00",
+      "date_display": "2 Şubat 2027 • 20:00",
+      "venue": "Kepez Mimar Sinan Kongre Merkezi, Antalya",
+      "price": "₺1420",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/prime-orchestra-rock-sympho-show-2026105132540a3b330236ff409389b15757e5e5d6a5.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show",
       "source": "Biletinial"
     }
   ]

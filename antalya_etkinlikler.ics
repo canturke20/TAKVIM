@@ -6,8 +6,38 @@ METHOD:PUBLISH
 X-WR-CALNAME:Antalya Etkinlik Takvimi
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
+UID:233ea98fb93d@antalya-etkinlik-takvimi
+DTSTAMP:20261109T184048Z
+DTSTART;TZID=Europe/Istanbul:20261109T200000
+DTEND;TZID=Europe/Istanbul:20261109T223000
+SUMMARY:Aspendos Balon Turu - Kasım & Aralık Ayı
+LOCATION:Aspendos Antik Tiyatro Yanı\, Antalya
+DESCRIPTION:Kategori: Atölye & Çocuk\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:d7ec36347fdc@antalya-etkinlik-takvimi
+DTSTAMP:20261109T184048Z
+DTSTART;TZID=Europe/Istanbul:20261109T200000
+DTEND;TZID=Europe/Istanbul:20261109T223000
+SUMMARY:Antalya Kum Heykel Müzesi - 2026
+LOCATION:Antalya Kum Heykel Müzesi
+DESCRIPTION:Kategori: Atölye & Çocuk\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
+UID:1e6d6256c672@antalya-etkinlik-takvimi
+DTSTAMP:20261109T184048Z
+DTSTART;TZID=Europe/Istanbul:20261109T200000
+DTEND;TZID=Europe/Istanbul:20261109T223000
+SUMMARY:The Land of Legends Theme Park
+LOCATION:The Land of Legends\, Antalya
+DESCRIPTION:Kategori: Atölye & Çocuk\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr
+URL:https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr
+END:VEVENT
+BEGIN:VEVENT
 UID:34a0ed20b1c0@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261110T200000
 DTEND;TZID=Europe/Istanbul:20261110T223000
 SUMMARY:Jeanne D'arc'n Öteki Ölümü
@@ -17,7 +47,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/jeanne-darcn-oteki-olumu-dada
 END:VEVENT
 BEGIN:VEVENT
 UID:edb323cc6c5d@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261111T200000
 DTEND;TZID=Europe/Istanbul:20261111T223000
 SUMMARY:Levent Yüksel
@@ -27,7 +57,7 @@ URL:https://biletinial.com/tr-tr/muzik/levent-yuksel
 END:VEVENT
 BEGIN:VEVENT
 UID:6b225de42587@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261111T200000
 DTEND;TZID=Europe/Istanbul:20261111T223000
 SUMMARY:Herkes Kocama Benziyor
@@ -37,7 +67,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor
 END:VEVENT
 BEGIN:VEVENT
 UID:a5a9cef0f280@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261111T200000
 DTEND;TZID=Europe/Istanbul:20261111T223000
 SUMMARY:Kırmızı Başlıklı Kız
@@ -47,7 +77,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/kirmizi-baslikli-kiz-ozgun
 END:VEVENT
 BEGIN:VEVENT
 UID:94be5f07001f@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261112T200000
 DTEND;TZID=Europe/Istanbul:20261112T223000
 SUMMARY:Sesler - Salih Bademci
@@ -57,7 +87,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/sesler-salih-bademci
 END:VEVENT
 BEGIN:VEVENT
 UID:e7a7cedcb97d@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261112T200000
 DTEND;TZID=Europe/Istanbul:20261112T223000
 SUMMARY:Ormanın Kalbi
@@ -67,7 +97,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ormanin-kalbi
 END:VEVENT
 BEGIN:VEVENT
 UID:c1c4a9904da3@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261112T200000
 DTEND;TZID=Europe/Istanbul:20261112T223000
 SUMMARY:Doğaçlama Bayii
@@ -77,7 +107,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/dogaclama-bayii-ipktnshne
 END:VEVENT
 BEGIN:VEVENT
 UID:ee4bc3e834eb@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261113T200000
 DTEND;TZID=Europe/Istanbul:20261113T223000
 SUMMARY:Atatürk'ü Anma Konseri - Antalya Devlet Senfoni Orkestrası
@@ -87,7 +117,7 @@ URL:https://biletinial.com/tr-tr/muzik/ataturku-anma-konseri-adso
 END:VEVENT
 BEGIN:VEVENT
 UID:7004a7234d46@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261113T200000
 DTEND;TZID=Europe/Istanbul:20261113T223000
 SUMMARY:90’lar Kafası: Nihat Sırdar
@@ -97,7 +127,7 @@ URL:https://biletinial.com/tr-tr/muzik/nihat-sirdar-ile-dj-performans-90lar-kafa
 END:VEVENT
 BEGIN:VEVENT
 UID:33bf60259c52@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261113T200000
 DTEND;TZID=Europe/Istanbul:20261113T223000
 SUMMARY:Tarla Kuşuydu Juliet
@@ -107,7 +137,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/tarla-kusuydu-juliet-ast
 END:VEVENT
 BEGIN:VEVENT
 UID:b3c7bdcf933d@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261113T200000
 DTEND;TZID=Europe/Istanbul:20261113T223000
 SUMMARY:Salih Tıraş Stand Up
@@ -116,18 +146,8 @@ DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺600
 URL:https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup
 END:VEVENT
 BEGIN:VEVENT
-UID:24df386fee00@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
-DTSTART;TZID=Europe/Istanbul:20261114T200000
-DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:Prime Orchestra Rock Sympho Show
-LOCATION:Kepez Mimar Sinan Kongre Merkezi\, Antalya
-DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1420\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show
-URL:https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show
-END:VEVENT
-BEGIN:VEVENT
 UID:5722d0e83c64@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261114T200000
 DTEND;TZID=Europe/Istanbul:20261114T223000
 SUMMARY:Bengi İdil Uras ile Beng Beng Show
@@ -136,18 +156,8 @@ DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺850
 URL:https://biletinial.com/tr-tr/tiyatro/bengi-idil-uras-ile-beng-beng-show
 END:VEVENT
 BEGIN:VEVENT
-UID:42b9877908ab@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
-DTSTART;TZID=Europe/Istanbul:20261114T200000
-DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:Ermişler Ya Da Günahkarlar
-LOCATION:Doğu Garajı Performans Sahne 1\, Antalya
-DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
-URL:https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
-END:VEVENT
-BEGIN:VEVENT
 UID:35eda6aefe63@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261114T200000
 DTEND;TZID=Europe/Istanbul:20261114T223000
 SUMMARY:KUŞLAR
@@ -156,18 +166,8 @@ DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺105\n
 URL:https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt
 END:VEVENT
 BEGIN:VEVENT
-UID:ce8ae725e0d4@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
-DTSTART;TZID=Europe/Istanbul:20261114T200000
-DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:Akide Şekeri
-LOCATION:Doğu Garajı Büyük Sahne\, Antalya
-DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
-URL:https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
-END:VEVENT
-BEGIN:VEVENT
 UID:ae8f1671360f@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261114T200000
 DTEND;TZID=Europe/Istanbul:20261114T223000
 SUMMARY:Parçacık
@@ -177,7 +177,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/parcacik-ast
 END:VEVENT
 BEGIN:VEVENT
 UID:64f7404b1806@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261114T200000
 DTEND;TZID=Europe/Istanbul:20261114T223000
 SUMMARY:Hadi Öldürsene Canikom
@@ -186,38 +186,8 @@ DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\n
 URL:https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-dada
 END:VEVENT
 BEGIN:VEVENT
-UID:4baf21ce2764@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
-DTSTART;TZID=Europe/Istanbul:20261114T200000
-DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:Aspendos Balon Turu - Kasım & Aralık Ayı
-LOCATION:Aspendos Antik Tiyatro Yanı\, Serik / Antalya
-DESCRIPTION:Kategori: Atölye & Çocuk\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr
-URL:https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr
-END:VEVENT
-BEGIN:VEVENT
-UID:cb26d006443c@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
-DTSTART;TZID=Europe/Istanbul:20261114T200000
-DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:Antalya Kum Heykel Müzesi (Sandland)
-LOCATION:Lara Halk Plajı\, Muratpaşa / Antalya
-DESCRIPTION:Kategori: Atölye & Çocuk\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr
-URL:https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr
-END:VEVENT
-BEGIN:VEVENT
-UID:d7dbe6b45972@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
-DTSTART;TZID=Europe/Istanbul:20261114T200000
-DTEND;TZID=Europe/Istanbul:20261114T223000
-SUMMARY:The Land of Legends Theme Park
-LOCATION:The Land of Legends\, Belek / Antalya
-DESCRIPTION:Kategori: Atölye & Çocuk\nKaynak: Biletix\nFiyat/Durum: Biletix'te İncele\nBilet ve Detaylar: https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr
-URL:https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr
-END:VEVENT
-BEGIN:VEVENT
 UID:fae03e0ae03a@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261115T200000
 DTEND;TZID=Europe/Istanbul:20261115T223000
 SUMMARY:Kübik Prens
@@ -227,7 +197,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/kubik-prens
 END:VEVENT
 BEGIN:VEVENT
 UID:19c5f6a90358@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261117T200000
 DTEND;TZID=Europe/Istanbul:20261117T223000
 SUMMARY:Romeo+Juliet=Aşk(?)
@@ -237,7 +207,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/romeo-juliet-ask-ast
 END:VEVENT
 BEGIN:VEVENT
 UID:1a0787578b1e@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261119T200000
 DTEND;TZID=Europe/Istanbul:20261119T223000
 SUMMARY:Sabahat Akkiraz
@@ -247,7 +217,7 @@ URL:https://biletinial.com/tr-tr/muzik/sabahat-akkiraz
 END:VEVENT
 BEGIN:VEVENT
 UID:a83d8a4609b6@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261119T200000
 DTEND;TZID=Europe/Istanbul:20261119T223000
 SUMMARY:Ceren Gündoğdu Candle Session
@@ -257,7 +227,7 @@ URL:https://biletinial.com/tr-tr/muzik/ceren-gundogdu-candle-session
 END:VEVENT
 BEGIN:VEVENT
 UID:d66d9c4461b1@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261119T200000
 DTEND;TZID=Europe/Istanbul:20261119T223000
 SUMMARY:Başar Keklik
@@ -267,7 +237,7 @@ URL:https://biletinial.com/tr-tr/muzik/basar-keklik
 END:VEVENT
 BEGIN:VEVENT
 UID:f12dd6b90fec@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261120T200000
 DTEND;TZID=Europe/Istanbul:20261120T223000
 SUMMARY:Gürer Aykal Yönetiminde | Çaykovski 5 & Weber - Antalya Devlet Senfoni Orkestrası - DenizBank Konserleri
@@ -277,7 +247,7 @@ URL:https://biletinial.com/tr-tr/muzik/gurer-aykal-yonetiminde-caykovski-5-weber
 END:VEVENT
 BEGIN:VEVENT
 UID:f49ca7d28142@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261120T200000
 DTEND;TZID=Europe/Istanbul:20261120T223000
 SUMMARY:Tiyatro Sporu
@@ -287,7 +257,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/tiyatro-sporu-ada
 END:VEVENT
 BEGIN:VEVENT
 UID:71333bbd40fe@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261121T200000
 DTEND;TZID=Europe/Istanbul:20261121T223000
 SUMMARY:Şarkılar Eskiden Daha mı Güzeldi
@@ -297,7 +267,7 @@ URL:https://biletinial.com/tr-tr/muzik/suat-suna
 END:VEVENT
 BEGIN:VEVENT
 UID:58be9a17c521@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261121T200000
 DTEND;TZID=Europe/Istanbul:20261121T223000
 SUMMARY:Zelişah & Mustafa Konseri
@@ -307,7 +277,7 @@ URL:https://biletinial.com/tr-tr/muzik/zelisah-mustafa-konseri
 END:VEVENT
 BEGIN:VEVENT
 UID:352a616f84e9@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261121T200000
 DTEND;TZID=Europe/Istanbul:20261121T223000
 SUMMARY:Hadi Öldürsene Canikom
@@ -316,8 +286,28 @@ DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1045\
 URL:https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi
 END:VEVENT
 BEGIN:VEVENT
+UID:42b9877908ab@antalya-etkinlik-takvimi
+DTSTAMP:20261109T184048Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Ermişler Ya Da Günahkarlar
+LOCATION:Doğu Garajı Performans Sahne 1\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
+URL:https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:ce8ae725e0d4@antalya-etkinlik-takvimi
+DTSTAMP:20261109T184048Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Akide Şekeri
+LOCATION:Doğu Garajı Büyük Sahne\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
+URL:https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
+END:VEVENT
+BEGIN:VEVENT
 UID:15eb573fe350@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261121T200000
 DTEND;TZID=Europe/Istanbul:20261121T223000
 SUMMARY:Kendine Özgün Doğaçlama - İnteraktif Oyunlar
@@ -327,7 +317,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/kendine-ozgun-dogaclama-interaktif-oyun
 END:VEVENT
 BEGIN:VEVENT
 UID:279f7d66d656@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261124T200000
 DTEND;TZID=Europe/Istanbul:20261124T223000
 SUMMARY:Hacivat - Karagöz
@@ -337,7 +327,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/hacivat-karagoz
 END:VEVENT
 BEGIN:VEVENT
 UID:f7916add1e86@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261125T200000
 DTEND;TZID=Europe/Istanbul:20261125T223000
 SUMMARY:Miray Akovalıgil 'Ya Bende Bir Şey Yoksa?'
@@ -347,7 +337,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/miray-akovaligil-ya-bende-bir-sey-yoksa
 END:VEVENT
 BEGIN:VEVENT
 UID:9eb40b9c6897@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261125T200000
 DTEND;TZID=Europe/Istanbul:20261125T223000
 SUMMARY:Ayan Beyan Doğaçlama
@@ -357,7 +347,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ayan-beyan-dogaclama-kks
 END:VEVENT
 BEGIN:VEVENT
 UID:16e34efb2b91@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261126T200000
 DTEND;TZID=Europe/Istanbul:20261126T223000
 SUMMARY:Düş Payı
@@ -367,7 +357,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/dus-payi
 END:VEVENT
 BEGIN:VEVENT
 UID:513a2fe305bf@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261126T200000
 DTEND;TZID=Europe/Istanbul:20261126T223000
 SUMMARY:Espresso ve Eskiler
@@ -377,7 +367,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/espresso-ve-eskiler
 END:VEVENT
 BEGIN:VEVENT
 UID:28d0c38941fd@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261128T200000
 DTEND;TZID=Europe/Istanbul:20261128T223000
 SUMMARY:Aşk Hikayen Düşmüş
@@ -387,7 +377,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus
 END:VEVENT
 BEGIN:VEVENT
 UID:9b304daba2f8@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261128T200000
 DTEND;TZID=Europe/Istanbul:20261128T223000
 SUMMARY:Aşk Olsun
@@ -397,7 +387,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ask-olsun-tiyatro
 END:VEVENT
 BEGIN:VEVENT
 UID:6902c9952771@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261129T200000
 DTEND;TZID=Europe/Istanbul:20261129T223000
 SUMMARY:KIRMIZI CÜCE
@@ -407,7 +397,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/kirmizi-cuce
 END:VEVENT
 BEGIN:VEVENT
 UID:b12ff534b5ca@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261130T200000
 DTEND;TZID=Europe/Istanbul:20261130T223000
 SUMMARY:Öldüresiye Sevgili
@@ -417,7 +407,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/olduresiye-sevgili
 END:VEVENT
 BEGIN:VEVENT
 UID:bc6ed1531b65@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261202T200000
 DTEND;TZID=Europe/Istanbul:20261202T223000
 SUMMARY:İlker Gümüşoluk - Tek Kişilik Gösteri
@@ -427,7 +417,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ilkergumusoluk-tekkisilikgosteri
 END:VEVENT
 BEGIN:VEVENT
 UID:6746c755dfe3@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261203T200000
 DTEND;TZID=Europe/Istanbul:20261203T223000
 SUMMARY:Mahşer-i Cümbüş
@@ -437,7 +427,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/mahseri-cumbus-sanart
 END:VEVENT
 BEGIN:VEVENT
 UID:a57f18d9944c@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261205T200000
 DTEND;TZID=Europe/Istanbul:20261205T223000
 SUMMARY:Uykusuz Bir Rüya\, Salim
@@ -447,7 +437,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim
 END:VEVENT
 BEGIN:VEVENT
 UID:bf316bb0532f@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261206T200000
 DTEND;TZID=Europe/Istanbul:20261206T223000
 SUMMARY:Hayatım Yalan - Mehmet Ali Erbil
@@ -457,7 +447,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/hayatim-yalan-mehmet-ali-erbil
 END:VEVENT
 BEGIN:VEVENT
 UID:9a7f4ce3887d@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261208T200000
 DTEND;TZID=Europe/Istanbul:20261208T223000
 SUMMARY:Efkan Şeşen
@@ -467,7 +457,7 @@ URL:https://biletinial.com/tr-tr/muzik/efkan-sesen
 END:VEVENT
 BEGIN:VEVENT
 UID:982d42127ed5@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261208T200000
 DTEND;TZID=Europe/Istanbul:20261208T223000
 SUMMARY:Ruh Salatası
@@ -477,7 +467,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ruh-salatasi
 END:VEVENT
 BEGIN:VEVENT
 UID:b96975b4d130@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261209T200000
 DTEND;TZID=Europe/Istanbul:20261209T223000
 SUMMARY:Ezginin Günlüğü
@@ -487,7 +477,7 @@ URL:https://biletinial.com/tr-tr/muzik/ezginin-gunlugu
 END:VEVENT
 BEGIN:VEVENT
 UID:9f74b3243428@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261209T200000
 DTEND;TZID=Europe/Istanbul:20261209T223000
 SUMMARY:Fazlı Polat - Şaka Şaka Stand-Up
@@ -497,7 +487,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/fazli-polat-saka-saka-stand-up
 END:VEVENT
 BEGIN:VEVENT
 UID:87f2a81b3b14@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261211T200000
 DTEND;TZID=Europe/Istanbul:20261211T223000
 SUMMARY:Emrah Kaman Yüksek Gelirim 2
@@ -507,7 +497,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/emrah-kaman-yuksek-gelirim-versiyon-iki
 END:VEVENT
 BEGIN:VEVENT
 UID:7cc4936e80c2@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261213T200000
 DTEND;TZID=Europe/Istanbul:20261213T223000
 SUMMARY:The Illusionist - Enver Ertaş
@@ -517,7 +507,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/the-ullusionist-enver-ertas
 END:VEVENT
 BEGIN:VEVENT
 UID:ac3493c30439@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261213T200000
 DTEND;TZID=Europe/Istanbul:20261213T223000
 SUMMARY:Sefa Doğanay – Tek mi Sandınız?
@@ -527,7 +517,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/sefa-doganay-kokpit
 END:VEVENT
 BEGIN:VEVENT
 UID:88430d4a0b8f@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261214T200000
 DTEND;TZID=Europe/Istanbul:20261214T223000
 SUMMARY:Morkomedyen Stand Up
@@ -537,7 +527,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/morkomedyen
 END:VEVENT
 BEGIN:VEVENT
 UID:551ef2e405fc@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261214T200000
 DTEND;TZID=Europe/Istanbul:20261214T223000
 SUMMARY:Musti Kusti - Stand Up (Yeni Gösteri)
@@ -547,7 +537,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/musti-kusti-stand-up-yeni-gosteri
 END:VEVENT
 BEGIN:VEVENT
 UID:4a59f7648658@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261215T200000
 DTEND;TZID=Europe/Istanbul:20261215T223000
 SUMMARY:Shirley Valentine - Sumru Yavrucuk
@@ -557,7 +547,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/shirley-valetine-ozkyorg
 END:VEVENT
 BEGIN:VEVENT
 UID:6559b408f4cc@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261215T200000
 DTEND;TZID=Europe/Istanbul:20261215T223000
 SUMMARY:Erkek Aklı Oksimoron
@@ -567,7 +557,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/erkek-akli-oksimoron-tyndn
 END:VEVENT
 BEGIN:VEVENT
 UID:a148aad41f33@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261216T200000
 DTEND;TZID=Europe/Istanbul:20261216T223000
 SUMMARY:Lumera - Sezen Aksu Şarkıları
@@ -577,7 +567,7 @@ URL:https://biletinial.com/tr-tr/muzik/lumera-trio-sezen-aksu-sarkilari
 END:VEVENT
 BEGIN:VEVENT
 UID:fcbb249d7b7b@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261217T200000
 DTEND;TZID=Europe/Istanbul:20261217T223000
 SUMMARY:Tuna Kiremitçi - Şairin Şarkıları
@@ -587,7 +577,7 @@ URL:https://biletinial.com/tr-tr/muzik/tuna-kiremitci-sairin-sarkilari-akustik
 END:VEVENT
 BEGIN:VEVENT
 UID:c8f5d00f795b@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261218T200000
 DTEND;TZID=Europe/Istanbul:20261218T223000
 SUMMARY:Bruckner’ın Görkemli Dünyası | Antalya Devlet Senfoni Orkestrası - DenizBank Konserleri
@@ -597,7 +587,7 @@ URL:https://biletinial.com/tr-tr/muzik/brucknerin-gorkemli-dunyasi-antalya-devle
 END:VEVENT
 BEGIN:VEVENT
 UID:66bfeb7d735e@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261220T200000
 DTEND;TZID=Europe/Istanbul:20261220T223000
 SUMMARY:Ayna Konseri
@@ -607,7 +597,7 @@ URL:https://biletinial.com/tr-tr/muzik/ayna-konserii
 END:VEVENT
 BEGIN:VEVENT
 UID:39e923737319@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20261222T200000
 DTEND;TZID=Europe/Istanbul:20261222T223000
 SUMMARY:Özel Bir Rica
@@ -617,7 +607,7 @@ URL:https://biletinial.com/tr-tr/tiyatro/ozel-bir-rica
 END:VEVENT
 BEGIN:VEVENT
 UID:0f1397539490@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20270123T200000
 DTEND;TZID=Europe/Istanbul:20270123T223000
 SUMMARY:Ozbi Konseri
@@ -627,7 +617,7 @@ URL:https://biletinial.com/tr-tr/muzik/ozbi-konseri
 END:VEVENT
 BEGIN:VEVENT
 UID:9bda38a3d12c@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20270127T200000
 DTEND;TZID=Europe/Istanbul:20270127T223000
 SUMMARY:Kızımın Adı Ada'ydı
@@ -637,12 +627,22 @@ URL:https://biletinial.com/tr-tr/tiyatro/kizimin-adi-adaydi
 END:VEVENT
 BEGIN:VEVENT
 UID:ca6bfb8e8477@antalya-etkinlik-takvimi
-DTSTAMP:20261109T183819Z
+DTSTAMP:20261109T184048Z
 DTSTART;TZID=Europe/Istanbul:20270128T200000
 DTEND;TZID=Europe/Istanbul:20270128T223000
 SUMMARY:Kanaviçe
 LOCATION:Antalya
 DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺500\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/kanavice
 URL:https://biletinial.com/tr-tr/tiyatro/kanavice
+END:VEVENT
+BEGIN:VEVENT
+UID:24df386fee00@antalya-etkinlik-takvimi
+DTSTAMP:20261109T184048Z
+DTSTART;TZID=Europe/Istanbul:20270202T200000
+DTEND;TZID=Europe/Istanbul:20270202T223000
+SUMMARY:Prime Orchestra Rock Sympho Show
+LOCATION:Kepez Mimar Sinan Kongre Merkezi\, Antalya
+DESCRIPTION:Kategori: Konser & Müzik\nKaynak: Biletinial\nFiyat/Durum: ₺1420\nBilet ve Detaylar: https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show
+URL:https://biletinial.com/tr-tr/muzik/prime-orchestra-rock-sympho-show
 END:VEVENT
 END:VCALENDAR
