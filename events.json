@@ -1,7 +1,7 @@
 {
   "city": "Antalya",
-  "updated_at": "11.11.2026 21:52",
-  "total_count": 163,
+  "updated_at": "11.11.2026 22:03",
+  "total_count": 311,
   "categories": [
     "Atölye & Çocuk",
     "Festival & Parti",
@@ -11,7 +11,8 @@
   ],
   "sources": [
     "Biletinial",
-    "Biletix"
+    "Biletix",
+    "Bubilet"
   ],
   "events": [
     {
@@ -99,6 +100,30 @@
       "source": "Biletix"
     },
     {
+      "id": "f3bb4d83fea8",
+      "title": "Selfie Park Müze",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-12T10:30:00",
+      "date_display": "12 Kasım 2026 • 10:30",
+      "venue": "Selfie Park, Antalya",
+      "price": "₺450",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/selfie-park-muze-72059.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/selfie-park-muze",
+      "source": "Bubilet"
+    },
+    {
+      "id": "fa78124d1943",
+      "title": "Antalya Workshop | Parfüm Atölyesi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-12T10:30:00",
+      "date_display": "12 Kasım 2026 • 10:30",
+      "venue": "Antalya Workshop Experience",
+      "price": "₺1250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/antalya-workshop-parfum-atolyesi-44338.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/antalya-workshop-parfum-atolyesi",
+      "source": "Bubilet"
+    },
+    {
       "id": "a154de69a1b1",
       "title": "Ormanın Kalbi",
       "category": "Atölye & Çocuk",
@@ -109,6 +134,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI92-5-11-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5FI92/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "9adeb2aef77f",
+      "title": "Alice Harikalar Diyarında",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-12T19:00:00",
+      "date_display": "12 Kasım 2026 • 19:00",
+      "venue": "Alanya Kültür Merkezi - B Salonu, Antalya",
+      "price": "₺420",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/alice-harikalar-diyarinda-20261020093023233-8b74a6ff7e5b.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-alice-harikalar-diyarinda-",
+      "source": "Bubilet"
     },
     {
       "id": "e6ab3f150ade",
@@ -135,6 +172,18 @@
       "source": "Biletix"
     },
     {
+      "id": "c845d890bc5a",
+      "title": "Mekanda Sanat Var: Heykel ve Resim Workshopları | Antalya",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-12T20:00:00",
+      "date_display": "12 Kasım 2026 • 20:00",
+      "venue": "Laos Coffee Kültür - Antalya",
+      "price": "₺350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/msv-antalya-50393.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/msv-antalya",
+      "source": "Bubilet"
+    },
+    {
       "id": "94be5f07001f",
       "title": "Sesler - Salih Bademci",
       "category": "Tiyatro & Sahne",
@@ -159,6 +208,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "0d91a0ca5d73",
+      "title": "Sesler-Salih Bademci",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-12T20:30:00",
+      "date_display": "12 Kasım 2026 • 20:30",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺1750",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sesler-salih-bademci-58101.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sesler-salih-bademci",
+      "source": "Bubilet"
+    },
+    {
+      "id": "3d228fc55765",
+      "title": "Kanaviçe",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-12T20:30:00",
+      "date_display": "12 Kasım 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kanavice-20260809155813067-5d980fe334cc.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kanavice",
+      "source": "Bubilet"
+    },
+    {
       "id": "0de6251fb511",
       "title": "Salih Bademci - Sesler",
       "category": "Tiyatro & Sahne",
@@ -169,6 +242,54 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/salihbademcietknlk470110156-25su.jpg",
       "url": "https://www.biletix.com/etkinlik/5YS96/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "a1c8c12097bc",
+      "title": "Anaf Reunion Tour",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-12T21:30:00",
+      "date_display": "12 Kasım 2026 • 21:30",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺700",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/anaf-reunion-tour-20261007114527764-49787cd1c3d0.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/anaf-reunion-tour",
+      "source": "Bubilet"
+    },
+    {
+      "id": "f853b7a63525",
+      "title": "Antalya Workshop | Mozaik Lamba Atölyesi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-13T10:00:00",
+      "date_display": "13 Kasım 2026 • 10:00",
+      "venue": "Antalya Workshop Experience",
+      "price": "₺1500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/antalya-workshop-mozaik-lamba-atolyesi-71349.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/antalya-workshop-mozaik-lamba-atolyesi",
+      "source": "Bubilet"
+    },
+    {
+      "id": "07d657aec72b",
+      "title": "Suç ve Ceza Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-13T20:00:00",
+      "date_display": "13 Kasım 2026 • 20:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/suc-ve-ceza-oyunu-20261013085718715-6d31f743f947.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-suc-ve-ceza-oyunu-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "534c825605b4",
+      "title": "Pop Delisi: %100 Türkçe Pop Partisi",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-13T20:00:00",
+      "date_display": "13 Kasım 2026 • 20:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/pop-delisi-100-turkce-pop-partisi--15379.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/pop-delisi-100-turkce-pop-partisi-",
+      "source": "Bubilet"
     },
     {
       "id": "ee4bc3e834eb",
@@ -207,6 +328,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "de8858ecf4e3",
+      "title": "Salih Tıraş",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-13T20:30:00",
+      "date_display": "13 Kasım 2026 • 20:30",
+      "venue": "Rockbull Performance Hall, Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/salih-tiras-20260807143232797-c2caba91ff5c.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/salih-tiras",
+      "source": "Bubilet"
+    },
+    {
+      "id": "eebb6a1dd8cb",
+      "title": "KIZIMIN ADI ADA'YDI",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-13T20:30:00",
+      "date_display": "13 Kasım 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kizimin-adi-adaydi-20260809155303314-eef3f2e7fa1d.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kizimin-adi-adaydi",
+      "source": "Bubilet"
+    },
+    {
+      "id": "d5fb77959dc6",
+      "title": "Pinhani Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-13T22:00:00",
+      "date_display": "13 Kasım 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺1200",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/-pinhani-konseri-16207.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-pinhani-konseri",
+      "source": "Bubilet"
+    },
+    {
       "id": "45efee460ab5",
       "title": "Pinhani",
       "category": "Konser & Müzik",
@@ -217,6 +374,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/pinhani-gorsel-bu.avif",
       "url": "https://www.biletix.com/etkinlik/5SO68/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "ba384b02b936",
+      "title": "7-12 Yaş Oyunculuk - Tiyatro Atölyesi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-14T12:00:00",
+      "date_display": "14 Kasım 2026 • 12:00",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺1842",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/7-12-yas-oyunculuk-tiyatro-atolyesi-20260922163052712-46773a155d1c.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/7-12-yas-oyunculuk-tiyatro-atolyesi",
+      "source": "Bubilet"
     },
     {
       "id": "82ceaa60cea6",
@@ -231,6 +400,30 @@
       "source": "Biletix"
     },
     {
+      "id": "da0f126569a9",
+      "title": "13-17 Yaş Oyunculuk - Tiyatro Atölyesi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-14T16:30:00",
+      "date_display": "14 Kasım 2026 • 16:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺1842",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/13-17-yas-oyunculuk-tiyatro-atolyesi-20260922164720486-f2ea8f03ab01.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/13-17-yas-oyunculuk-tiyatro-atolyesi",
+      "source": "Bubilet"
+    },
+    {
+      "id": "acfe3b99fce2",
+      "title": "Hacivat & Karagöz Çocuk Oyunu",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-14T18:00:00",
+      "date_display": "14 Kasım 2026 • 18:00",
+      "venue": "Tiyatro Özgün Sahnesi, Antalya",
+      "price": "₺250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/hacivat-karagoz-cocuk-oyunu-20260929095306735-6f8c7481d8ef.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/hacivat-karagoz-cocuk-oyunu",
+      "source": "Bubilet"
+    },
+    {
       "id": "cf7d3aae4fff",
       "title": "Hacivat Karagöz",
       "category": "Atölye & Çocuk",
@@ -241,6 +434,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI81-bu26.avif",
       "url": "https://www.biletix.com/etkinlik/5FI9E/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "b53a7723f35b",
+      "title": "Bengi İdil Uras ile Beng Beng Show",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-14T20:00:00",
+      "date_display": "14 Kasım 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺850",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/bengi-idil-uras-ile-beng-beng-show-20260708073831240-316a51d1c579.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/bengi-idil-uras-ile-beng-beng-show",
+      "source": "Bubilet"
     },
     {
       "id": "08129cc8362d",
@@ -303,6 +508,78 @@
       "source": "Biletinial"
     },
     {
+      "id": "01b63fea3af7",
+      "title": "Hadi Öldürsene Canikom Tiyatro Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-14T20:30:00",
+      "date_display": "14 Kasım 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺565",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/hadi-oldursene-canikom-tiyatro-oyunu-20261021142859759-175c27187eea.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/hadi-oldursene-canikom-tiyatro-oyunu",
+      "source": "Bubilet"
+    },
+    {
+      "id": "98afdd5ecf6f",
+      "title": "Gökhan Özen - Live In Concert",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-14T21:00:00",
+      "date_display": "14 Kasım 2026 • 21:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺1500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/gokhan-ozen-live-in-concert-20261002100312902-1cfc6f2aca3f.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/gokhan-ozen-live-in-concert",
+      "source": "Bubilet"
+    },
+    {
+      "id": "571336cba54f",
+      "title": "Gripin Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-14T22:00:00",
+      "date_display": "14 Kasım 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/-gripin-konseri--23856.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-gripin-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "5906d15c721f",
+      "title": "Son Feci Bisiklet",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-14T22:00:00",
+      "date_display": "14 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/son-feci-bisiklet-20260801054316058-a80aa05edf7d.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/son-feci-bisiklet-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "014837786969",
+      "title": "Roman Gecesi",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-14T22:00:00",
+      "date_display": "14 Kasım 2026 • 22:00",
+      "venue": "Delicious Bekir Lara, Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/roman-gecesi-20261021100130182-da017587eda7.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/roman-gecesi-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "1be3702a9bb8",
+      "title": "Kübik Prens – Tiyatral Çocuk Gösterisi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-15T13:00:00",
+      "date_display": "15 Kasım 2026 • 13:00",
+      "venue": "Mall Of Antalya Gösteri Merkezi - Moa Sahne",
+      "price": "₺400",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kubik-prens-20261021120516754-885571610689.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kubik-prens",
+      "source": "Bubilet"
+    },
+    {
       "id": "b6517a63a98a",
       "title": "Kübik Prens",
       "category": "Atölye & Çocuk",
@@ -313,6 +590,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/kubikprens-26-10-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5FEL9/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "4b0dd28c5e25",
+      "title": "4-6 Yaş Yaratıcı Drama - Oyunculuk - Tiyatro Atölyesi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-15T15:00:00",
+      "date_display": "15 Kasım 2026 • 15:00",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺1842",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/7-12-yas-yaratici-drama-oyunculuk-tiyatro-atolyesi-20260928075317282-99850aa427b2.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/4-6-yas-yaratici-drama-oyunculuk-tiyatro-atolyesi",
+      "source": "Bubilet"
     },
     {
       "id": "95e10366e499",
@@ -337,6 +626,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI9F-BU27.avif",
       "url": "https://www.biletix.com/etkinlik/5FI9F/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "c9b1c2e39ae7",
+      "title": "18 Yaş ve Üzeri Oyunculuk - Tiyatro Atölyesi",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-15T19:00:00",
+      "date_display": "15 Kasım 2026 • 19:00",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺1842",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/18-yas-ve-uzeri-oyunculuk-tiyatro-atolyesi-20260922165235101-cc8b53d8c919.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/18-yas-ve-uzeri-oyunculuk-tiyatro-atolyesi",
+      "source": "Bubilet"
     },
     {
       "id": "fae03e0ae03a",
@@ -375,6 +676,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "df33d971ac40",
+      "title": "Candles and Echoes: Golden Swan",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-16T19:00:00",
+      "date_display": "16 Kasım 2026 • 19:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺699",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/candles-and-echoes-golden-swan-20260807131422547-61c04144fd6e.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/candles-and-echoes-golden-swan",
+      "source": "Bubilet"
+    },
+    {
+      "id": "275e17015e17",
+      "title": "7 Kocalı Hürmüz Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-16T19:30:00",
+      "date_display": "16 Kasım 2026 • 19:30",
+      "venue": "Alanya Kültür Merkezi - A Salonu, Antalya",
+      "price": "₺684",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/7-kocali-hurmuz-oyunu-20261001114813463-e9d8ed4025f2.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/7-kocali-hurmuz-oyunu",
+      "source": "Bubilet"
+    },
+    {
       "id": "f1fbaf452bf9",
       "title": "7 Kocalı Hürmüz",
       "category": "Tiyatro & Sahne",
@@ -385,6 +710,42 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/7kocali-14-9-26-su.avif",
       "url": "https://www.biletix.com/etkinlik/5RSAI/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "22dc45bf4bae",
+      "title": "ÖLMÜŞÜ ÖLDÜRSENE O....SPU",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-16T20:30:00",
+      "date_display": "16 Kasım 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺580",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/olmusu-oldursene-o-spu-71964.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/olmusu-oldursene-o-spu",
+      "source": "Bubilet"
+    },
+    {
+      "id": "bb870027197a",
+      "title": "Candles and Echoes - Antalya",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-16T21:00:00",
+      "date_display": "16 Kasım 2026 • 21:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺890",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/candles-and-echoes-antalya-20261005143347906-54f2b8c823bb.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/candles-and-echoes-antalya",
+      "source": "Bubilet"
+    },
+    {
+      "id": "6582e9280ff2",
+      "title": "İyilik Takımı Sevginin Gücü",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-17T18:30:00",
+      "date_display": "17 Kasım 2026 • 18:30",
+      "venue": "Tiyatro Özgün Sahnesi, Antalya",
+      "price": "₺250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/iyilik-takimi-sevginin-gucu-55729.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/iyilik-takimi-sevginin-gucu",
+      "source": "Bubilet"
     },
     {
       "id": "b41f1345fd79",
@@ -423,6 +784,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "001effc133f0",
+      "title": "Serkan Altuniğne - Umurumda Değil",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-17T20:30:00",
+      "date_display": "17 Kasım 2026 • 20:30",
+      "venue": "Rockbull Performance Hall, Antalya",
+      "price": "₺825",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/serkan-altunigne-cizmeye-usendim-79662.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/serkan-altunigne-cizmeye-usendim",
+      "source": "Bubilet"
+    },
+    {
+      "id": "33ad8934433f",
+      "title": "Jeanne Darc'ın Öteki Ölümü",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-17T20:30:00",
+      "date_display": "17 Kasım 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/jeanne-darcin-oteki-olumu-64285.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/jeanne-darcin-oteki-olumu",
+      "source": "Bubilet"
+    },
+    {
+      "id": "e277b2627b81",
+      "title": "Jefe Tour",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-17T21:00:00",
+      "date_display": "17 Kasım 2026 • 21:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺650",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/jefe-tour-20261106081606141-b0b087b6923a.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/jefe-tour",
+      "source": "Bubilet"
+    },
+    {
       "id": "9a179ad47390",
       "title": "Jefe",
       "category": "Konser & Müzik",
@@ -447,6 +844,18 @@
       "source": "Biletix"
     },
     {
+      "id": "dbe7edd42c54",
+      "title": "Mesut Süre",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-18T20:30:00",
+      "date_display": "18 Kasım 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/mesut-sure-20260926155804093-29bacc379c8b.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/mesut-sure",
+      "source": "Bubilet"
+    },
+    {
       "id": "bf822f194313",
       "title": "Mesut Süre",
       "category": "Stand-Up & Komedi",
@@ -457,6 +866,30 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/mesutsure-9-10-26-su.avif",
       "url": "https://www.biletix.com/etkinlik/5T9OO/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "f39b48fd3848",
+      "title": "Altın Gün Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-18T22:00:00",
+      "date_display": "18 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/altin-gun-konseri--78804.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/altin-gun-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "98162fa4bf28",
+      "title": "Sabahat Akkiraz Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-19T20:00:00",
+      "date_display": "19 Kasım 2026 • 20:00",
+      "venue": "Manavgat Atatürk Kültür Merkezi, Antalya",
+      "price": "₺1135",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sabahat-akkiraz-konseri-50205.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sabahat-akkiraz-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "3d93354137ec",
@@ -507,6 +940,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "47088a10417a",
+      "title": "Ceren Gündoğdu Candle Session",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-19T20:30:00",
+      "date_display": "19 Kasım 2026 • 20:30",
+      "venue": "Alanya Kültür Merkezi - B Salonu, Antalya",
+      "price": "₺1320",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ceren-gundogdu-candle-session-20260805093054144-5b106e1e7dc1.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ceren-gundogdu-candle-session",
+      "source": "Bubilet"
+    },
+    {
+      "id": "811c4dbf2fad",
+      "title": "INOSTRANKA",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-19T20:30:00",
+      "date_display": "19 Kasım 2026 • 20:30",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺2880",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/inostranka-20261106102327479-3ff074142ca9.webp",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/inostranka",
+      "source": "Bubilet"
+    },
+    {
       "id": "87c8e45f65a2",
       "title": "Inostranka",
       "category": "Tiyatro & Sahne",
@@ -517,6 +974,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5GD77-9-10-26-su.avif",
       "url": "https://www.biletix.com/etkinlik/5GD77/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "cbb3c422dcc4",
+      "title": "Başar Keklik",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-19T21:45:00",
+      "date_display": "19 Kasım 2026 • 21:45",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺399",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/basar-keklik-29606.JPG",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/basar-keklik",
+      "source": "Bubilet"
     },
     {
       "id": "0ac379443a50",
@@ -553,6 +1022,30 @@
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/tiyatro-sporu-ada-202656112939420078da160340538504f59702f64cf6.jpeg",
       "url": "https://biletinial.com/tr-tr/tiyatro/tiyatro-sporu-ada",
       "source": "Biletinial"
+    },
+    {
+      "id": "e062faee9b04",
+      "title": "Lil Zey Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-20T22:00:00",
+      "date_display": "20 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/lil-zey-konseri-66283.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/lil-zey-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "c6cde21b6895",
+      "title": "Retrobüs Konseri",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-20T22:00:00",
+      "date_display": "20 Kasım 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺200",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/retrobus-konseri-72462.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/retrobus-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "512edee4a60c",
@@ -639,6 +1132,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "0cc6d72e29ac",
+      "title": "Şarkılar Eskiden Daha mı Güzeldi - Suat Suna",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-21T20:30:00",
+      "date_display": "21 Kasım 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1700",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sarkilar-eskiden-daha-mi-guzeldi-suat-suna-20260730145826181-115453b17884.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sarkilar-eskiden-daha-mi-guzeldi-suat-suna-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "05559e9e9a2f",
+      "title": "Hadi Öldürsene Canikom",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-21T20:30:00",
+      "date_display": "21 Kasım 2026 • 20:30",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺1120",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/hadi-oldursene-canikom-50266.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/hadi-oldursene-canikom",
+      "source": "Bubilet"
+    },
+    {
       "id": "4697964bc538",
       "title": "Şarkılar Eskiden Daha Mı Güzeldi - Suat Suna",
       "category": "Konser & Müzik",
@@ -663,6 +1180,42 @@
       "source": "Biletix"
     },
     {
+      "id": "a7e23a80f7c9",
+      "title": "Ceylan Ertem Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-21T22:00:00",
+      "date_display": "21 Kasım 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ceylan-ertem-konseri-30698.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ceylan-ertem-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "30d9805999af",
+      "title": "Feridun Düzağaç Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-21T22:00:00",
+      "date_display": "21 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺1124",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/feridun-duzagac-sevgililer-gunu-ozel-20538.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/feridun-duzagac-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "8589286f7dac",
+      "title": "Can Gox",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-21T22:00:00",
+      "date_display": "21 Kasım 2026 • 22:00",
+      "venue": "Delicious Bekir Lara, Antalya",
+      "price": "₺375",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/can-gox-20261019064542053-68d6ec711d0c.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/can-gox--",
+      "source": "Bubilet"
+    },
+    {
       "id": "b9b0f10375ae",
       "title": "Dünyanın En Önemli Gösterisi",
       "category": "Tiyatro & Sahne",
@@ -673,6 +1226,42 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI96-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5FI96/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "104a3cec2df8",
+      "title": "Serdar Nalçakar - Çok Bozdu (Stand Up Gösterisi)",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-22T20:00:00",
+      "date_display": "22 Kasım 2026 • 20:00",
+      "venue": "Rockbull Performance Hall, Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/serdar-nalcakar-cok-bozdu-stand-up-gosterisi-20260817092021054-16390233a8c0.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/serdar-nalcakar-cok-bozdu-stand-up-gosterisi",
+      "source": "Bubilet"
+    },
+    {
+      "id": "3d27f1f50df7",
+      "title": "Disconset",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-22T22:00:00",
+      "date_display": "22 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/disconset-20260620121247348-9c0257344113.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/disconset",
+      "source": "Bubilet"
+    },
+    {
+      "id": "7f6c03bd7c39",
+      "title": "Dj Hakan Küfündür ile 90'lar & 2000'ler Türkçe Pop Parti",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-22T22:00:00",
+      "date_display": "22 Kasım 2026 • 22:00",
+      "venue": "The Sponge Performance Hall, Antalya",
+      "price": "₺300",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dj-hakan-kufundur-ile-90lar-2000ler-turkce-pop-parti-50750.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/dj-hakan-kufundur-ile-90lar-2000ler-turkce-pop-parti",
+      "source": "Bubilet"
     },
     {
       "id": "b889f8b41810",
@@ -687,6 +1276,18 @@
       "source": "Biletix"
     },
     {
+      "id": "099ccb522181",
+      "title": "Rastgele Sofra",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-23T19:30:00",
+      "date_display": "23 Kasım 2026 • 19:30",
+      "venue": "Lara Balık, Antalya",
+      "price": "₺3000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/rastgele-sofra-20261103155834055-ad54f6c15af0.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/rastgele-sofra",
+      "source": "Bubilet"
+    },
+    {
       "id": "e26affa5c1ac",
       "title": "Hacivat Karagöz",
       "category": "Atölye & Çocuk",
@@ -697,6 +1298,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI81-bu26.avif",
       "url": "https://www.biletix.com/etkinlik/5FI97/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "b3eaaefc0004",
+      "title": "Nazım",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-24T20:00:00",
+      "date_display": "24 Kasım 2026 • 20:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺672",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/nazim-82406.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/nazim",
+      "source": "Bubilet"
     },
     {
       "id": "279f7d66d656",
@@ -711,6 +1324,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "e7ac43fea2bb",
+      "title": "Aşkım Kapışmak",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-24T21:00:00",
+      "date_display": "24 Kasım 2026 • 21:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺1200",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/askim--kapismak-20261102093721163-39e9dfb19030.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/askim--kapismak",
+      "source": "Bubilet"
+    },
+    {
       "id": "4f2a5d34b58a",
       "title": "Keloğlan Dürüstlük Ülkesinde",
       "category": "Tiyatro & Sahne",
@@ -721,6 +1346,42 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI08-keloglan.avif",
       "url": "https://www.biletix.com/etkinlik/5FI98/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "4202b1248938",
+      "title": "Uzi Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-25T20:00:00",
+      "date_display": "25 Kasım 2026 • 20:00",
+      "venue": "Antalya Nazım Hikmet Fuar ve Kongre Merkezi",
+      "price": "₺1300",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/uzi-konseri-20261014152055580-8e46eb6b9275.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-uzi-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "9a5dc2586410",
+      "title": "Miray Akovalıgil \"Ya Bende Bir Şey Yoksa?\"",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-25T20:00:00",
+      "date_display": "25 Kasım 2026 • 20:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/miray-akovaligil-ya-bende-bir-sey-yoksa-40927.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/miray-akovaligil-ya-bende-bir-sey-yoksa",
+      "source": "Bubilet"
+    },
+    {
+      "id": "27fac580dadf",
+      "title": "Düş Payı",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-25T20:00:00",
+      "date_display": "25 Kasım 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1100",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dus-payi-20260827150716688-fb9fa7f2ef13.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/dus-payi",
+      "source": "Bubilet"
     },
     {
       "id": "84b87a7a1c0e",
@@ -783,6 +1444,42 @@
       "source": "Biletix"
     },
     {
+      "id": "a3470850db30",
+      "title": "Sancak",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-25T22:00:00",
+      "date_display": "25 Kasım 2026 • 22:00",
+      "venue": "Delicious Bekir Lara, Antalya",
+      "price": "₺450",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sancak-20261107120149412-c269255283f3.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sancak",
+      "source": "Bubilet"
+    },
+    {
+      "id": "a0d1d033490d",
+      "title": "Dj Ali Taş ile 90'lar 2000'ler Türkçe Pop Gecesi",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-25T22:30:00",
+      "date_display": "25 Kasım 2026 • 22:30",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dj-ali-tas-ile-90lar-pop-gecesi-81060.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/dj-ali-tas-ile-90lar-pop-gecesi",
+      "source": "Bubilet"
+    },
+    {
+      "id": "61468586c648",
+      "title": "Kadın",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-26T20:00:00",
+      "date_display": "26 Kasım 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1315",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kadin-20260905110034270-31a101062cee.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-kadin-",
+      "source": "Bubilet"
+    },
+    {
       "id": "16e34efb2b91",
       "title": "Düş Payı",
       "category": "Tiyatro & Sahne",
@@ -807,6 +1504,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "81e7075be67f",
+      "title": "Erkolar Kapatıldı Party",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-26T21:00:00",
+      "date_display": "26 Kasım 2026 • 21:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺400",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/erkolar-kapatildi-party-20260902092723486-78be4c341be8.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/erkolar-kapatildi-party",
+      "source": "Bubilet"
+    },
+    {
+      "id": "f180c922f283",
+      "title": "Aşk Hikayen Düşmüş Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-27T20:00:00",
+      "date_display": "27 Kasım 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1100",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ask-hikayen-dusmus-oyunu-54583.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ask-hikayen-dusmus-oyunu",
+      "source": "Bubilet"
+    },
+    {
+      "id": "1e0b4ad92680",
+      "title": "Redd Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-27T21:00:00",
+      "date_display": "27 Kasım 2026 • 21:00",
+      "venue": "The Sponge Performance Hall, Antalya",
+      "price": "₺799",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/redd-konseri-86702.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/redd-konseri",
+      "source": "Bubilet"
+    },
+    {
       "id": "b4163396a23e",
       "title": "Chris Potter Trio",
       "category": "Konser & Müzik",
@@ -817,6 +1550,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5BHM4-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5BHM4/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "ec6c3b0451dd",
+      "title": "Yedinci Ev Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-27T22:00:00",
+      "date_display": "27 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/yedinci-ev-konseri-49405.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/yedinci-ev-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "202c356e5747",
@@ -831,6 +1576,18 @@
       "source": "Biletix"
     },
     {
+      "id": "da3d9458d17f",
+      "title": "Lvbel C5 Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-27T22:30:00",
+      "date_display": "27 Kasım 2026 • 22:30",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺1200",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/lvbel-c5-konseri-20260717150851058-7b731a168cb4.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/lvbel-c5-konseri",
+      "source": "Bubilet"
+    },
+    {
       "id": "80c9701aa8ef",
       "title": "Lvbel C5",
       "category": "Konser & Müzik",
@@ -843,6 +1600,18 @@
       "source": "Biletix"
     },
     {
+      "id": "b09c3e709f7e",
+      "title": "Çizmeli Kedi - İyi Düşler Ülkesi Çocuk Oyunu",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-28T13:00:00",
+      "date_display": "28 Kasım 2026 • 13:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺355",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/cizmeli-kedi-iyi-dusler-ulkesi-cocuk-oyunu-20260908170052441-243a3a7ae800.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/cizmeli-kedi-iyi-dusler-ulkesi-cocuk-oyunu",
+      "source": "Bubilet"
+    },
+    {
       "id": "a051f44bcd1b",
       "title": "Uluslararası Hologram Sirki",
       "category": "Konser & Müzik",
@@ -853,6 +1622,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5GX25-BU26.avif",
       "url": "https://www.biletix.com/etkinlik/5GX09/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "c2808f29ede3",
+      "title": "Pinokyo Tiyatro Oyunu",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-28T15:00:00",
+      "date_display": "28 Kasım 2026 • 15:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺355",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/pinokyo-tiyatro--oyunu-20260905094327128-c178985403f6.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/pinokyo-tiyatro--oyunu",
+      "source": "Bubilet"
     },
     {
       "id": "bb0a684a16a5",
@@ -903,6 +1684,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "aea8abf26be2",
+      "title": "Kerimcan Durmaz",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-28T22:00:00",
+      "date_display": "28 Kasım 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺880",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kerimcan-durmaz-20260925133232374-09b497247a88.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-kerimcan-durmaz-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "adfad626a5fc",
+      "title": "Bora Duran Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-28T22:00:00",
+      "date_display": "28 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺400",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/bora-duran--konseri-20261015120854801-27a915ac4708.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/bora-duran--konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "4df1ea84fac4",
+      "title": "Dj Pınar Alkan 90’lar & 2000’ler Türkçe Pop Partisi",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-28T22:00:00",
+      "date_display": "28 Kasım 2026 • 22:00",
+      "venue": "Delicious Bekir Lara, Antalya",
+      "price": "₺250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dj-pinar-alkan-90lar---2000ler-turkce-pop-partisi-20261103072713636-cdfb1f84bad7.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-dj-pinar-alkan-90lar---2000ler-turkce-pop-partisi",
+      "source": "Bubilet"
+    },
+    {
       "id": "ae2961dec0be",
       "title": "Selfie Park Antalya Kasım Hafta Sonu",
       "category": "Atölye & Çocuk",
@@ -925,6 +1742,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI96-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5FI9I/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "5f61d11b7efc",
+      "title": "Yunus Yılmaz - Olay Yeri İnceleme Stand Up",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-29T19:30:00",
+      "date_display": "29 Kasım 2026 • 19:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺815",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/olay-yeri-inceleme-20260706091611489-4d3ff5fb71dd.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/olay-yeri-inceleme",
+      "source": "Bubilet"
     },
     {
       "id": "6902c9952771",
@@ -961,6 +1790,18 @@
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/uc-kedi-bir-dilek-co-filozof-cocuklar-projesi-20261026165144b76acedd5847487c9b74fc42f88e77df.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/uc-kedi-bir-dilek-co-filozof-cocuklar-projesi-dt",
       "source": "Biletinial"
+    },
+    {
+      "id": "c2e121ea887f",
+      "title": "Keskin Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-29T22:00:00",
+      "date_display": "29 Kasım 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/keskin--konseri-20261031095722593-455afc63d158.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/keskin--konseri-",
+      "source": "Bubilet"
     },
     {
       "id": "a6423a389db3",
@@ -1131,6 +1972,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "33fdce6b828b",
+      "title": "Muhammed Ali",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-30T20:30:00",
+      "date_display": "30 Kasım 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺986.4",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/muhammed-ali-12682.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/muhammed-ali",
+      "source": "Bubilet"
+    },
+    {
+      "id": "f101319fe4ce",
+      "title": "Öldüresiye Sevgili Tiyatro Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-12-01T20:00:00",
+      "date_display": "1 Aralık 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺896",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/olduresiye-sevgili-tiyatro-oyunu-20260929092510593-16675de1abf4.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/olduresiye-sevgili-tiyatro-oyunu",
+      "source": "Bubilet"
+    },
+    {
       "id": "99d958db1f8b",
       "title": "Öldüresiye Sevgili",
       "category": "Tiyatro & Sahne",
@@ -1141,6 +2006,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5KFC8-BU27.avif",
       "url": "https://www.biletix.com/etkinlik/5KFCA/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "b20241d2acc0",
+      "title": "Venüs Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-01T22:00:00",
+      "date_display": "1 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺550",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/venus-konseri-20260913122922563-ed0d6df7187e.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/venus-konseri--",
+      "source": "Bubilet"
     },
     {
       "id": "348a4411fbff",
@@ -1179,6 +2056,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "48fa982992cf",
+      "title": "Mahşer-i Cümbüş Oyunu",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-02T20:30:00",
+      "date_display": "2 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1120",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/mahser-i-cumbus-oyunu-20261007085840715-b32240099802.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/mahser-i-cumbus-oyunu",
+      "source": "Bubilet"
+    },
+    {
+      "id": "1fe3f0656026",
+      "title": "Azade",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-12-02T20:30:00",
+      "date_display": "2 Aralık 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/azade-20261030095034840-a5f01fdab85f.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/azade",
+      "source": "Bubilet"
+    },
+    {
       "id": "1eeaa8fab51a",
       "title": "Mahşer-i Cümbüş",
       "category": "Stand-Up & Komedi",
@@ -1189,6 +2090,30 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/26su_mehsericumbusnew.avif",
       "url": "https://www.biletix.com/etkinlik/5LWJ0/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "84fa0c08d905",
+      "title": "Murda Tour",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-02T22:00:00",
+      "date_display": "2 Aralık 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/murda-tour-20261017124915019-b311c6c81a1f.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/murda-tour",
+      "source": "Bubilet"
+    },
+    {
+      "id": "663d974e9e7b",
+      "title": "Tekir",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-02T22:00:00",
+      "date_display": "2 Aralık 2026 • 22:00",
+      "venue": "Delicious Bekir Lara, Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/tekirr-20261107122642653-2cb8eff4ade2.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/tekirr",
+      "source": "Bubilet"
     },
     {
       "id": "7845b89f699d",
@@ -1227,6 +2152,18 @@
       "source": "Biletix"
     },
     {
+      "id": "9b4f89d87504",
+      "title": "Sefiller Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-12-03T20:00:00",
+      "date_display": "3 Aralık 2026 • 20:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sefilleroyunu-20261021143934417-4925331f7a9e.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sefilleroyunu",
+      "source": "Bubilet"
+    },
+    {
       "id": "54feaefc9445",
       "title": "Mahşer-i Cümbüş",
       "category": "Stand-Up & Komedi",
@@ -1251,6 +2188,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "cdd7c6a655d4",
+      "title": "Dadaca Doğaçlama",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-03T20:30:00",
+      "date_display": "3 Aralık 2026 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dadaca-dogaclama-20261102145259859-6c92946c58d7.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/dadaca-dogaclama",
+      "source": "Bubilet"
+    },
+    {
       "id": "5db42002a710",
       "title": "Recover Band",
       "category": "Konser & Müzik",
@@ -1261,6 +2210,54 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5SPB6-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5SPB6/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "102e8f16d26c",
+      "title": "Allame - Hidra - Bossy Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-03T22:00:00",
+      "date_display": "3 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺750",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/allame-hidra-20261017125021852-a210f652ee0b.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/allame-hidra-bossy-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "53840c0116d9",
+      "title": "Recover Band ft. Dr. Murat Aksoy",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-03T22:00:00",
+      "date_display": "3 Aralık 2026 • 22:00",
+      "venue": "The Sponge Performance Hall, Antalya",
+      "price": "₺576",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/recover-band-ft-dr-murat-aksoy-20261020141816226-432af5e2335c.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/recover-band-ft-dr-murat-aksoy",
+      "source": "Bubilet"
+    },
+    {
+      "id": "b62b5876f186",
+      "title": "Yung Ouzo Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-04T22:00:00",
+      "date_display": "4 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺750",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/yung-ouzo--konseri-20260913115256192-f4c741b46829.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/yung-ouzo--konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "ae5790433555",
+      "title": "Madrigal Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-04T22:00:00",
+      "date_display": "4 Aralık 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺450",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/madrigal-konseri-16568.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/madrigal-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "8ff25c764f21",
@@ -1323,6 +2320,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "e3042798f7b2",
+      "title": "Dedublüman Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-05T21:00:00",
+      "date_display": "5 Aralık 2026 • 21:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dedubluman-konseri-53768.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/dedubluman-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "23159d47ffb0",
+      "title": "Pera Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-05T22:00:00",
+      "date_display": "5 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/pera-konseri-20260626094150870-83464364bb30.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-pera-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "c3ad332b725e",
+      "title": "Hayatım Yalan - Mehmet Ali Erbil",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-06T20:00:00",
+      "date_display": "6 Aralık 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺700",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/hayatim-yalan-mehmet-ali-erbil-20260907091946367-4d8ab761c5b2.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/hayatim-yalan-mehmet-ali-erbil",
+      "source": "Bubilet"
+    },
+    {
       "id": "bf316bb0532f",
       "title": "Hayatım Yalan - Mehmet Ali Erbil",
       "category": "Tiyatro & Sahne",
@@ -1359,6 +2392,30 @@
       "source": "Biletix"
     },
     {
+      "id": "e5340fb1db5f",
+      "title": "Taksirat Festival | ТАКСИРАТ #28",
+      "category": "Festival & Parti",
+      "date_iso": "2026-12-07T19:00:00",
+      "date_display": "7 Aralık 2026 • 19:00",
+      "venue": "Jane Sandanski Sports Center, Antalya",
+      "price": "₺1565",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/taksirat-festival-20261029104333444-9786b97c4d24.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/taksirat-festival",
+      "source": "Bubilet"
+    },
+    {
+      "id": "c79c2b0eec0f",
+      "title": "Ruh Salatası",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-07T20:00:00",
+      "date_display": "7 Aralık 2026 • 20:00",
+      "venue": "Alanya Kültür Merkezi - A Salonu, Antalya",
+      "price": "₺935",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ruh-salatasi-20260827074050263-0aa801fdd838.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ruh-salatasi",
+      "source": "Bubilet"
+    },
+    {
       "id": "9a7f4ce3887d",
       "title": "Efkan Şeşen",
       "category": "Konser & Müzik",
@@ -1383,6 +2440,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "9de7971628db",
+      "title": "Efkan Şeşen",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-08T20:30:00",
+      "date_display": "8 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/efkan-sesen-20260727102115514-a7697832e6af.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/efkan-sesen",
+      "source": "Bubilet"
+    },
+    {
       "id": "ef6ecd2b41c0",
       "title": "Efkan Şeşen",
       "category": "Konser & Müzik",
@@ -1393,6 +2462,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FIB0-efkan.avif",
       "url": "https://www.biletix.com/etkinlik/5HYTD/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "1370b3549fa3",
+      "title": "Yunus Emre Gündüz - Yunus'un Odası İnteraktif Talk Show",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-09T20:00:00",
+      "date_display": "9 Aralık 2026 • 20:00",
+      "venue": "Rockbull Performance Hall, Antalya",
+      "price": "₺474",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/yunus-emre-gunduz-yunusun-odasi-talk-show-20260623132051857-fa5e9306ccf1.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/yunus-emre-gunduz-yunusun-odasi-talk-show",
+      "source": "Bubilet"
     },
     {
       "id": "b96975b4d130",
@@ -1419,6 +2500,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "b527796052cf",
+      "title": "Fazlı Polat - Şaka Şaka Stand-Up",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-09T20:30:00",
+      "date_display": "9 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/fazli-polat-saka-saka-stand-up-26452.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/fazli-polat-saka-saka-stand-up",
+      "source": "Bubilet"
+    },
+    {
+      "id": "b560f14d421f",
+      "title": "Cem İşçiler - Açık Konuşuyorum (Yeni Sezon)",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-09T20:30:00",
+      "date_display": "9 Aralık 2026 • 20:30",
+      "venue": "Simurg Cafe-Antalya",
+      "price": "₺850",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/cem-isciler-stand-up-26833.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/cem-isciler-stand-up",
+      "source": "Bubilet"
+    },
+    {
       "id": "46b4bfc688d6",
       "title": "Fazlı Polat - Şaka Şaka Stand Up",
       "category": "Stand-Up & Komedi",
@@ -1443,6 +2548,30 @@
       "source": "Biletix"
     },
     {
+      "id": "1f568e955de4",
+      "title": "Taladro",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-09T22:00:00",
+      "date_display": "9 Aralık 2026 • 22:00",
+      "venue": "The Sponge Performance Hall, Antalya",
+      "price": "₺650",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/taladro-63305.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/taladro",
+      "source": "Bubilet"
+    },
+    {
+      "id": "a660e56d203e",
+      "title": "Bu Hikaye Senden Uzun Osman",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-10T20:30:00",
+      "date_display": "10 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1344",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/bu-hikaye-senden-uzun-osman-60548.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/bu-hikaye-senden-uzun-osman",
+      "source": "Bubilet"
+    },
+    {
       "id": "ab3acb999c02",
       "title": "Bilal",
       "category": "Konser & Müzik",
@@ -1453,6 +2582,30 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5BHM5-BU27.avif",
       "url": "https://www.biletix.com/etkinlik/5BHM5/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "9f9aeea9049c",
+      "title": "Emre Nalbantoğlu Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-10T21:45:00",
+      "date_display": "10 Aralık 2026 • 21:45",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺499",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/emre-nalbantoglu-konseri-20261020070400804-b5cf67823985.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/emre-nalbantoglu-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "9557e9316e21",
+      "title": "Yeni Türkü Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-10T22:00:00",
+      "date_display": "10 Aralık 2026 • 22:00",
+      "venue": "The Sponge Performance Hall, Antalya",
+      "price": "₺750",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/yeni-turku-konseri-59922.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/yeni-turku-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "48fb0c8f2bae",
@@ -1479,6 +2632,102 @@
       "source": "Biletinial"
     },
     {
+      "id": "aa60b95acc4c",
+      "title": "Emrah Kaman Yüksek Gelirim 2",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-11T20:30:00",
+      "date_display": "11 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/emrah-kaman-yuksek-gelirim-2-20261013114216656-d20a1e4c7c9a.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/emrah-kaman-yuksek-gelirim-2",
+      "source": "Bubilet"
+    },
+    {
+      "id": "178472bfdfb2",
+      "title": "Wegh Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-11T21:00:00",
+      "date_display": "11 Aralık 2026 • 21:00",
+      "venue": "Antalya Aktüel Sahne",
+      "price": "₺1250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/wegh-konseri-20260715122538246-4cf3459569ab.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/--wegh-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "e16a884bc494",
+      "title": "Ari Barokas Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-11T22:00:00",
+      "date_display": "11 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺700",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ari-barokas-konseri--34207.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ari-barokas-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "9480d1eb2d9e",
+      "title": "Seksendört Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-11T22:00:00",
+      "date_display": "11 Aralık 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺400",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/seksendort-konseri-99629.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/seksendort-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "7f9d2c3a79b2",
+      "title": "Orhan Veli Tiyatro Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-12-12T18:00:00",
+      "date_display": "12 Aralık 2026 • 18:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺687",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/orhan-veli-tiyatro-oyunu-20261008073338631-eb7d9b8aeefe.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/orhan-veli-tiyatro-oyunu--",
+      "source": "Bubilet"
+    },
+    {
+      "id": "048cf1cfad73",
+      "title": "Palto",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-12T20:00:00",
+      "date_display": "12 Aralık 2026 • 20:00",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺899",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/palto-20261026101838100-f2ac394baa41.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/palto--",
+      "source": "Bubilet"
+    },
+    {
+      "id": "b63914146c4d",
+      "title": "Wegh Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-12T21:00:00",
+      "date_display": "12 Aralık 2026 • 21:00",
+      "venue": "Alanya Holly Stone, Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/wegh-konseri--84429.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/wegh-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "e6ff0c84b2a5",
+      "title": "Touche",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-12T22:00:00",
+      "date_display": "12 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺350",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/touche-41853.gif",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/touche",
+      "source": "Bubilet"
+    },
+    {
       "id": "aa9dc4ad3bbc",
       "title": "Kübik Prens",
       "category": "Atölye & Çocuk",
@@ -1489,6 +2738,18 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FEL1-kubikbu26.avif",
       "url": "https://www.biletix.com/etkinlik/5FELH/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "c9cd213bb877",
+      "title": "Sefa Doğanay - Tek Mi Sandınız?",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-13T20:00:00",
+      "date_display": "13 Aralık 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺950",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sefa-doganay-show-20260813092208338-eca479b2bd56.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sefa-doganay-show",
+      "source": "Bubilet"
     },
     {
       "id": "bc8173dcca91",
@@ -1527,6 +2788,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "277ed244b627",
+      "title": "Sezer Sarıgöz Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-13T21:00:00",
+      "date_display": "13 Aralık 2026 • 21:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sezer-sarigoz-konseri-77838.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sezer-sarigoz-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "dbe23dabb71f",
+      "title": "90'lar Türkçe Pop Fest : Çelik & Mansur Ark & Reyhan Karaca & Ümit Sayın & Dj Hakan Küfündür",
+      "category": "Festival & Parti",
+      "date_iso": "2026-12-13T21:30:00",
+      "date_display": "13 Aralık 2026 • 21:30",
+      "venue": "The Sponge Performance Hall, Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/90lar-turkce-pop-fest-celik-mansur-ark-reyhan-karaca-umit-sayin-dj-hakan-kufundur-20260930131548771-918d9135a7ff.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/90lar-turkce-pop-fest-celik-mansur-ark-reyhan-karaca-umit-sayin-dj-hakan-kufundur",
+      "source": "Bubilet"
+    },
+    {
       "id": "99a97d33e217",
       "title": "Türkçe Pop Fest - Çelik - Reyhan Karaca - Mansur Ark - Ümit Sayın - Dj Hakan Küfündür",
       "category": "Festival & Parti",
@@ -1561,6 +2846,18 @@
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/musti-kusti-stand-up-yeni-gosteri-202641202735c5ba9d166ba14d25a04fc642d8128cc0.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/musti-kusti-stand-up-yeni-gosteri",
       "source": "Biletinial"
+    },
+    {
+      "id": "388ffe2ae709",
+      "title": "Shirley Valentine Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-12-14T20:30:00",
+      "date_display": "14 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1084",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/shirley-valentine-oyunu-43913.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/shirley-valentine-oyunu",
+      "source": "Bubilet"
     },
     {
       "id": "a4544b25e1ec",
@@ -1599,6 +2896,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "79bd4596ee20",
+      "title": "Erkek Aklı Oksimoron Oyunu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-12-15T20:30:00",
+      "date_display": "15 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1370",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/erkek-akli-oksimoron-oyunu-14863.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/erkek-akli-oksimoron-oyunu",
+      "source": "Bubilet"
+    },
+    {
       "id": "02004de74792",
       "title": "Erkek Aklı Oksimoron",
       "category": "Tiyatro & Sahne",
@@ -1623,6 +2932,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "24945c178ca3",
+      "title": "Badlands Bistro Pub Stand-Up - Ali Rıza Tanyeli",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-16T20:30:00",
+      "date_display": "16 Aralık 2026 • 20:30",
+      "venue": "Badlands Bistro Pub, Antalya",
+      "price": "₺1000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/badlands-bistro-pub-stand-up-ali-riza-tanyeli-20261014092040162-655c97fcda37.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/badlands-bistro-pub-stand-up-ali-riza-tanyeli",
+      "source": "Bubilet"
+    },
+    {
+      "id": "bf8848394559",
+      "title": "Lumera Trio Sezen Aksu Şarkıları",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-16T20:30:00",
+      "date_display": "16 Aralık 2026 • 20:30",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺905.6",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/lumera-trio-sezen-aksu-sarkilari-20260725162833103-3316e622f735.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/lumera-trio-sezen-aksu-sarkilari-",
+      "source": "Bubilet"
+    },
+    {
       "id": "af8cbcf7598e",
       "title": "Lumera Trio Sezen Aksu Şarkıları",
       "category": "Konser & Müzik",
@@ -1633,6 +2966,30 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5W963-lumerabu26.avif",
       "url": "https://www.biletix.com/etkinlik/59O21/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "15dc05571996",
+      "title": "Şehinşah Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-16T21:30:00",
+      "date_display": "16 Aralık 2026 • 21:30",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺750",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sehinsah-konseri--79016.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sehinsah-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "5d1ebf0a4056",
+      "title": "Ayçin Asan",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-16T22:00:00",
+      "date_display": "16 Aralık 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/df0570de-d3a4-4c8b-8a33-0af243d52720-14174.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/aycin-asan-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "fcbb249d7b7b",
@@ -1647,6 +3004,66 @@
       "source": "Biletinial"
     },
     {
+      "id": "e5ee829b9258",
+      "title": "Tuna Kiremitçi-Şairin Şarkıları",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-17T20:30:00",
+      "date_display": "17 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1644",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/tuna-kiremitci-sairin-sarkilari-20260711093815398-25cda48b170c.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/tuna-kiremitci-sairin-sarkilari",
+      "source": "Bubilet"
+    },
+    {
+      "id": "cfdf8dedb4fb",
+      "title": "Furkan Halıcı Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-17T21:00:00",
+      "date_display": "17 Aralık 2026 • 21:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺400",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/furkan-halici-konseri-20261103073249313-f608dd36f0fd.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/furkan-halici-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "d8751fcd4766",
+      "title": "Anda Kolektif - Nefes - Astroloji - Farkındalık Kampı",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-18T09:00:00",
+      "date_display": "18 Aralık 2026 • 09:00",
+      "venue": "Koala Otel Olympos, Antalya",
+      "price": "₺15000",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/anda-kolektif-nefes-astroloji-farkindalik-kampi-20261111125824107-f131fc2b09ef.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/anda-kolektif-nefes-astroloji-farkindalik-kampi",
+      "source": "Bubilet"
+    },
+    {
+      "id": "ca410c50bc3c",
+      "title": "Gülden Karaböcek- Bir Ömürlük Nostalji",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-18T20:00:00",
+      "date_display": "18 Aralık 2026 • 20:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺990",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/gulden-karabocek-bir-omurluk-nostalji-20260918163951537-7576117f956c.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/gulden-karabocek-bir-omurluk-nostalji",
+      "source": "Bubilet"
+    },
+    {
+      "id": "d21ff744c574",
+      "title": "Bir 80'ler Hikayesi - Müfit Can Saçıntı",
+      "category": "Festival & Parti",
+      "date_iso": "2026-12-18T20:00:00",
+      "date_display": "18 Aralık 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺825",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/bir-80ler-hikayesi-mufit-can-sacinti-24106.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/bir-80ler-hikayesi-mufit-can-sacinti",
+      "source": "Bubilet"
+    },
+    {
       "id": "c8f5d00f795b",
       "title": "Bruckner’ın Görkemli Dünyası | Antalya Devlet Senfoni Orkestrası - DenizBank Konserleri",
       "category": "Konser & Müzik",
@@ -1659,6 +3076,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "62179a048f2a",
+      "title": "M Lisa Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-18T21:30:00",
+      "date_display": "18 Aralık 2026 • 21:30",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺1250",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/m-lisa-konseri-37437.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/m-lisa-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "36e10ebe98e4",
+      "title": "Ogün Sanlısoy Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-18T22:00:00",
+      "date_display": "18 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ogun--sanlisoy--konseri--43397.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ogun--sanlisoy--konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "a80176122a89",
+      "title": "İlker Atak - İllüzyon Show",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-12-19T17:30:00",
+      "date_display": "19 Aralık 2026 • 17:30",
+      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
+      "price": "₺660",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ilker-atak-illuzyon-show-20261023173939165-6011926758a5.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ilker-atak-illuzyon-show",
+      "source": "Bubilet"
+    },
+    {
       "id": "1b761c6e99dc",
       "title": "İllüzyonist İlker Atak",
       "category": "Atölye & Çocuk",
@@ -1669,6 +3122,66 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5AA12-BU27.avif",
       "url": "https://www.biletix.com/etkinlik/5AA12/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "719b517f31be",
+      "title": "Nükhet Duru",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-19T21:00:00",
+      "date_display": "19 Aralık 2026 • 21:00",
+      "venue": "Antalya Nazım Hikmet Fuar ve Kongre Merkezi",
+      "price": "₺900",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/best-of-nukhet-duru-76679.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/nukhet-duru",
+      "source": "Bubilet"
+    },
+    {
+      "id": "0b18bc5ae871",
+      "title": "Emir Can İğrek Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-19T22:00:00",
+      "date_display": "19 Aralık 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺700",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/emir-can-igrek-20261014151932813-397b1d3d2405.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/emir-can-igrek",
+      "source": "Bubilet"
+    },
+    {
+      "id": "b62048319565",
+      "title": "Emre Fel",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-19T22:00:00",
+      "date_display": "19 Aralık 2026 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺700",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/emre--fel-20260607122135432-ec4bbe5e3965.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/emre--fel",
+      "source": "Bubilet"
+    },
+    {
+      "id": "5b8644ff75ce",
+      "title": "Kukla Kabare - Canlı Show",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-12-20T20:00:00",
+      "date_display": "20 Aralık 2026 • 20:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺950",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kukla-kabare-bilgi-deryasi-canli-20260915092415659-b9cded4d6aa0.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kukla-kabare-bilgi-deryasi-canli",
+      "source": "Bubilet"
+    },
+    {
+      "id": "41f4a5df379d",
+      "title": "Ayna Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-20T20:00:00",
+      "date_display": "20 Aralık 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1200",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ayna-konseri-65298.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ayna-konseri",
+      "source": "Bubilet"
     },
     {
       "id": "c0fb1f8414ed",
@@ -1695,6 +3208,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "b76470f3a5a5",
+      "title": "Kendimden Hallice Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-20T21:30:00",
+      "date_display": "20 Aralık 2026 • 21:30",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kendimden-hallice-konseri-14084.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kendimden-hallice-konseri",
+      "source": "Bubilet"
+    },
+    {
       "id": "39e923737319",
       "title": "Özel Bir Rica",
       "category": "Tiyatro & Sahne",
@@ -1717,6 +3242,90 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5BR26bu26.avif",
       "url": "https://www.biletix.com/etkinlik/5BR31/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "bbcdfb828232",
+      "title": "Jurnal",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-23T20:30:00",
+      "date_display": "23 Aralık 2026 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺950",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/jurnal-20260928070555776-781758eaa7a9.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/jurnal",
+      "source": "Bubilet"
+    },
+    {
+      "id": "da8d69e6a08d",
+      "title": "Afara – Bir Arabesk Müzikali | Uğur Aslan’la Bu Kez Baş Başa",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-24T20:00:00",
+      "date_display": "24 Aralık 2026 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺1100",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/afara-bir-arabesk-muzikali-ugur-aslanla-bu-kez-bas-basa-20261029161119089-f92b35de8bfd.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/afara-bir-arabesk-muzikali-ugur-aslanla-bu-kez-bas-basa",
+      "source": "Bubilet"
+    },
+    {
+      "id": "57bfebb1417f",
+      "title": "Doğru Kaynana Nasıl Seçilir? / Ödüllü Stand-Up!",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-12-25T20:15:00",
+      "date_display": "25 Aralık 2026 • 20:15",
+      "venue": "Türkan Şoray Kültür Merkezi - Antalya",
+      "price": "₺335",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/dogru-kaynana-nasil-secilir-odullu-stand-up--86004.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/dogru-kaynana-nasil-secilir-odullu-stand-up-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "122bd225d2d3",
+      "title": "Paptircem Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-25T21:00:00",
+      "date_display": "25 Aralık 2026 • 21:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺300",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/paptircem-konseri-50321.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/paptircem-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "b06be2aa8a19",
+      "title": "Selami Şahin Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-25T21:00:00",
+      "date_display": "25 Aralık 2026 • 21:00",
+      "venue": "Antalya Nazım Hikmet Fuar ve Kongre Merkezi",
+      "price": "₺1200",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/selami-sahin-konseri--39545.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/selami-sahin-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "36e75280cc81",
+      "title": "Kalben ile Yeni Yıla Merhaba Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-25T22:00:00",
+      "date_display": "25 Aralık 2026 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺900",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kalben-ile-yeni-yila-merhaba-konseri-20261022122837977-2960a4648214.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kalben-ile-yeni-yila-merhaba-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "d32c75eb8d72",
+      "title": "Gaye Su Akyol Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-26T21:00:00",
+      "date_display": "26 Aralık 2026 • 21:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺600",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/gaye-su-akyol-20260727084423455-a47a5cba70f2.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/gaye-su-akyol",
+      "source": "Bubilet"
     },
     {
       "id": "f62fe53455ad",
@@ -1887,6 +3496,78 @@
       "source": "Biletix"
     },
     {
+      "id": "3264cd80dd0b",
+      "title": "Avukat Pathelin",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2027-01-05T20:30:00",
+      "date_display": "5 Ocak 2027 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/avukat-pierre-pathelin-60874.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/avukat-pierre-pathelin",
+      "source": "Bubilet"
+    },
+    {
+      "id": "20ab80178ee6",
+      "title": "Özgür Uysal ile Kaynaşma Gecesi",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-07T20:30:00",
+      "date_display": "7 Ocak 2027 • 20:30",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺950",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ozgur-uysal-ile-kaynasma-gecesi-20261004105317472-73523fe62847.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ozgur-uysal-ile-kaynasma-gecesi-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "098c1ae0679e",
+      "title": "Menüde Kocam Var",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2027-01-08T20:30:00",
+      "date_display": "8 Ocak 2027 • 20:30",
+      "venue": "Dada Tiyatro, Antalya",
+      "price": "₺568",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/menude-kocam-var-20261030094521601-10197f790e1e.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/menude-kocam-var",
+      "source": "Bubilet"
+    },
+    {
+      "id": "52d4701b3fb4",
+      "title": "Can Ozan Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-16T21:00:00",
+      "date_display": "16 Ocak 2027 • 21:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺590",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/can--ozan-konseri-20260928093437854-948b7f158476.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/can--ozan-konseri-",
+      "source": "Bubilet"
+    },
+    {
+      "id": "a76a14cc1c14",
+      "title": "Gökhan Türkmen",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-20T22:00:00",
+      "date_display": "20 Ocak 2027 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/gokhan-turkmen-konseri-16066.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/gokhan-turkmen-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "deffcc3c696b",
+      "title": "PERMA",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-22T21:00:00",
+      "date_display": "22 Ocak 2027 • 21:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺1240",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/perma-20261102164230319-6cd11de99ae9.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/perma",
+      "source": "Bubilet"
+    },
+    {
       "id": "0f1397539490",
       "title": "Ozbi Konseri",
       "category": "Konser & Müzik",
@@ -1897,6 +3578,30 @@
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ozbi-konseri-202517221257d7eef05d9be44cb9d231eebdd03964a.jpg",
       "url": "https://biletinial.com/tr-tr/muzik/ozbi-konseri",
       "source": "Biletinial"
+    },
+    {
+      "id": "3ba7f92fca74",
+      "title": "Norm Ender Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-23T21:00:00",
+      "date_display": "23 Ocak 2027 • 21:00",
+      "venue": "Antalya Nazım Hikmet Fuar ve Kongre Merkezi",
+      "price": "₺980",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/norm-ender-konseri-81505.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/norm-ender-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "e108256b0a3e",
+      "title": "Ozbi",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-23T22:00:00",
+      "date_display": "23 Ocak 2027 • 22:00",
+      "venue": "The Bar Kaleiçi, Antalya",
+      "price": "₺800",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ozbi-98350.jpeg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ozbi",
+      "source": "Bubilet"
     },
     {
       "id": "13465c6f376d",
@@ -1935,6 +3640,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "b67a69c2ee2c",
+      "title": "Mavi Gri Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-29T22:00:00",
+      "date_display": "29 Ocak 2027 • 22:00",
+      "venue": "Holly Stone Performance Hall Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/mavi-gri-konseri-99853.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/mavi-gri-konseri",
+      "source": "Bubilet"
+    },
+    {
+      "id": "3db75b1ec04e",
+      "title": "Prime Orchestra Rock Sympho Show",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-02-02T20:00:00",
+      "date_display": "2 Şubat 2027 • 20:00",
+      "venue": "MSKM - Mimar Sinan Kongre Merkezi, Antalya",
+      "price": "₺1480",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/prime-orchestra-rock-sympho-show-20261003162307529-374d21ec40fa.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/prime-orchestra-rock-sympho-show",
+      "source": "Bubilet"
+    },
+    {
       "id": "01c074b204ba",
       "title": "Rock Sympho Show 2027",
       "category": "Konser & Müzik",
@@ -1959,6 +3688,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "80bb52478a4e",
+      "title": "Candles and Echoes: Sevgililer Günü Özel 'Sezen Aksu Şarkıları'",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-02-14T20:15:00",
+      "date_display": "14 Şubat 2027 • 20:15",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺1390",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/candles-and-echoes-sevgililer-gunu-ozel-sezen-aksu-sarkilari-20261109092643798-e2b906c19ccf.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/candles-and-echoes-sevgililer-gunu-ozel-sezen-aksu-sarkilari",
+      "source": "Bubilet"
+    },
+    {
+      "id": "a66edfc6d9a0",
+      "title": "Kirill Richter  “Towards the Beloved City”",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-03-14T20:00:00",
+      "date_display": "14 Mart 2027 • 20:00",
+      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
+      "price": "₺1450",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kirill-richter-towards-the-beloved-city-20260901112120016-dc6533a849b4.png",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kirill-richter-towards-the-beloved-city",
+      "source": "Bubilet"
+    },
+    {
       "id": "e56bc5e06abb",
       "title": "Kirill Richter - Towards the Belove",
       "category": "Konser & Müzik",
@@ -1969,6 +3722,30 @@
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5WEM8-2-9-26.avif",
       "url": "https://www.biletix.com/etkinlik/6WEM0/TURKIYE/tr",
       "source": "Biletix"
+    },
+    {
+      "id": "ecebdf89e770",
+      "title": "Jül Sezar",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-03-18T20:00:00",
+      "date_display": "18 Mart 2027 • 20:00",
+      "venue": "Alanya Kültür Merkezi - B Salonu, Antalya",
+      "price": "₺500",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/jul-sezar-20260818093315372-8f9a6e1a9f0c.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/jul-sezar",
+      "source": "Bubilet"
+    },
+    {
+      "id": "1d65286fafcf",
+      "title": "Emir Can İğrek Konseri",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-04-10T21:00:00",
+      "date_display": "10 Nisan 2027 • 21:00",
+      "venue": "Antalya Nazım Hikmet Fuar ve Kongre Merkezi",
+      "price": "₺750",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/emir-can-igrek-konser-20260930135546277-4495077657f6.jpg",
+      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-emir-can-igrek-konser",
+      "source": "Bubilet"
     }
   ]
 }
