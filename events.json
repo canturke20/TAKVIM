@@ -1,10 +1,9 @@
 {
   "city": "Antalya",
-  "updated_at": "10.11.2026 16:26",
-  "total_count": 64,
+  "updated_at": "11.11.2026 15:34",
+  "total_count": 63,
   "categories": [
     "Atölye & Çocuk",
-    "Festival & Parti",
     "Konser & Müzik",
     "Stand-Up & Komedi",
     "Tiyatro & Sahne"
@@ -14,54 +13,6 @@
     "Biletix"
   ],
   "events": [
-    {
-      "id": "34a0ed20b1c0",
-      "title": "Jeanne D'arc'n Öteki Ölümü",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-10T20:00:00",
-      "date_display": "10 Kasım 2026 • 20:00",
-      "venue": "Antalya",
-      "price": "₺500",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/jeanne-darcn-oteki-olumu-dada-202512191411362462cbabcbcb48dd80cdae540a61379c.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/jeanne-darcn-oteki-olumu-dada",
-      "source": "Biletinial"
-    },
-    {
-      "id": "233ea98fb93d",
-      "title": "Aspendos Balon Turu - Kasım & Aralık Ayı",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-10T20:00:00",
-      "date_display": "10 Kasım 2026 • 20:00",
-      "venue": "Aspendos Antik Tiyatro Yanı, Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
-      "url": "https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "d7ec36347fdc",
-      "title": "Antalya Kum Heykel Müzesi - 2026",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-10T20:00:00",
-      "date_display": "10 Kasım 2026 • 20:00",
-      "venue": "Antalya Kum Heykel Müzesi",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/antalyakum-bu26wde.avif",
-      "url": "https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "1e6d6256c672",
-      "title": "The Land of Legends Theme Park",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-10T20:00:00",
-      "date_display": "10 Kasım 2026 • 20:00",
-      "venue": "The Land of Legends, Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/thelandof-9-10-26-su.avif",
-      "url": "https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr",
-      "source": "Biletix"
-    },
     {
       "id": "edb323cc6c5d",
       "title": "Levent Yüksel",
@@ -99,6 +50,42 @@
       "source": "Biletinial"
     },
     {
+      "id": "233ea98fb93d",
+      "title": "Aspendos Balon Turu - Kasım & Aralık Ayı",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-11T20:00:00",
+      "date_display": "11 Kasım 2026 • 20:00",
+      "venue": "Aspendos Antik Tiyatro Yanı, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
+      "url": "https://www.biletix.com/etkinlik/5FCK2/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "d7ec36347fdc",
+      "title": "Antalya Kum Heykel Müzesi - 2026",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-11T20:00:00",
+      "date_display": "11 Kasım 2026 • 20:00",
+      "venue": "Antalya Kum Heykel Müzesi",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/antalyakum-bu26wde.avif",
+      "url": "https://www.biletix.com/etkinlik/5SAN3/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "1e6d6256c672",
+      "title": "The Land of Legends Theme Park",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-11T20:00:00",
+      "date_display": "11 Kasım 2026 • 20:00",
+      "venue": "The Land of Legends, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/thelandof-9-10-26-su.avif",
+      "url": "https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
       "id": "94be5f07001f",
       "title": "Sesler - Salih Bademci",
       "category": "Tiyatro & Sahne",
@@ -132,18 +119,6 @@
       "price": "₺215",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ataturku-anma-konseri-antalya-devlet-senfoni-orkestrasi-20261030171224c83a771762b547f78c3df00709d0e169.jpg",
       "url": "https://biletinial.com/tr-tr/muzik/ataturku-anma-konseri-adso",
-      "source": "Biletinial"
-    },
-    {
-      "id": "7004a7234d46",
-      "title": "90’lar Kafası: Nihat Sırdar",
-      "category": "Festival & Parti",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "Antalya Bahçe",
-      "price": "₺500",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/90lar-kafasi-nihat-sirdar-20269101530461dad2989803d439d8d1956b820270d68.jpg",
-      "url": "https://biletinial.com/tr-tr/muzik/nihat-sirdar-ile-dj-performans-90lar-kafasi",
       "source": "Biletinial"
     },
     {
@@ -228,6 +203,18 @@
       "price": "₺400",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kubik-prens-20261191313322ba0c1c3ca0a419ab3b53c836483f7d7.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/kubik-prens",
+      "source": "Biletinial"
+    },
+    {
+      "id": "eef261f53cbd",
+      "title": "Mavi İnci Müzikali",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-15T20:00:00",
+      "date_display": "15 Kasım 2026 • 20:00",
+      "venue": "Panda Sahne, Antalya",
+      "price": "₺450",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/mavi-inci-muzikali-20261171958354edefe8efcbd45aabf0a0af83e2b2b6d.png",
+      "url": "https://biletinial.com/tr-tr/tiyatro/mavi-inci-muzikali",
       "source": "Biletinial"
     },
     {
@@ -339,18 +326,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "42b9877908ab",
-      "title": "Ermişler Ya Da Günahkarlar",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-21T20:00:00",
-      "date_display": "21 Kasım 2026 • 20:00",
-      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
-      "source": "Biletinial"
-    },
-    {
       "id": "ce8ae725e0d4",
       "title": "Akide Şekeri",
       "category": "Tiyatro & Sahne",
@@ -360,6 +335,18 @@
       "price": "₺130",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/akide-sekeri-antalya-sehir-tiyatrolari-2026102013751dedb481ac9ff465da4bbba61a55951fd.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast",
+      "source": "Biletinial"
+    },
+    {
+      "id": "42b9877908ab",
+      "title": "Ermişler Ya Da Günahkarlar",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-21T20:00:00",
+      "date_display": "21 Kasım 2026 • 20:00",
+      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
+      "price": "₺130",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
       "source": "Biletinial"
     },
     {
@@ -441,7 +428,7 @@
       "date_iso": "2026-11-28T20:00:00",
       "date_display": "28 Kasım 2026 • 20:00",
       "venue": "Antalya",
-      "price": "₺1000",
+      "price": "₺1800",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ask-hikayen-dusmus-20221228185351.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus",
       "source": "Biletinial"
