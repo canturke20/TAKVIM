@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Antalya Etkinlik Takvimi ve Fırsat Paneli - Otomatik Veri Kazıyıcı (Scraper)
-Hedef Kaynaklar: Bubilet, Biletinial, Biletix, Passo
+Hedef Kaynaklar: Bubilet (RSC Stream + Venue/Tag Tarama), Biletix (Solr API), Biletinial, Passo
 Çıktılar: events.json, antalya_etkinlikler.ics
 """
 
@@ -11,6 +11,8 @@ import hashlib
 import json
 import os
 import re
+import urllib.parse
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin
 
@@ -28,17 +30,20 @@ except ImportError:
 # 1. SABİTLER & SIKI ANTALYA FİLTRESİ KURALLARI
 # ============================================================================
 
-# Sadece gerçekten Antalya'ya ve ilçelerine/mekanlarına özgü kelimeler
 ANTALYA_KEYWORDS = [
     "antalya", "alanya", "manavgat", "kemer", "kaş", "kalkan",
     "serik", "belek", "muratpaşa", "muratpasa", "konyaaltı", "konyaalti",
     "kepez", "döşemealtı", "dosemealti", "aksu", "kumluca", "finike",
     "demre", "gazipaşa", "gazipasa", "korkuteli", "elmalı", "elmali",
     "kaleiçi", "kaleici", "side", "aspendos", "olympos", "olimpos",
-    "holly stone antalya", "jolly joker antalya", "antalya açıkhava",
-    "antalya acikhava", "cam piramit", "antalya akm", "türkan şoray",
-    "turkan soray", "haşim işcan", "hasim iscan", "doğu garajı", "dogu garaji",
-    "mall of antalya", "sponge pub", "the land of legends", "akdeniz üniversitesi"
+    "holly stone antalya", "alanya holly stone", "jolly joker antalya",
+    "antalya açıkhava", "antalya acikhava", "cam piramit", "antalya akm",
+    "türkan şoray", "turkan soray", "haşim işcan", "hasim iscan",
+    "doğu garajı", "dogu garaji", "mall of antalya", "sponge pub",
+    "the sponge", "the bar kaleiçi", "the bar kaleici", "the land of legends",
+    "akdeniz üniversitesi", "ibrahim sözen", "ibrahim sozen", "özgün sahne",
+    "ozgun sahne", "dada tiyatro", "rockbull", "aktüel sahne", "aktuel sahne",
+    "mimar sinan kongre", "feslikan", "delicious bekir"
 ]
 
 # Başka şehirlerin ve İstanbul/İzmir/Ankara mekanlarının sızmasını kesin olarak engelleyen kara liste
@@ -63,7 +68,7 @@ EXCLUDED_CITIES = [
     "fisekhane", "dasdas", "unico", "maximum uniq", "kozzy", "veliefendi",
     "akasya", "tersane", "sanat performance", "if performance", "dorock",
     "hayal kahvesi", "blind", "klein", "karga", "moda sahnesi", "bostancı",
-    "bostanci", "congresium", "cso ada", "odtü", "odtu", "bilkent", "cerModern"
+    "bostanci", "congresium", "cso ada", "odtü", "odtu", "bilkent", "cermodern"
 ]
 
 TURKISH_MONTHS = {
@@ -75,6 +80,11 @@ TURKISH_MONTHS = {
     "haz": 6, "tem": 7, "ağu": 8, "agu": 8, "eyl": 9, "eki": 10,
     "kas": 11, "ara": 12
 }
+
+MONTH_NAMES_TR = [
+    "", "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
+    "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"
+]
 
 # ============================================================================
 # 2. YARDIMCI FONKSİYONLAR (NORMALİZASYON, FİLTRELEME, KATEGORİZASYON)
@@ -120,7 +130,7 @@ def is_strictly_antalya(title: str, venue: str, url: str, city_hint: str = "") -
             if re.search(pattern, norm_text) or re.search(pattern, ascii_text):
                 return False
 
-    # 2) En az bir Antalya anahtar kelimesi kelime sınırlarıyla eşleşmeli
+    # 2) En az bir Antalya anahtar kelimesi eşleşmeli
     for kw in ANTALYA_KEYWORDS:
         kw_norm = normalize_tr(kw)
         pattern = rf"\b{re.escape(kw_norm)}\b"
@@ -133,26 +143,21 @@ def is_strictly_antalya(title: str, venue: str, url: str, city_hint: str = "") -
 def categorize_event(title: str, description: str = "", url: str = "") -> str:
     """
     Etkinlik başlığı ve metnindeki anahtar kelimelere göre otomatik kategori atar.
-    Öncelik sırasıyla:
-    1. Stand-Up & Komedi
-    2. Atölye & Çocuk
-    3. Festival & Parti
-    4. Konser & Müzik
-    5. Tiyatro & Sahne
     """
-    title_norm = normalize_tr(title)
     full_norm = normalize_tr(f"{title} {description} {url}")
 
     # 1. Stand-Up & Komedi
     standup_keywords = [
-        "stand-up", "stand up", "standup", "komedi", "güldürü", "gulduru",
+        "stand-up", "stand up", "standup", "stand_up", "komedi", "güldürü", "gulduru",
         "açık mikrofon", "acik mikrofon", "open mic", "talk show", "mizah",
         "cmylmz", "baturay", "doğu demirkol", "dogu demirkol", "yasemin sakallıoğlu",
         "gökhan ünver", "gokhan unver", "mesut süre", "mesut sure", "ilişki testi",
         "iliski testi", "meksika açmazı", "meksika acmazi", "kalt", "tuzbiber",
         "ilker gümüşoluk", "ilker gumusoluk", "sergen deveci", "salih tıraş",
         "salih tiras", "mahşer-i cümbüş", "mahseri cumbus", "doğaçlama", "dogaclama",
-        "bengi idil uras", "miray akovalıgil", "miray akovaligil"
+        "bengi idil uras", "miray akovalıgil", "miray akovaligil", "yoshi enomoto",
+        "sefa doğanay", "sefa doganay", "ali congun", "tahsin hasoğlu", "tahsin hasoglu",
+        "özgür turhan", "ozgur turhan", "deniz göktaş", "deniz goktas", "sedat şahin"
     ]
     for kw in standup_keywords:
         if kw in full_norm:
@@ -164,7 +169,9 @@ def categorize_event(title: str, description: str = "", url: str = "") -> str:
         "kukla", "illüzyon", "sihirbaz", "sergi", "müze", "muze", "kum heykel",
         "balon turu", "theme park", "land of legends", "kırmızı başlıklı kız",
         "kirmizi baslikli kiz", "ormanın kalbi", "ormanin kalbi", "kübik prens",
-        "kubik prens", "hacivat", "karagöz", "karagoz", "kırmızı cüce", "kirmizi cuce"
+        "kubik prens", "hacivat", "karagöz", "karagoz", "kırmızı cüce", "kirmizi cuce",
+        "pinokyo", "arı maya", "ari maya", "iyilik takımı", "farklıyız ama arkadaşız",
+        "family", "attractioncenter"
     ]
     for kw in workshop_kids_keywords:
         if kw in full_norm:
@@ -174,18 +181,20 @@ def categorize_event(title: str, description: str = "", url: str = "") -> str:
     party_keywords = [
         "festival", "fest", "parti", "party", "dj", "after party", "afterparty",
         "rave", "elektronik", "techno", "house music", "90lar", "90'lar", "90’lar",
-        "2000ler", "2000'ler", "retro", "karnaval", "dans gecesi", "karaoke"
+        "80ler", "80'ler", "80’ler", "2000ler", "2000'ler", "retro", "karnaval",
+        "dans gecesi", "karaoke", "pop delisi", "disconset"
     ]
     for kw in party_keywords:
         if kw in full_norm:
             return "Festival & Parti"
 
-    # 4. Konser & Müzik (URL'de /muzik/ geçiyorsa veya konser anahtar kelimesi varsa)
+    # 4. Konser & Müzik
     concert_keywords = [
         "konser", "akustik", "live", "canlı", "canli", "orkestra", "senfoni",
         "caz", "jazz", "rock", "pop", "rap", "hiphop", "alternatif", "türkü",
-        "turku", "arabesk", "resital", "tribute", "sympho", "candle session",
-        "şarkılar", "sarkilar", "holly stone", "jolly joker", "/muzik/"
+        "turku", "arabesk", "resital", "tribute", "sympho", "candle", "candles",
+        "şarkılar", "sarkilar", "holly stone", "jolly joker", "the bar", "sponge",
+        "/muzik/", "music", "tour"
     ]
     for kw in concert_keywords:
         if kw in full_norm:
@@ -204,19 +213,35 @@ def categorize_event(title: str, description: str = "", url: str = "") -> str:
     return "Konser & Müzik"
 
 
-def parse_turkish_date(date_str: str) -> tuple[str, str]:
+def parse_utc_or_turkish_date(date_str: str) -> tuple[str, str]:
     """
-    Türkçe tarih ifadelerini ("15 Kasım 2026 21:00", "24 Kas Cmt", ISO 8601 vb.)
-    analiz eder ve (ISO_DATE, DISPLAY_DATE) döndürür.
+    UTC ISO tarihlerini ("2026-11-14T19:00:00+00:00" veya "...Z") Türkiye saatine (UTC+3)
+    çevirir; ayrıca Türkçe tarih metinlerini ayrıştırır.
     """
     now = datetime.now()
     if not date_str:
         iso = (now + timedelta(days=3)).strftime("%Y-%m-%dT20:00:00")
         return iso, "Tarih İçin Sayfaya Bakınız"
 
-    clean_str = " ".join(date_str.strip().split())
+    clean_str = " ".join(str(date_str).strip().split())
 
-    # 1) ISO format kontrolü (örn: 2026-11-15T21:00:00)
+    # 1) UTC (+00:00 veya Z) kontrolü -> Türkiye saati için +3 saat ekle
+    utc_match = re.search(
+        r"(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?(?:\.\d+)?(Z|\+00:00)",
+        clean_str
+    )
+    if utc_match:
+        y, m, d = int(utc_match.group(1)), int(utc_match.group(2)), int(utc_match.group(3))
+        hh, mm = int(utc_match.group(4)), int(utc_match.group(5))
+        try:
+            dt_utc = datetime(y, m, d, hh, mm)
+            dt_tr = dt_utc + timedelta(hours=3)
+            disp = f"{dt_tr.day} {MONTH_NAMES_TR[dt_tr.month]} {dt_tr.year} • {dt_tr.hour:02d}:{dt_tr.minute:02d}"
+            return dt_tr.strftime("%Y-%m-%dT%H:%M:%S"), disp
+        except ValueError:
+            pass
+
+    # 2) Yerel ISO format kontrolü (örn: 2026-11-15T20:00:00)
     iso_match = re.search(r"(\d{4})-(\d{2})-(\d{2})(?:[T\s](\d{2}):(\d{2}))?", clean_str)
     if iso_match:
         y, m, d = int(iso_match.group(1)), int(iso_match.group(2)), int(iso_match.group(3))
@@ -224,14 +249,12 @@ def parse_turkish_date(date_str: str) -> tuple[str, str]:
         mm = int(iso_match.group(5)) if iso_match.group(5) else 0
         try:
             dt = datetime(y, m, d, hh, mm)
-            month_names = ["", "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
-                           "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
-            disp = f"{d} {month_names[m]} {y} • {hh:02d}:{mm:02d}"
+            disp = f"{d} {MONTH_NAMES_TR[m]} {y} • {hh:02d}:{mm:02d}"
             return dt.strftime("%Y-%m-%dT%H:%M:%S"), disp
         except ValueError:
             pass
 
-    # 2) DD.MM.YYYY veya DD/MM/YYYY
+    # 3) DD.MM.YYYY veya DD/MM/YYYY
     dot_match = re.search(r"(\d{1,2})[./](\d{1,2})[./](\d{4})(?:\s+(\d{1,2}):(\d{2}))?", clean_str)
     if dot_match:
         d, m, y = int(dot_match.group(1)), int(dot_match.group(2)), int(dot_match.group(3))
@@ -239,14 +262,12 @@ def parse_turkish_date(date_str: str) -> tuple[str, str]:
         mm = int(dot_match.group(5)) if dot_match.group(5) else 0
         try:
             dt = datetime(y, m, d, hh, mm)
-            month_names = ["", "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
-                           "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
-            disp = f"{d} {month_names[m]} {y} • {hh:02d}:{mm:02d}"
+            disp = f"{d} {MONTH_NAMES_TR[m]} {y} • {hh:02d}:{mm:02d}"
             return dt.strftime("%Y-%m-%dT%H:%M:%S"), disp
         except ValueError:
             pass
 
-    # 3) Türkçe Ay İsimli Format (örn: "18 Kasım 2026 21:00" veya "18 Kasım Çarşamba")
+    # 4) Türkçe Ay İsimli Format
     norm = normalize_tr(clean_str)
     time_match = re.search(r"(\d{1,2}):(\d{2})", norm)
     hh = int(time_match.group(1)) if time_match else 20
@@ -263,9 +284,7 @@ def parse_turkish_date(date_str: str) -> tuple[str, str]:
                 if not m_match.group(2) and dt < now - timedelta(days=2):
                     year += 1
                     dt = datetime(year, m_num, day, hh, mm)
-                month_names = ["", "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
-                               "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
-                disp = f"{day} {month_names[m_num]} {year} • {hh:02d}:{mm:02d}"
+                disp = f"{day} {MONTH_NAMES_TR[m_num]} {year} • {hh:02d}:{mm:02d}"
                 return dt.strftime("%Y-%m-%dT%H:%M:%S"), disp
             except ValueError:
                 continue
@@ -280,17 +299,13 @@ def generate_event_id(title: str, source: str, url: str) -> str:
 
 
 def is_valid_title(title: str) -> bool:
-    """'Detaylı İncele', 'Bilet Al' gibi geçersiz başlıkları eler."""
     if not title or len(title.strip()) < 3:
         return False
     bad_titles = [
         "detaylı incele", "detayli incele", "bilet al", "incele",
         "detaylar", "tümü", "tumu", "satın al", "satin al", "etkinlikler"
     ]
-    t_norm = normalize_tr(title)
-    if t_norm in bad_titles:
-        return False
-    return True
+    return normalize_tr(title) not in bad_titles
 
 
 def normalize_image_url(img: str, base_url: str, source: str = "") -> str:
@@ -309,11 +324,252 @@ def normalize_image_url(img: str, base_url: str, source: str = "") -> str:
 
 
 # ============================================================================
-# 3. KAYNAK KAZIYICILAR (PLAYWRIGHT STEALTH + JSON-LD + DOM PARSING)
+# 3. KAYNAK 1: BUBİLET (RSC STREAM + ANTALYA MEKAN & KATEGORİ TARAMASI)
+# ============================================================================
+
+BUBILET_ANTALYA_URLS = [
+    "https://www.bubilet.com.tr/antalya",
+    "https://www.bubilet.com.tr/antalya/etiket/konser",
+    "https://www.bubilet.com.tr/antalya/etiket/tiyatro",
+    "https://www.bubilet.com.tr/antalya/etiket/stand-up",
+    "https://www.bubilet.com.tr/antalya/etiket/festival",
+    "https://www.bubilet.com.tr/antalya/etiket/cocuk-aktiviteleri",
+    "https://www.bubilet.com.tr/antalya/etiket/eglence",
+    "https://www.bubilet.com.tr/antalya/etiket/elektronik-muzik",
+    "https://www.bubilet.com.tr/mekan/holly-stone-performance-hall-antalya",
+    "https://www.bubilet.com.tr/mekan/the-bar-kaleici",
+    "https://www.bubilet.com.tr/mekan/turkan-soray-kultur-merkezi-antalya",
+    "https://www.bubilet.com.tr/mekan/konyaalti-belediyesi-nazim-hikmet-fuar-ve-kongre-merkezi",
+    "https://www.bubilet.com.tr/mekan/ataturk-kultur-merkezi-aspendos-salonu",
+    "https://www.bubilet.com.tr/mekan/antalya-acikhava",
+    "https://www.bubilet.com.tr/mekan/holly-stone-performance-hall-alanya",
+    "https://www.bubilet.com.tr/mekan/sponge-pub-konyaalti",
+    "https://www.bubilet.com.tr/mekan/antalya-nazim-hikmet-fuar-ve-kongre-merkezi",
+    "https://www.bubilet.com.tr/mekan/dada-tiyatro",
+    "https://www.bubilet.com.tr/mekan/muratpasa-belediyesi-kultur-salonu",
+    "https://www.bubilet.com.tr/mekan/alanya-kultur-merkezi-a-salonu",
+    "https://www.bubilet.com.tr/mekan/delicious-bekir-lara",
+    "https://www.bubilet.com.tr/mekan/alanya-acikhava-tiyatrosu",
+    "https://www.bubilet.com.tr/mekan/aktuel-acikhava-tiyatrosu"
+]
+
+
+def fetch_bubilet_sync() -> list[dict]:
+    """
+    Bubilet Next.js App Router RSC payload'larını (self.__next_f.push) birleştirip
+    tüm Antalya etkinlik nesnelerini doğrudan JSON olarak çözer.
+    """
+    source = "Bubilet"
+    print(f"[*] {source} Antalya kategori ve mekan sayfaları taranıyor...")
+    raw_objects = {}
+    decoder = json.JSONDecoder()
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "tr-TR,tr;q=0.9",
+    }
+
+    for url in BUBILET_ANTALYA_URLS:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                html = resp.read().decode("utf-8", errors="ignore")
+
+            chunks = re.findall(
+                r'self\.__next_f\.push\(\[1,"(.*?)"\]\)</script>', html, re.DOTALL
+            )
+            if not chunks:
+                continue
+
+            stream = "".join(json.loads('"' + c + '"') for c in chunks)
+            pos = 0
+            while True:
+                m = re.search(r'\{"id":\d+,"name":"', stream[pos:])
+                if not m:
+                    break
+                start = pos + m.start()
+                try:
+                    obj, end = decoder.raw_decode(stream, start)
+                    if (
+                        isinstance(obj, dict)
+                        and "slug" in obj
+                        and ("dates" in obj or "sessions" in obj)
+                    ):
+                        slug = obj["slug"]
+                        # Daha zengin verisi olan nesneyi tercih et
+                        if slug not in raw_objects or ("price" in obj and "price" not in raw_objects[slug]):
+                            raw_objects[slug] = obj
+                    pos = end
+                except Exception:
+                    pos = start + 10
+        except Exception as exc:
+            print(f"    [!] Bubilet alt sayfa uyarısı ({url}): {exc}")
+            continue
+
+    events = []
+    for slug, d in raw_objects.items():
+        title = (d.get("name") or "").strip()
+        if not is_valid_title(title):
+            continue
+
+        # Mekan bilgisi
+        venue = "Antalya"
+        if isinstance(d.get("venues"), list) and d["venues"]:
+            v_first = d["venues"][0]
+            if isinstance(v_first, dict) and v_first.get("name"):
+                venue = v_first["name"].strip()
+        elif isinstance(d.get("sessions"), list) and d["sessions"]:
+            s_first = d["sessions"][0]
+            if isinstance(s_first, dict) and s_first.get("venueName"):
+                venue = s_first["venueName"].strip()
+
+        # Tarih bilgisi
+        date_raw = ""
+        if isinstance(d.get("dates"), list) and d["dates"]:
+            date_raw = d["dates"][0]
+        elif isinstance(d.get("sessions"), list) and d["sessions"]:
+            s_first = d["sessions"][0]
+            if isinstance(s_first, dict) and s_first.get("date"):
+                date_raw = s_first["date"]
+
+        iso_date, display_date = parse_utc_or_turkish_date(date_raw)
+
+        # Fiyat bilgisi
+        price_val = d.get("discountedPrice") or d.get("price")
+        if not price_val and isinstance(d.get("sessions"), list) and d["sessions"]:
+            s_first = d["sessions"][0]
+            if isinstance(s_first, dict):
+                price_val = s_first.get("minDiscountedPrice") or s_first.get("minPrice")
+
+        price_str = f"₺{price_val}" if price_val else "Bubilet'te İncele"
+
+        # Görsel URL
+        img_url = ""
+        if isinstance(d.get("files"), list) and d["files"]:
+            f_path = d["files"][0].get("url") or ""
+            if f_path:
+                img_url = f"https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto{f_path}"
+
+        full_url = f"https://www.bubilet.com.tr/antalya/etkinlik/{slug}"
+
+        if not is_strictly_antalya(title, venue, full_url, "antalya"):
+            continue
+
+        events.append({
+            "id": generate_event_id(title, source, full_url),
+            "title": title,
+            "category": categorize_event(title, venue, full_url),
+            "date_iso": iso_date,
+            "date_display": display_date,
+            "venue": venue if "antalya" in normalize_tr(venue) else f"{venue}, Antalya",
+            "price": price_str,
+            "image": img_url,
+            "url": full_url,
+            "source": source,
+        })
+
+    print(f"[+] {source}: {len(events)} Antalya etkinliği bulundu.")
+    return events
+
+
+# ============================================================================
+# 4. KAYNAK 2: BİLETİX (SOLR JSON API DOĞRUDAN SORGUSU)
+# ============================================================================
+
+def fetch_biletix_solr_sync() -> list[dict]:
+    """
+    Biletix'in resmi Solr arama uç noktasından city:"Antalya" filtresiyle
+    tüm Antalya etkinliklerini doğrudan JSON olarak çeker.
+    """
+    source = "Biletix"
+    print(f"[*] {source} Solr API üzerinden Antalya etkinlikleri çekiliyor...")
+    now_utc = datetime.now(timezone.utc)
+    start_str = now_utc.strftime("%Y-%m-%dT00:00:00Z")
+    end_str = (now_utc + timedelta(days=365)).strftime("%Y-%m-%dT00:00:00Z")
+
+    query_params = (
+        f"start=0&rows=200&q=*:*&fq=end%3A%5B{ urllib.parse.quote(start_str) }"
+        f"%20TO%20{ urllib.parse.quote(end_str) }%5D&sort=start%20asc&wt=json"
+        f"&fq=city:%22Antalya%22"
+    )
+    api_url = f"https://www.biletix.com/solr/tr/select/?{query_params}"
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.biletix.com/search/TURKIYE/tr",
+    }
+
+    events = []
+    try:
+        req = urllib.request.Request(api_url, headers=headers)
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+
+        docs = data.get("response", {}).get("docs", [])
+        for doc in docs:
+            doc_id = doc.get("id")
+            doc_type = doc.get("type", "event")
+            title = (doc.get("sname") or "").strip()
+            if not title and isinstance(doc.get("name"), list) and doc["name"]:
+                title = str(doc["name"][0]).strip()
+
+            if not is_valid_title(title) or not doc_id:
+                continue
+
+            venue = (doc.get("svenue") or "Antalya").strip()
+            cities = doc.get("city") or []
+            if isinstance(cities, list) and "Antalya" not in cities:
+                continue
+
+            start_val = doc.get("start") or ""
+            # Eğer başlangıç tarihi geçmişte olan uzun süreli bir grup/müze etkinliğiyse bugünün tarihine çek
+            iso_date, display_date = parse_utc_or_turkish_date(start_val)
+            try:
+                dt_parsed = datetime.strptime(iso_date[:19], "%Y-%m-%dT%H:%M:%S")
+                if dt_parsed < datetime.now() - timedelta(days=1):
+                    tomorrow = (datetime.now() + timedelta(days=1)).replace(hour=19, minute=0, second=0)
+                    iso_date, display_date = parse_utc_or_turkish_date(tomorrow.strftime("%Y-%m-%dT%H:%M:%S"))
+            except Exception:
+                pass
+
+            if doc_type == "group":
+                full_url = f"https://www.biletix.com/etkinlik-grup/{doc_id}/TURKIYE/tr"
+            else:
+                full_url = f"https://www.biletix.com/etkinlik/{doc_id}/TURKIYE/tr"
+
+            img_file = doc.get("image_url") or ""
+            img_url = f"https://www.biletix.com/static/images/live/event/eventimages/{img_file}" if img_file else ""
+
+            cat_hint = f"{doc.get('category', '')} {doc.get('subcategory', '')} {venue}"
+            if not is_strictly_antalya(title, venue, full_url, "Antalya"):
+                continue
+
+            events.append({
+                "id": generate_event_id(title, source, full_url),
+                "title": title,
+                "category": categorize_event(title, cat_hint, full_url),
+                "date_iso": iso_date,
+                "date_display": display_date,
+                "venue": venue if "antalya" in normalize_tr(venue) else f"{venue}, Antalya",
+                "price": "Biletix'te İncele",
+                "image": img_url,
+                "url": full_url,
+                "source": source,
+            })
+    except Exception as exc:
+        print(f"[!] {source} Solr API hata: {exc}")
+
+    print(f"[+] {source}: {len(events)} Antalya etkinliği bulundu.")
+    return events
+
+
+# ============================================================================
+# 5. KAYNAK 3 & 4: BİLETİNİAL VE PASSO (PLAYWRIGHT)
 # ============================================================================
 
 def extract_json_ld_events(soup: BeautifulSoup, source_name: str, base_url: str) -> list[dict]:
-    """Sayfa içindeki Schema.org JSON-LD Event verilerini otomatik yakalar."""
     found = []
     scripts = soup.find_all("script", type="application/ld+json")
     for script in scripts:
@@ -337,9 +593,7 @@ def extract_json_ld_events(soup: BeautifulSoup, source_name: str, base_url: str)
                 if not is_valid_title(title):
                     continue
 
-                url = item.get("url") or base_url
-                url = urljoin(base_url, url)
-
+                url = urljoin(base_url, item.get("url") or base_url)
                 loc = item.get("location") or {}
                 venue = "Antalya"
                 city_hint = ""
@@ -355,7 +609,7 @@ def extract_json_ld_events(soup: BeautifulSoup, source_name: str, base_url: str)
                     continue
 
                 start_date = item.get("startDate") or ""
-                iso_date, display_date = parse_turkish_date(start_date)
+                iso_date, display_date = parse_utc_or_turkish_date(start_date)
 
                 offers = item.get("offers") or {}
                 price = f"{source_name}'da İncele"
@@ -391,105 +645,6 @@ def extract_json_ld_events(soup: BeautifulSoup, source_name: str, base_url: str)
         except Exception:
             continue
     return found
-
-
-async def scrape_bubilet(context) -> list[dict]:
-    """Bubilet Antalya sayfasını kazır."""
-    source = "Bubilet"
-    target_url = "https://www.bubilet.com.tr/antalya"
-    events = []
-    print(f"[*] {source} taranıyor: {target_url}")
-
-    page = await context.new_page()
-    try:
-        await page.goto(target_url, wait_until="networkidle", timeout=35000)
-        await page.wait_for_timeout(3000)
-        for _ in range(4):
-            await page.evaluate("window.scrollBy(0, 1200)")
-            await page.wait_for_timeout(800)
-
-        html = await page.content()
-        soup = BeautifulSoup(html, "lxml")
-
-        events.extend(extract_json_ld_events(soup, source, target_url))
-        seen_urls = {e["url"] for e in events}
-
-        # Bubilet Next.js / Nuxt gömülü state kontrolü
-        next_data_script = soup.find("script", id="__NEXT_DATA__")
-        if next_data_script and next_data_script.string:
-            try:
-                nd = json.loads(next_data_script.string)
-                raw_json_str = json.dumps(nd, ensure_ascii=False)
-                # İçerideki etkinlik nesnelerini yakala
-            except Exception:
-                pass
-
-        links = soup.select("a[href*='/antalya/etkinlik/'], a[href*='/etkinlik/']")
-        for a in links:
-            href = a.get("href", "")
-            full_url = urljoin(target_url, href)
-            if full_url in seen_urls:
-                continue
-
-            card_text_parts = [t.strip() for t in a.stripped_strings if t.strip()]
-            if not card_text_parts:
-                continue
-
-            heading = a.find(["h2", "h3", "h4", "strong"])
-            title = heading.get_text(strip=True) if heading else card_text_parts[0]
-            if not is_valid_title(title):
-                if len(card_text_parts) > 1 and is_valid_title(card_text_parts[1]):
-                    title = card_text_parts[1]
-                else:
-                    continue
-
-            venue = "Antalya"
-            date_raw = ""
-            price = "Bubilet'te İncele"
-
-            for part in card_text_parts:
-                if part == title:
-                    continue
-                p_norm = normalize_tr(part)
-                if any(sym in part for sym in ["₺", "TL", "tl"]) or re.search(r"\d+\s*(?:₺|TL)", part):
-                    price = part
-                elif any(m in p_norm for m in TURKISH_MONTHS.keys()) or re.search(r"\d{1,2}[./]\d{1,2}", part):
-                    if not date_raw:
-                        date_raw = part
-                elif any(v in p_norm for v in ["sahne", "merkezi", "holly", "jolly", "tiyatro", "pub", "arena", "piramit", "açıkhava", "acikhava", "salon", "otel", "hotel", "kültür", "kultur", "antalya", "alanya", "manavgat", "kaş", "kemer"]):
-                    venue = part
-
-            city_hint = "antalya" if "/antalya/" in full_url else ""
-            if not is_strictly_antalya(title, venue, full_url, city_hint):
-                continue
-
-            img_tag = a.find("img")
-            img_url = ""
-            if img_tag:
-                raw_img = img_tag.get("data-src") or img_tag.get("src") or ""
-                img_url = normalize_image_url(raw_img, target_url, source)
-
-            iso_date, display_date = parse_turkish_date(date_raw)
-            seen_urls.add(full_url)
-            events.append({
-                "id": generate_event_id(title, source, full_url),
-                "title": title,
-                "category": categorize_event(title, venue, full_url),
-                "date_iso": iso_date,
-                "date_display": display_date,
-                "venue": venue if "antalya" in normalize_tr(venue) else f"{venue}, Antalya",
-                "price": price,
-                "image": img_url,
-                "url": full_url,
-                "source": source,
-            })
-    except Exception as exc:
-        print(f"[!] {source} hata: {exc}")
-    finally:
-        await page.close()
-
-    print(f"[+] {source}: {len(events)} Antalya etkinliği bulundu.")
-    return events
 
 
 async def scrape_biletinial(context) -> list[dict]:
@@ -568,8 +723,6 @@ async def scrape_biletinial(context) -> list[dict]:
                             if not date_raw:
                                 date_raw = p_str
 
-                    # Biletinial Antalya sayfasından çekildiği için şehir ipucu "antalya",
-                    # fakat is_strictly_antalya başka şehir adı varsa yine reddeder.
                     if not is_strictly_antalya(title, f"{venue} {card_text}", full_url, "antalya"):
                         continue
 
@@ -579,7 +732,7 @@ async def scrape_biletinial(context) -> list[dict]:
                         raw_img = img_tag.get("data-src") or img_tag.get("data-original") or img_tag.get("src") or ""
                         img_url = normalize_image_url(raw_img, "https://biletinial.com", source)
 
-                    iso_date, display_date = parse_turkish_date(date_raw)
+                    iso_date, display_date = parse_utc_or_turkish_date(date_raw)
                     seen_urls.add(full_url)
                     events.append({
                         "id": generate_event_id(title, source, full_url),
@@ -605,86 +758,8 @@ async def scrape_biletinial(context) -> list[dict]:
     return events
 
 
-async def scrape_biletix(context) -> list[dict]:
-    """Biletix Antalya aramasını kazır (sadece kendi kartında Antalya geçenleri alır)."""
-    source = "Biletix"
-    target_url = "https://www.biletix.com/search/TURKIYE/tr?city_sb=Antalya#!city_sb:Antalya"
-    events = []
-    seen_urls = set()
-    print(f"[*] {source} taranıyor: {target_url}")
-
-    page = await context.new_page()
-    try:
-        await page.goto(target_url, wait_until="domcontentloaded", timeout=35000)
-        await page.wait_for_timeout(4500)
-        await page.evaluate("window.scrollBy(0, 1200)")
-        await page.wait_for_timeout(1200)
-
-        html = await page.content()
-        soup = BeautifulSoup(html, "lxml")
-
-        for ev in extract_json_ld_events(soup, source, target_url):
-            if ev["url"] not in seen_urls:
-                seen_urls.add(ev["url"])
-                events.append(ev)
-
-        links = soup.select("a[href*='/etkinlik/'], a[href*='/etkinlik-grup/']")
-        for a in links:
-            href = a.get("href", "")
-            if not href or "javascript:" in href:
-                continue
-            full_url = urljoin("https://www.biletix.com", href)
-            if full_url in seen_urls:
-                continue
-
-            # Sadece doğrudan kart kapsayıcısını al (tüm liste konteynerini alma!)
-            card_strings = [s.strip() for s in a.stripped_strings if s.strip()]
-            if not card_strings:
-                continue
-
-            title = card_strings[0]
-            if not is_valid_title(title):
-                continue
-
-            card_own_text = " ".join(card_strings)
-            venue = card_strings[1] if len(card_strings) > 1 else "Antalya"
-            date_raw = card_strings[2] if len(card_strings) > 2 else card_own_text
-
-            # Biletix'te kendi kart metni içinde açıkça Antalya/ilçesi geçmeli
-            if not is_strictly_antalya(title, card_own_text, full_url, ""):
-                continue
-
-            img_tag = a.find("img")
-            img_url = ""
-            if img_tag:
-                raw_img = img_tag.get("data-src") or img_tag.get("src") or ""
-                img_url = normalize_image_url(raw_img, "https://www.biletix.com", source)
-
-            iso_date, display_date = parse_turkish_date(date_raw)
-            seen_urls.add(full_url)
-            events.append({
-                "id": generate_event_id(title, source, full_url),
-                "title": title,
-                "category": categorize_event(title, card_own_text, full_url),
-                "date_iso": iso_date,
-                "date_display": display_date,
-                "venue": venue if "antalya" in normalize_tr(venue) else f"{venue}, Antalya",
-                "price": "Biletix'te İncele",
-                "image": img_url,
-                "url": full_url,
-                "source": source,
-            })
-    except Exception as exc:
-        print(f"[!] {source} hata: {exc}")
-    finally:
-        await page.close()
-
-    print(f"[+] {source}: {len(events)} Antalya etkinliği bulundu.")
-    return events
-
-
 async def scrape_passo(context) -> list[dict]:
-    """Passo etkinliklerini (API yanıtlarını ve DOM'u dinleyerek) kazır."""
+    """Passo etkinliklerini kazır."""
     source = "Passo"
     target_url = "https://www.passo.com.tr/tr/kategori/muzik-konser-festival-biletleri/8615"
     events = []
@@ -734,7 +809,7 @@ async def scrape_passo(context) -> list[dict]:
                 continue
 
             date_raw = str(item.get("date") or item.get("startDate") or item.get("eventDate") or "")
-            iso_date, display_date = parse_turkish_date(date_raw)
+            iso_date, display_date = parse_utc_or_turkish_date(date_raw)
 
             raw_img = item.get("imageUrl") or item.get("homePageImagePath") or ""
             img_url = normalize_image_url(str(raw_img), "https://www.passo.com.tr", source)
@@ -762,64 +837,7 @@ async def scrape_passo(context) -> list[dict]:
 
 
 # ============================================================================
-# 4. YEDEK (FALLBACK) MEKAN & PLATFORM VERİLERİ
-# ============================================================================
-
-def get_curated_antalya_venues_fallback() -> list[dict]:
-    now = datetime.now()
-    sample_items = [
-        {
-            "title": "Antalya Açıkhava Tiyatrosu Konser & Sahne Takvimi",
-            "venue": "Antalya Açıkhava Tiyatrosu, Konyaaltı / Antalya",
-            "price": "Resmi Satış Sayfası",
-            "url": "https://www.bubilet.com.tr/antalya",
-            "source": "Bubilet",
-            "days_ahead": 2,
-            "hour": 21,
-            "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-            "title": "Holly Stone Performance Hall Antalya Canlı Konserler",
-            "venue": "Holly Stone Performance Hall, Kaleiçi / Antalya",
-            "price": "Bilet Al",
-            "url": "https://www.bubilet.com.tr/antalya",
-            "source": "Bubilet",
-            "days_ahead": 3,
-            "hour": 22,
-            "image": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-            "title": "Antalya Devlet Tiyatrosu & Haşim İşcan Kültür Merkezi Oyunları",
-            "venue": "Haşim İşcan Kültür Merkezi, Muratpaşa / Antalya",
-            "price": "Biletinial'da İncele",
-            "url": "https://biletinial.com/tr-tr/tiyatro/antalya",
-            "source": "Biletinial",
-            "days_ahead": 4,
-            "hour": 20,
-            "image": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=800&q=80"
-        }
-    ]
-    results = []
-    for item in sample_items:
-        dt = (now + timedelta(days=item["days_ahead"])).replace(hour=item["hour"], minute=0, second=0)
-        iso_date, disp_date = parse_turkish_date(dt.strftime("%Y-%m-%dT%H:%M:%S"))
-        results.append({
-            "id": generate_event_id(item["title"], item["source"], item["url"]),
-            "title": item["title"],
-            "category": categorize_event(item["title"], item["venue"], item["url"]),
-            "date_iso": iso_date,
-            "date_display": disp_date,
-            "venue": item["venue"],
-            "price": item["price"],
-            "image": item["image"],
-            "url": item["url"],
-            "source": item["source"],
-        })
-    return results
-
-
-# ============================================================================
-# 5. ÇIKTI ÜRETİCİLERİ (events.json ve antalya_etkinlikler.ics)
+# 6. ÇIKTI ÜRETİCİLERİ (events.json ve antalya_etkinlikler.ics)
 # ============================================================================
 
 def deduplicate_and_sort(events: list[dict]) -> list[dict]:
@@ -893,8 +911,22 @@ async def main():
     print(" ANTALYA ETKİNLİK TAKVİMİ VE FIRSAT PANELİ - VERİ KAZIYICI BAŞLADI")
     print("=" * 68)
 
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(base_dir, "events.json")
+    ics_path = os.path.join(base_dir, "antalya_etkinlikler.ics")
+
     all_events = []
 
+    # 1) Bubilet (RSC Stream Parser) ve Biletix (Solr API) - Hızlı ve doğrudan JSON
+    loop = asyncio.get_running_loop()
+    bubilet_events, biletix_events = await asyncio.gather(
+        loop.run_in_executor(None, fetch_bubilet_sync),
+        loop.run_in_executor(None, fetch_biletix_solr_sync),
+    )
+    all_events.extend(bubilet_events)
+    all_events.extend(biletix_events)
+
+    # 2) Biletinial ve Passo (Playwright varsa canlı kazı, yoksa mevcut verideki Biletinial/Passo kayıtlarını koru)
     if async_playwright is not None and BeautifulSoup is not None:
         async with async_playwright() as p:
             browser = await p.chromium.launch(
@@ -925,9 +957,7 @@ async def main():
             )
 
             results = await asyncio.gather(
-                scrape_bubilet(context),
                 scrape_biletinial(context),
-                scrape_biletix(context),
                 scrape_passo(context),
                 return_exceptions=True
             )
@@ -938,27 +968,19 @@ async def main():
 
             await browser.close()
     else:
-        print("[!] Playwright veya BeautifulSoup kurulu değil.")
-
-    cleaned_events = deduplicate_and_sort(all_events)
-
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(base_dir, "events.json")
-    ics_path = os.path.join(base_dir, "antalya_etkinlikler.ics")
-
-    if not cleaned_events:
+        print("[*] Yerel ortamda Playwright kurulu değil; mevcut Biletinial kayıtları korunuyor...")
         if os.path.exists(json_path):
             try:
                 with open(json_path, "r", encoding="utf-8") as f:
                     old_data = json.load(f)
-                    if old_data.get("events"):
-                        cleaned_events = deduplicate_and_sort(old_data["events"])
+                    for ev in old_data.get("events", []):
+                        if ev.get("source") in ["Biletinial", "Passo"]:
+                            all_events.append(ev)
             except Exception:
                 pass
-        if not cleaned_events:
-            cleaned_events = get_curated_antalya_venues_fallback()
 
-    # Türkiye saatiyle (UTC+3) son güncelleme zamanı
+    cleaned_events = deduplicate_and_sort(all_events)
+
     tr_now = datetime.now(timezone(timedelta(hours=3)))
     payload = {
         "city": "Antalya",
@@ -976,8 +998,9 @@ async def main():
 
     print("=" * 68)
     print(f"[✓] Tamamlandı! Toplam {len(cleaned_events)} saf Antalya etkinliği kaydedildi.")
-    print(f"    -> JSON: {json_path}")
-    print(f"    -> ICS : {ics_path}")
+    for src in payload["sources"]:
+        cnt = sum(1 for e in cleaned_events if e["source"] == src)
+        print(f"    - {src}: {cnt} etkinlik")
     print("=" * 68)
 
 
