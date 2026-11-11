@@ -926,7 +926,7 @@ async def main():
     all_events.extend(bubilet_events)
     all_events.extend(biletix_events)
 
-    # 2) Biletinial ve Passo (Playwright varsa canlı kazı, yoksa mevcut verideki Biletinial/Passo kayıtlarını koru)
+    # 2) Biletinial ve Passo (Playwright varsa canlı kazı)
     if async_playwright is not None and BeautifulSoup is not None:
         async with async_playwright() as p:
             browser = await p.chromium.launch(
@@ -967,17 +967,27 @@ async def main():
                     all_events.extend(res)
 
             await browser.close()
-    else:
-        print("[*] Yerel ortamda Playwright kurulu değil; mevcut Biletinial kayıtları korunuyor...")
-        if os.path.exists(json_path):
-            try:
-                with open(json_path, "r", encoding="utf-8") as f:
-                    old_data = json.load(f)
-                    for ev in old_data.get("events", []):
-                        if ev.get("source") in ["Biletinial", "Passo"]:
-                            all_events.append(ev)
-            except Exception:
-                pass
+
+    # 3) Herhangi bir kaynak (ör. Bubilet veya Biletinial) veri merkezi IP engeli (403)
+    # nedeniyle 0 etkinlik döndürürse, mevcut events.json içindeki o kaynağa ait
+    # gelecek tarihli etkinlikleri otomatik olarak koru (asla silme!):
+    active_sources = {ev.get("source") for ev in all_events}
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                today_prefix = datetime.now().strftime("%Y-%m-%d")
+                for src in ["Bubilet", "Biletix", "Biletinial", "Passo"]:
+                    if src not in active_sources:
+                        kept = [
+                            ev for ev in old_data.get("events", [])
+                            if ev.get("source") == src and ev.get("date_iso", "9999") >= today_prefix
+                        ]
+                        if kept:
+                            print(f"[*] {src} canlı sorguda 0 döndü (Cloudflare/IP Koruması); mevcut {len(kept)} {src} etkinliği korundu.")
+                            all_events.extend(kept)
+        except Exception as exc:
+            print(f"[!] Mevcut events.json okuma uyarısı: {exc}")
 
     cleaned_events = deduplicate_and_sort(all_events)
 
