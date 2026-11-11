@@ -1,6 +1,6 @@
 {
   "city": "Antalya",
-  "updated_at": "11.11.2026 21:52",
+  "updated_at": "11.11.2026 22:03",
   "total_count": 163,
   "categories": [
     "Atölye & Çocuk",
@@ -60,18 +60,6 @@
       "price": "₺1500",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/levent-yuksel-2026323204325db7914e09047403086c362e5fc0330b2.jpg",
       "url": "https://biletinial.com/tr-tr/muzik/levent-yuksel",
-      "source": "Biletinial"
-    },
-    {
-      "id": "6b225de42587",
-      "title": "Herkes Kocama Benziyor",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-11T20:00:00",
-      "date_display": "11 Kasım 2026 • 20:00",
-      "venue": "Antalya Türkan Şoray Kültür Merkezi",
-      "price": "₺800",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/herkes-kocama-benziyor-20261012152825432ae0f7b7944c2597c17a47ebb20ead.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor",
       "source": "Biletinial"
     },
     {
@@ -375,6 +363,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "1c5cd5fd2594",
+      "title": "Farklıyız ama Arkadaşız",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-15T20:00:00",
+      "date_display": "15 Kasım 2026 • 20:00",
+      "venue": "Tiyatro Özgün Sahnesi, Antalya",
+      "price": "₺250",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/farkliyiz-ama-arkadasiz-202611515223808dfcf1654ae4fe6990868bf4525d87f.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/farkliyiz-ama-arkadasiz",
+      "source": "Biletinial"
+    },
+    {
       "id": "f1fbaf452bf9",
       "title": "7 Kocalı Hürmüz",
       "category": "Tiyatro & Sahne",
@@ -675,6 +675,18 @@
       "source": "Biletix"
     },
     {
+      "id": "5002d3ffd1e7",
+      "title": "Panda Magic Show",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-22T20:00:00",
+      "date_display": "22 Kasım 2026 • 20:00",
+      "venue": "Panda Sahne, Antalya",
+      "price": "₺400",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/panda-magic-show-2026101993950cb0435ca22a54f018a83a1fadc7c9544.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/panda-magic-show",
+      "source": "Biletinial"
+    },
+    {
       "id": "b889f8b41810",
       "title": "Dj Hakan Küfündür ile 90'lar 2000'ler Türkçe Pop Parti",
       "category": "Festival & Parti",
@@ -756,18 +768,6 @@
       "price": "₺800",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/miray-akovaligil-ya-bende-bir-sey-yoksa-2025728184330d1ce859857124781b4cdce2f6db556ad.png",
       "url": "https://biletinial.com/tr-tr/tiyatro/miray-akovaligil-ya-bende-bir-sey-yoksa",
-      "source": "Biletinial"
-    },
-    {
-      "id": "9eb40b9c6897",
-      "title": "Ayan Beyan Doğaçlama",
-      "category": "Stand-Up & Komedi",
-      "date_iso": "2026-11-25T20:00:00",
-      "date_display": "25 Kasım 2026 • 20:00",
-      "venue": "Kırmızı Kalem Çadır Sahne, Antalya",
-      "price": "₺500",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ayan-beyan-dogaclama-2026112112732e6c48edc99c4459286c14248f0559c7d.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/ayan-beyan-dogaclama-kks",
       "source": "Biletinial"
     },
     {
