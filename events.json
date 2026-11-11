@@ -4,7 +4,6 @@
   "total_count": 312,
   "categories": [
     "Atölye & Çocuk",
-    "Festival & Parti",
     "Konser & Müzik",
     "Stand-Up & Komedi",
     "Tiyatro & Sahne"
@@ -340,18 +339,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "7004a7234d46",
-      "title": "90’lar Kafası: Nihat Sırdar",
-      "category": "Festival & Parti",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "Antalya Bahçe",
-      "price": "₺500",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/90lar-kafasi-nihat-sirdar-20269101530461dad2989803d439d8d1956b820270d68.jpg",
-      "url": "https://biletinial.com/tr-tr/muzik/nihat-sirdar-ile-dj-performans-90lar-kafasi",
-      "source": "Biletinial"
-    },
-    {
       "id": "33bf60259c52",
       "title": "Tarla Kuşuydu Juliet",
       "category": "Tiyatro & Sahne",
@@ -370,7 +357,7 @@
       "date_iso": "2026-11-13T20:00:00",
       "date_display": "13 Kasım 2026 • 20:00",
       "venue": "Antalya",
-      "price": "₺600",
+      "price": "₺450",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/salih-tiras-stand-up-2026871744130877db4c015342dbbecbd581b9b90f96.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup",
       "source": "Biletinial"
@@ -532,18 +519,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "42b9877908ab",
-      "title": "Ermişler Ya Da Günahkarlar",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
-      "source": "Biletinial"
-    },
-    {
       "id": "35eda6aefe63",
       "title": "KUŞLAR",
       "category": "Tiyatro & Sahne",
@@ -553,18 +528,6 @@
       "price": "₺105",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kuslar-antalya-dt-2025107150558550c68fd4e146dbacda97d60f110674.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
-      "source": "Biletinial"
-    },
-    {
-      "id": "ce8ae725e0d4",
-      "title": "Akide Şekeri",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Doğu Garajı Büyük Sahne, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/akide-sekeri-antalya-sehir-tiyatrolari-2026102013751dedb481ac9ff465da4bbba61a55951fd.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast",
       "source": "Biletinial"
     },
     {
@@ -1168,6 +1131,30 @@
       "source": "Biletinial"
     },
     {
+      "id": "ce8ae725e0d4",
+      "title": "Akide Şekeri",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-21T20:00:00",
+      "date_display": "21 Kasım 2026 • 20:00",
+      "venue": "Doğu Garajı Büyük Sahne, Antalya",
+      "price": "₺130",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/akide-sekeri-antalya-sehir-tiyatrolari-2026102013751dedb481ac9ff465da4bbba61a55951fd.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast",
+      "source": "Biletinial"
+    },
+    {
+      "id": "42b9877908ab",
+      "title": "Ermişler Ya Da Günahkarlar",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-21T20:00:00",
+      "date_display": "21 Kasım 2026 • 20:00",
+      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
+      "price": "₺130",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
+      "source": "Biletinial"
+    },
+    {
       "id": "15eb573fe350",
       "title": "Kendine Özgün Doğaçlama - İnteraktif Oyunlar",
       "category": "Stand-Up & Komedi",
@@ -1714,9 +1701,21 @@
       "date_iso": "2026-11-28T20:00:00",
       "date_display": "28 Kasım 2026 • 20:00",
       "venue": "Antalya",
-      "price": "₺1000",
+      "price": "₺1800",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ask-hikayen-dusmus-20221228185351.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus",
+      "source": "Biletinial"
+    },
+    {
+      "id": "c1c4a9904da3",
+      "title": "Doğaçlama Bayii",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-28T20:00:00",
+      "date_display": "28 Kasım 2026 • 20:00",
+      "venue": "Antalya",
+      "price": "₺600",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/dogaclama-bayii-202611101042965ba1361796a478cbdfec249751c4ff3.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/dogaclama-bayii-ipktnshne",
       "source": "Biletinial"
     },
     {

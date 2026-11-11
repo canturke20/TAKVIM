@@ -302,7 +302,7 @@ DTSTART;TZID=Europe/Istanbul:20261113T200000
 DTEND;TZID=Europe/Istanbul:20261113T223000
 SUMMARY:Salih Tıraş Stand Up
 LOCATION:Antalya
-DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺600\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺450\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup
 URL:https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup
 END:VEVENT
 BEGIN:VEVENT
@@ -966,6 +966,26 @@ DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1045\
 URL:https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi
 END:VEVENT
 BEGIN:VEVENT
+UID:ce8ae725e0d4@antalya-etkinlik-takvimi
+DTSTAMP:20261111T123443Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Akide Şekeri
+LOCATION:Doğu Garajı Büyük Sahne\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
+URL:https://biletinial.com/tr-tr/tiyatro/akide-sekeri-ast
+END:VEVENT
+BEGIN:VEVENT
+UID:42b9877908ab@antalya-etkinlik-takvimi
+DTSTAMP:20261111T123443Z
+DTSTART;TZID=Europe/Istanbul:20261121T200000
+DTEND;TZID=Europe/Istanbul:20261121T223000
+SUMMARY:Ermişler Ya Da Günahkarlar
+LOCATION:Doğu Garajı Performans Sahne 1\, Antalya
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺130\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
+URL:https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast
+END:VEVENT
+BEGIN:VEVENT
 UID:15eb573fe350@antalya-etkinlik-takvimi
 DTSTAMP:20261111T184717Z
 DTSTART;TZID=Europe/Istanbul:20261121T200000
@@ -1422,8 +1442,18 @@ DTSTART;TZID=Europe/Istanbul:20261128T200000
 DTEND;TZID=Europe/Istanbul:20261128T223000
 SUMMARY:Aşk Hikayen Düşmüş
 LOCATION:Antalya
-DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1000\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus
+DESCRIPTION:Kategori: Tiyatro & Sahne\nKaynak: Biletinial\nFiyat/Durum: ₺1800\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus
 URL:https://biletinial.com/tr-tr/tiyatro/ask-hikayen-dusmus
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c4a9904da3@antalya-etkinlik-takvimi
+DTSTAMP:20261111T123443Z
+DTSTART;TZID=Europe/Istanbul:20261128T200000
+DTEND;TZID=Europe/Istanbul:20261128T223000
+SUMMARY:Doğaçlama Bayii
+LOCATION:Antalya
+DESCRIPTION:Kategori: Stand-Up & Komedi\nKaynak: Biletinial\nFiyat/Durum: ₺600\nBilet ve Detaylar: https://biletinial.com/tr-tr/tiyatro/dogaclama-bayii-ipktnshne
+URL:https://biletinial.com/tr-tr/tiyatro/dogaclama-bayii-ipktnshne
 END:VEVENT
 BEGIN:VEVENT
 UID:9b304daba2f8@antalya-etkinlik-takvimi
