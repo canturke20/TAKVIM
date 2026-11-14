@@ -1,7 +1,7 @@
 {
   "city": "Antalya",
-  "updated_at": "13.11.2026 15:57",
-  "total_count": 297,
+  "updated_at": "14.11.2026 15:00",
+  "total_count": 287,
   "categories": [
     "Atölye & Çocuk",
     "Festival & Parti",
@@ -19,8 +19,8 @@
       "id": "233ea98fb93d",
       "title": "Aspendos Balon Turu - Kasım & Aralık Ayı",
       "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-13T06:15:00",
-      "date_display": "13 Kasım 2026 • 06:15",
+      "date_iso": "2026-11-14T06:15:00",
+      "date_display": "14 Kasım 2026 • 06:15",
       "venue": "Aspendos Antik Tiyatro Yanı, Antalya",
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
@@ -31,8 +31,8 @@
       "id": "d7ec36347fdc",
       "title": "Antalya Kum Heykel Müzesi - 2026",
       "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-13T09:00:00",
-      "date_display": "13 Kasım 2026 • 09:00",
+      "date_iso": "2026-11-14T09:00:00",
+      "date_display": "14 Kasım 2026 • 09:00",
       "venue": "Antalya Kum Heykel Müzesi",
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/antalyakum-bu26wde.avif",
@@ -43,133 +43,13 @@
       "id": "1e6d6256c672",
       "title": "The Land of Legends Theme Park",
       "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-13T10:00:00",
-      "date_display": "13 Kasım 2026 • 10:00",
+      "date_iso": "2026-11-14T10:00:00",
+      "date_display": "14 Kasım 2026 • 10:00",
       "venue": "The Land of Legends, Antalya",
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/thelandof-9-10-26-su.avif",
       "url": "https://www.biletix.com/etkinlik/5PRK4/TURKIYE/tr",
       "source": "Biletix"
-    },
-    {
-      "id": "f853b7a63525",
-      "title": "Antalya Workshop | Mozaik Lamba Atölyesi",
-      "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-13T10:00:00",
-      "date_display": "13 Kasım 2026 • 10:00",
-      "venue": "Antalya Workshop Experience",
-      "price": "₺1500",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/antalya-workshop-mozaik-lamba-atolyesi-71349.jpeg",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/antalya-workshop-mozaik-lamba-atolyesi",
-      "source": "Bubilet"
-    },
-    {
-      "id": "ee4bc3e834eb",
-      "title": "Atatürk'ü Anma Konseri - Antalya Devlet Senfoni Orkestrası",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "A.K.M. Aspendos Salonu, Antalya",
-      "price": "₺215",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ataturku-anma-konseri-antalya-devlet-senfoni-orkestrasi-20261030171224c83a771762b547f78c3df00709d0e169.jpg",
-      "url": "https://biletinial.com/tr-tr/muzik/ataturku-anma-konseri-adso",
-      "source": "Biletinial"
-    },
-    {
-      "id": "33bf60259c52",
-      "title": "Tarla Kuşuydu Juliet",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "Yıldız Kenter Sahnesi - Işıklar, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/tarla-kusuydu-juliet-antalya-sehir-tiyatrolari-2026102014020520116c051d3453aac0b287a529bd927.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/tarla-kusuydu-juliet-ast",
-      "source": "Biletinial"
-    },
-    {
-      "id": "b3c7bdcf933d",
-      "title": "Salih Tıraş Stand Up",
-      "category": "Stand-Up & Komedi",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "Antalya",
-      "price": "₺450",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/salih-tiras-stand-up-2026871744130877db4c015342dbbecbd581b9b90f96.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/salih-tiras-standup",
-      "source": "Biletinial"
-    },
-    {
-      "id": "07d657aec72b",
-      "title": "Suç ve Ceza Oyunu",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "Muratpaşa Belediyesi Kültür Salonu, Antalya",
-      "price": "₺500",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/suc-ve-ceza-oyunu-20261013085718715-6d31f743f947.jpg",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-suc-ve-ceza-oyunu-",
-      "source": "Bubilet"
-    },
-    {
-      "id": "534c825605b4",
-      "title": "Pop Delisi: %100 Türkçe Pop Partisi",
-      "category": "Festival & Parti",
-      "date_iso": "2026-11-13T20:00:00",
-      "date_display": "13 Kasım 2026 • 20:00",
-      "venue": "Holly Stone Performance Hall Antalya",
-      "price": "₺350",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/pop-delisi-100-turkce-pop-partisi--15379.jpg",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/pop-delisi-100-turkce-pop-partisi-",
-      "source": "Bubilet"
-    },
-    {
-      "id": "de8858ecf4e3",
-      "title": "Salih Tıraş",
-      "category": "Stand-Up & Komedi",
-      "date_iso": "2026-11-13T20:30:00",
-      "date_display": "13 Kasım 2026 • 20:30",
-      "venue": "Rockbull Performance Hall, Antalya",
-      "price": "₺600",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/salih-tiras-20260807143232797-c2caba91ff5c.png",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/salih-tiras",
-      "source": "Bubilet"
-    },
-    {
-      "id": "eebb6a1dd8cb",
-      "title": "KIZIMIN ADI ADA'YDI",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-13T20:30:00",
-      "date_display": "13 Kasım 2026 • 20:30",
-      "venue": "Dada Tiyatro, Antalya",
-      "price": "₺568",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/kizimin-adi-adaydi-20260809155303314-eef3f2e7fa1d.png",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/kizimin-adi-adaydi",
-      "source": "Bubilet"
-    },
-    {
-      "id": "45efee460ab5",
-      "title": "Pinhani",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-13T22:00:00",
-      "date_display": "13 Kasım 2026 • 22:00",
-      "venue": "The Bar, Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/pinhani-gorsel-bu.avif",
-      "url": "https://www.biletix.com/etkinlik/5SO68/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "d5fb77959dc6",
-      "title": "Pinhani Konseri",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-13T22:00:00",
-      "date_display": "13 Kasım 2026 • 22:00",
-      "venue": "The Bar Kaleiçi, Antalya",
-      "price": "₺1200",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/-pinhani-konseri-16207.png",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/-pinhani-konseri",
-      "source": "Bubilet"
     },
     {
       "id": "ba384b02b936",
@@ -232,18 +112,6 @@
       "source": "Bubilet"
     },
     {
-      "id": "e6ab3f150ade",
-      "title": "The Sponge Performance Hall Konserleri",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-14T19:00:00",
-      "date_display": "14 Kasım 2026 • 19:00",
-      "venue": "The Sponge Performance, Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/293386251-spongee.jpg",
-      "url": "https://www.biletix.com/etkinlik-grup/293386251/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
       "id": "08129cc8362d",
       "title": "Kendine Özgün Doğaçlama - İnteraktif Oyunlar",
       "category": "Stand-Up & Komedi",
@@ -268,18 +136,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "35eda6aefe63",
-      "title": "KUŞLAR",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-14T20:00:00",
-      "date_display": "14 Kasım 2026 • 20:00",
-      "venue": "Haşim İşcan K.M - DT Sahnesi, Antalya",
-      "price": "₺105",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kuslar-antalya-dt-2025107150558550c68fd4e146dbacda97d60f110674.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
-      "source": "Biletinial"
-    },
-    {
       "id": "ae8f1671360f",
       "title": "Parçacık",
       "category": "Tiyatro & Sahne",
@@ -289,6 +145,18 @@
       "price": "₺80",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/parcacik-antalya-sehir-tiyatrolari-20261020133817c287779dc8984c5884efd7927efa6198.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/parcacik-ast",
+      "source": "Biletinial"
+    },
+    {
+      "id": "35eda6aefe63",
+      "title": "KUŞLAR",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-14T20:00:00",
+      "date_display": "14 Kasım 2026 • 20:00",
+      "venue": "Haşim İşcan K.M - DT Sahnesi, Antalya",
+      "price": "₺105",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kuslar-antalya-dt-2025107150558550c68fd4e146dbacda97d60f110674.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/kuslar-antalya-dt",
       "source": "Biletinial"
     },
     {
@@ -424,6 +292,18 @@
       "source": "Biletix"
     },
     {
+      "id": "e6ab3f150ade",
+      "title": "The Sponge Performance Hall Konserleri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-15T19:00:00",
+      "date_display": "15 Kasım 2026 • 19:00",
+      "venue": "The Sponge Performance, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/293386251-spongee.jpg",
+      "url": "https://www.biletix.com/etkinlik-grup/293386251/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
       "id": "c9b1c2e39ae7",
       "title": "18 Yaş ve Üzeri Oyunculuk - Tiyatro Atölyesi",
       "category": "Atölye & Çocuk",
@@ -517,6 +397,18 @@
       "price": "₺450",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/gayb-2025131102139a7de4b0c01a34b2b8b0e9e3ce1c17e8b.png",
       "url": "https://biletinial.com/tr-tr/tiyatro/gayb",
+      "source": "Biletinial"
+    },
+    {
+      "id": "aec1656acbaf",
+      "title": "Şifa Yahut Itır Bahçesi",
+      "category": "Festival & Parti",
+      "date_iso": "2026-11-15T20:00:00",
+      "date_display": "15 Kasım 2026 • 20:00",
+      "venue": "Baküs Sahne, Antalya",
+      "price": "₺300",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/sifa-yahut-itir-bahcesi-kisa-kisa-fest-4-2026101510251705cfef4b00604c5d9fc150b802647141.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/sifa-yahut-itir-bahcesi-kisa-kisa-fest-dort",
       "source": "Biletinial"
     },
     {
@@ -625,6 +517,30 @@
       "price": "₺80",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/romeo-juliet-ask-antalya-sehir-tiyatrolari-20261020135242cf45a907e9e346168adae6d79c77f389.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/romeo-juliet-ask-ast",
+      "source": "Biletinial"
+    },
+    {
+      "id": "1fe9d37ea739",
+      "title": "7 Kocalı Hürmüz -Tiyatro Kafe",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-17T20:00:00",
+      "date_display": "17 Kasım 2026 • 20:00",
+      "venue": "Antalya",
+      "price": "₺600",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/7-kocali-hurmuz-tiyatro-kafe-20269121317491747a7f837c74db8a713e050871035e5.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/yedikocali-hurmuz-atf",
+      "source": "Biletinial"
+    },
+    {
+      "id": "8483fd194c68",
+      "title": "İyilik Takımı Sevginin Gücü",
+      "category": "Atölye & Çocuk",
+      "date_iso": "2026-11-17T20:00:00",
+      "date_display": "17 Kasım 2026 • 20:00",
+      "venue": "Tiyatro Özgün Sahnesi, Antalya",
+      "price": "₺250",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/iyilik-takimi-sevginin-gucu-2023410171851.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/iyilik-takimi-sevginin-gucu",
       "source": "Biletinial"
     },
     {
@@ -856,18 +772,6 @@
       "source": "Biletinial"
     },
     {
-      "id": "f49ca7d28142",
-      "title": "Tiyatro Sporu",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-20T20:00:00",
-      "date_display": "20 Kasım 2026 • 20:00",
-      "venue": "Tiyatro ADA Sahnesi, Antalya",
-      "price": "₺300",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/tiyatro-sporu-ada-202656112939420078da160340538504f59702f64cf6.jpeg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/tiyatro-sporu-ada",
-      "source": "Biletinial"
-    },
-    {
       "id": "e062faee9b04",
       "title": "Lil Zey Konseri",
       "category": "Konser & Müzik",
@@ -949,18 +853,6 @@
       "price": "₺1045",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/hadi-oldursene-canikom-tiyatro-oyunu-2026316125547374f54101b3c4bad8ba9d90340df019c.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi",
-      "source": "Biletinial"
-    },
-    {
-      "id": "42b9877908ab",
-      "title": "Ermişler Ya Da Günahkarlar",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-21T20:00:00",
-      "date_display": "21 Kasım 2026 • 20:00",
-      "venue": "Doğu Garajı Performans Sahne 1, Antalya",
-      "price": "₺130",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ermisler-ya-da-gunahkarlar-ast-202610201317295724619d910447c080e2bb31ef9c3540.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/ermisler-ya-da-gunahkarlar-ast",
       "source": "Biletinial"
     },
     {
@@ -1165,6 +1057,18 @@
       "price": "₺250",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/hacivat-karagoz-2026101210242244ea727c0a4144a2eca3c475cdaa58.jpg",
       "url": "https://biletinial.com/tr-tr/tiyatro/hacivat-karagoz",
+      "source": "Biletinial"
+    },
+    {
+      "id": "22302cec3623",
+      "title": "Doğaçlama Komedya Antre",
+      "category": "Stand-Up & Komedi",
+      "date_iso": "2026-11-24T20:00:00",
+      "date_display": "24 Kasım 2026 • 20:00",
+      "venue": "Mall of Antalya Küçük Salon",
+      "price": "₺200",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/dogaclama-komedya-ortaya-karisik-202412131330253ce20590360443b9aa0908e74ef199e3.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/dogaclama-komedya-ortaya-karisik",
       "source": "Biletinial"
     },
     {
@@ -1804,6 +1708,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "49887f10072d",
+      "title": "Ölmüşü Öldürsene O....spu",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-30T20:00:00",
+      "date_display": "30 Kasım 2026 • 20:00",
+      "venue": "Antalya",
+      "price": "₺500",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/olmusu-oldursene-ospu-20251219146408ee9b10fcfe847b498c42cd1a2e0e3f5.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/olmusu-oldursene-ospu",
+      "source": "Biletinial"
+    },
+    {
       "id": "33fdce6b828b",
       "title": "Muhammed Ali",
       "category": "Konser & Müzik",
@@ -2296,18 +2212,6 @@
       "source": "Bubilet"
     },
     {
-      "id": "b96975b4d130",
-      "title": "Ezginin Günlüğü",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-12-09T20:00:00",
-      "date_display": "9 Aralık 2026 • 20:00",
-      "venue": "Antalya Holly Stone",
-      "price": "₺1000",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ezginin-gunlugu-ortak-202682214492197d33d4abeca497ead12ed3eb7927b8a.jpg",
-      "url": "https://biletinial.com/tr-tr/muzik/ezginin-gunlugu",
-      "source": "Biletinial"
-    },
-    {
       "id": "9f74b3243428",
       "title": "Fazlı Polat - Şaka Şaka Stand-Up",
       "category": "Stand-Up & Komedi",
@@ -2378,18 +2282,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/cem-isciler-stand-up-26833.jpg",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/cem-isciler-stand-up",
       "source": "Bubilet"
-    },
-    {
-      "id": "cc36f708b05e",
-      "title": "Ezginin Günlüğü",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-12-09T21:00:00",
-      "date_display": "9 Aralık 2026 • 21:00",
-      "venue": "Holly Stone Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5CIF0-bu26.avif",
-      "url": "https://www.biletix.com/etkinlik/5CIF5/TURKIYE/tr",
-      "source": "Biletix"
     },
     {
       "id": "1f568e955de4",
@@ -3458,18 +3350,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ozbi-98350.jpeg",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/ozbi",
       "source": "Bubilet"
-    },
-    {
-      "id": "9bda38a3d12c",
-      "title": "Kızımın Adı Ada'ydı",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2027-01-27T20:00:00",
-      "date_display": "27 Ocak 2027 • 20:00",
-      "venue": "Antalya",
-      "price": "₺500",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kizimin-adi-adaydi-2026891618184265114a37c1435693c59eea3de3b41c.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/kizimin-adi-adaydi",
-      "source": "Biletinial"
     },
     {
       "id": "b67a69c2ee2c",
