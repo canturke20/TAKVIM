@@ -1,7 +1,7 @@
 {
   "city": "Antalya",
-  "updated_at": "19.11.2026 17:15",
-  "total_count": 257,
+  "updated_at": "20.11.2026 16:55",
+  "total_count": 262,
   "categories": [
     "Atölye & Çocuk",
     "Festival & Parti",
@@ -19,8 +19,8 @@
       "id": "233ea98fb93d",
       "title": "Aspendos Balon Turu - Kasım & Aralık Ayı",
       "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-19T06:15:00",
-      "date_display": "19 Kasım 2026 • 06:15",
+      "date_iso": "2026-11-20T06:15:00",
+      "date_display": "20 Kasım 2026 • 06:15",
       "venue": "Aspendos Antik Tiyatro Yanı, Antalya",
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FCK0-aspendosbu26.avif",
@@ -31,8 +31,8 @@
       "id": "d7ec36347fdc",
       "title": "Antalya Kum Heykel Müzesi - 2026",
       "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-19T09:00:00",
-      "date_display": "19 Kasım 2026 • 09:00",
+      "date_iso": "2026-11-20T09:00:00",
+      "date_display": "20 Kasım 2026 • 09:00",
       "venue": "Antalya Kum Heykel Müzesi",
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/antalyakum-bu26wde.avif",
@@ -43,8 +43,8 @@
       "id": "1e6d6256c672",
       "title": "The Land of Legends Theme Park",
       "category": "Atölye & Çocuk",
-      "date_iso": "2026-11-19T10:00:00",
-      "date_display": "19 Kasım 2026 • 10:00",
+      "date_iso": "2026-11-20T10:00:00",
+      "date_display": "20 Kasım 2026 • 10:00",
       "venue": "The Land of Legends, Antalya",
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/thelandof-9-10-26-su.avif",
@@ -52,135 +52,15 @@
       "source": "Biletix"
     },
     {
-      "id": "3d93354137ec",
-      "title": "Sabahat Akkiraz",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:00:00",
-      "date_display": "19 Kasım 2026 • 20:00",
-      "venue": "Manavgat Atatürk Kültür Merkezi, Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/56V18-GORSEL.avif",
-      "url": "https://www.biletix.com/etkinlik/56V18/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "1a0787578b1e",
-      "title": "Sabahat Akkiraz",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:00:00",
-      "date_display": "19 Kasım 2026 • 20:00",
-      "venue": "Manavgat Atatürk Kültür Merkezi, Antalya",
-      "price": "₺1135",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/sabahat-akkiraz-202453192679a122dffa430427fb945f48b2be836aa.png",
-      "url": "https://biletinial.com/tr-tr/muzik/sabahat-akkiraz",
-      "source": "Biletinial"
-    },
-    {
-      "id": "a83d8a4609b6",
-      "title": "Ceren Gündoğdu Candle Session",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:00:00",
-      "date_display": "19 Kasım 2026 • 20:00",
-      "venue": "Alanya Kültür Merkezi B Salonu-, Antalya",
-      "price": "₺1200",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ceren-gundogdu-candle-session-2026831202574ece043673e24b0b803e50750e99283f.jpg",
-      "url": "https://biletinial.com/tr-tr/muzik/ceren-gundogdu-candle-session",
-      "source": "Biletinial"
-    },
-    {
-      "id": "d66d9c4461b1",
-      "title": "Başar Keklik",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:00:00",
-      "date_display": "19 Kasım 2026 • 20:00",
-      "venue": "Antalya Holly Stone",
-      "price": "₺449",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/basar-keklik-2026225101616e9a6f14518a741afb4432d964fe2445f.jpeg",
-      "url": "https://biletinial.com/tr-tr/muzik/basar-keklik",
-      "source": "Biletinial"
-    },
-    {
-      "id": "98162fa4bf28",
-      "title": "Sabahat Akkiraz Konseri",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:00:00",
-      "date_display": "19 Kasım 2026 • 20:00",
-      "venue": "Manavgat Atatürk Kültür Merkezi, Antalya",
-      "price": "₺1135",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/sabahat-akkiraz-konseri-50205.jpeg",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/sabahat-akkiraz-konseri",
-      "source": "Bubilet"
-    },
-    {
-      "id": "87c8e45f65a2",
-      "title": "Inostranka",
+      "id": "d33186bd25da",
+      "title": "Tembel Prens Ve Çalışkan Prens",
       "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-19T20:30:00",
-      "date_display": "19 Kasım 2026 • 20:30",
-      "venue": "Atatürk KM - Aspendos Salonu, Antalya",
+      "date_iso": "2026-11-20T18:00:00",
+      "date_display": "20 Kasım 2026 • 18:00",
+      "venue": "Özgün Sahne, Antalya",
       "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5GD77-9-10-26-su.avif",
-      "url": "https://www.biletix.com/etkinlik/5GD77/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "47088a10417a",
-      "title": "Ceren Gündoğdu Candle Session",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:30:00",
-      "date_display": "19 Kasım 2026 • 20:30",
-      "venue": "Alanya Kültür Merkezi - B Salonu, Antalya",
-      "price": "₺1320",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/ceren-gundogdu-candle-session-20260805093054144-5b106e1e7dc1.jpg",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/ceren-gundogdu-candle-session",
-      "source": "Bubilet"
-    },
-    {
-      "id": "811c4dbf2fad",
-      "title": "INOSTRANKA",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T20:30:00",
-      "date_display": "19 Kasım 2026 • 20:30",
-      "venue": "Atatürk Kültür Merkezi - Aspendos Salonu, Antalya",
-      "price": "₺2880",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/inostranka-20261106102327479-3ff074142ca9.webp",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/inostranka",
-      "source": "Bubilet"
-    },
-    {
-      "id": "0ac379443a50",
-      "title": "Başar Keklik",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T21:45:00",
-      "date_display": "19 Kasım 2026 • 21:45",
-      "venue": "Holly Stone Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5HO16basar-26su.avif",
-      "url": "https://www.biletix.com/etkinlik/5HO62/TURKIYE/tr",
-      "source": "Biletix"
-    },
-    {
-      "id": "cbb3c422dcc4",
-      "title": "Başar Keklik",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-19T21:45:00",
-      "date_display": "19 Kasım 2026 • 21:45",
-      "venue": "Holly Stone Performance Hall Antalya",
-      "price": "₺399",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/basar-keklik-29606.JPG",
-      "url": "https://www.bubilet.com.tr/antalya/etkinlik/basar-keklik",
-      "source": "Bubilet"
-    },
-    {
-      "id": "e6ab3f150ade",
-      "title": "The Sponge Performance Hall Konserleri",
-      "category": "Konser & Müzik",
-      "date_iso": "2026-11-20T19:00:00",
-      "date_display": "20 Kasım 2026 • 19:00",
-      "venue": "The Sponge Performance, Antalya",
-      "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/293386251-spongee.jpg",
-      "url": "https://www.biletix.com/etkinlik-grup/293386251/TURKIYE/tr",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI9K-201126su.avif",
+      "url": "https://www.biletix.com/etkinlik/5FI9K/TURKIYE/tr",
       "source": "Biletix"
     },
     {
@@ -196,15 +76,15 @@
       "source": "Biletinial"
     },
     {
-      "id": "f11ee9fe6068",
-      "title": "Balon Ağacı",
+      "id": "ac9d03c5929f",
+      "title": "Gizemli Bir Cinayet",
       "category": "Tiyatro & Sahne",
       "date_iso": "2026-11-20T20:00:00",
       "date_display": "20 Kasım 2026 • 20:00",
-      "venue": "Yıldız Kenter Sahnesi - Işıklar, Antalya",
-      "price": "₺80",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/balon-agaci-antalya-sehir-tiyatrolari-2026102013154628600d86d974359b308ff77e35d895e.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/balon-agaci-ast",
+      "venue": "Mall of Antalya Küçük Salon",
+      "price": "₺300",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/gizemli-bir-cinayet-202611111732263d02d73368934996b80c8c8a37dd7e50.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/gizemli-bir-cinayet",
       "source": "Biletinial"
     },
     {
@@ -217,18 +97,6 @@
       "price": "₺300",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/tiyatro-sporu-ada-202656112939420078da160340538504f59702f64cf6.jpeg",
       "url": "https://biletinial.com/tr-tr/tiyatro/tiyatro-sporu-ada",
-      "source": "Biletinial"
-    },
-    {
-      "id": "ac9d03c5929f",
-      "title": "Gizemli Bir Cinayet",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-20T20:00:00",
-      "date_display": "20 Kasım 2026 • 20:00",
-      "venue": "Mall of Antalya Küçük Salon",
-      "price": "₺300",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/gizemli-bir-cinayet-202611111732263d02d73368934996b80c8c8a37dd7e50.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/gizemli-bir-cinayet",
       "source": "Biletinial"
     },
     {
@@ -256,6 +124,30 @@
       "source": "Bubilet"
     },
     {
+      "id": "208c29b504cb",
+      "title": "Tarihi Ebru Sanat Tasarimi",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-20T23:23:00",
+      "date_display": "20 Kasım 2026 • 23:23",
+      "venue": "Megasaray Westbeach, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "",
+      "url": "https://www.biletix.com/etkinlik/AADB8/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "6ca0036e7b59",
+      "title": "Keloğlan Dürüstlük Ülkesinde",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-21T17:00:00",
+      "date_display": "21 Kasım 2026 • 17:00",
+      "venue": "Özgün Sahne, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI9J-201126su.avif",
+      "url": "https://www.biletix.com/etkinlik/5FI9J/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
       "id": "512edee4a60c",
       "title": "Hacivat Karagöz",
       "category": "Atölye & Çocuk",
@@ -265,6 +157,18 @@
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/5FI81-bu26.avif",
       "url": "https://www.biletix.com/etkinlik/5FI9H/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "e6ab3f150ade",
+      "title": "The Sponge Performance Hall Konserleri",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-11-21T19:00:00",
+      "date_display": "21 Kasım 2026 • 19:00",
+      "venue": "The Sponge Performance, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/293386251-spongee.jpg",
+      "url": "https://www.biletix.com/etkinlik-grup/293386251/TURKIYE/tr",
       "source": "Biletix"
     },
     {
@@ -544,6 +448,18 @@
       "source": "Biletinial"
     },
     {
+      "id": "5002d3ffd1e7",
+      "title": "Panda Magic Show",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-22T20:00:00",
+      "date_display": "22 Kasım 2026 • 20:00",
+      "venue": "Panda Sahne, Antalya",
+      "price": "₺400",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/panda-magic-show-2026101993950cb0435ca22a54f018a83a1fadc7c9544.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/panda-magic-show",
+      "source": "Biletinial"
+    },
+    {
       "id": "104a3cec2df8",
       "title": "Serdar Nalçakar - Çok Bozdu (Stand Up Gösterisi)",
       "category": "Stand-Up & Komedi",
@@ -563,7 +479,7 @@
       "date_display": "22 Kasım 2026 • 22:00",
       "venue": "The Sponge Performance, Antalya",
       "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/30P08djhakankufundurr.png",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5SPB4-BU27.avif",
       "url": "https://www.biletix.com/etkinlik/5SPB4/TURKIYE/tr",
       "source": "Biletix"
     },
@@ -602,6 +518,18 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/rastgele-sofra-20261103155834055-ad54f6c15af0.jpg",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/rastgele-sofra",
       "source": "Bubilet"
+    },
+    {
+      "id": "ae899d753507",
+      "title": "Tembel Prens ve Çalışkan Prenses",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-23T20:00:00",
+      "date_display": "23 Kasım 2026 • 20:00",
+      "venue": "Antalya",
+      "price": "₺250",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/tembel-prens-20261011326472d7daf0b86fa443fb16db6cb520282a5.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/tembel-prens",
+      "source": "Biletinial"
     },
     {
       "id": "e26affa5c1ac",
@@ -697,6 +625,18 @@
       "price": "₺800",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/miray-akovaligil-ya-bende-bir-sey-yoksa-2025728184330d1ce859857124781b4cdce2f6db556ad.png",
       "url": "https://biletinial.com/tr-tr/tiyatro/miray-akovaligil-ya-bende-bir-sey-yoksa",
+      "source": "Biletinial"
+    },
+    {
+      "id": "6002b2d4ebfa",
+      "title": "Keloğlan Dürüstlük Ülkesinde",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2026-11-25T20:00:00",
+      "date_display": "25 Kasım 2026 • 20:00",
+      "venue": "Antalya",
+      "price": "₺250",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/keloglan-durustluk-ulkesinde-202610113315f57386661d9f496ba226df8f0b16ad97.jpg",
+      "url": "https://biletinial.com/tr-tr/tiyatro/keloglan-durustluk-ulkesinde",
       "source": "Biletinial"
     },
     {
@@ -1057,18 +997,6 @@
       "price": "₺300",
       "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/sohretli-isler-20262519564696e184aed49f42d59a96ff804ef72e60.jpeg",
       "url": "https://biletinial.com/tr-tr/tiyatro/sohretli-isler",
-      "source": "Biletinial"
-    },
-    {
-      "id": "cbb4cb5f2071",
-      "title": "Dünyanın En Önemli Gösterisi",
-      "category": "Tiyatro & Sahne",
-      "date_iso": "2026-11-29T20:00:00",
-      "date_display": "29 Kasım 2026 • 20:00",
-      "venue": "Tiyatro Özgün Sahnesi, Antalya",
-      "price": "₺250",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/dunyanin-en-onemli-gosterisi-2026112109263dc687d49a0844f5bb90472cb4a6f0fd.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/dunyanin-en-onemli-gosterisi",
       "source": "Biletinial"
     },
     {
@@ -1576,6 +1504,30 @@
       "source": "Biletix"
     },
     {
+      "id": "0ecdc0a043a7",
+      "title": "Bir Başyapıt: Dvořák",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-05T20:00:00",
+      "date_display": "5 Aralık 2026 • 20:00",
+      "venue": "Re22 Kültür Sanat Konser Salonu, Antalya",
+      "price": "₺1100",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/bir-basyapit-dvok-2026111317212127227083860845b8965ae48ebaaeeca2.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/bir-basyapit-dvoak",
+      "source": "Biletinial"
+    },
+    {
+      "id": "806e30efbef4",
+      "title": "II. Uluslararası Antalya Oda Müziği Festivali Kombine",
+      "category": "Festival & Parti",
+      "date_iso": "2026-12-05T20:00:00",
+      "date_display": "5 Aralık 2026 • 20:00",
+      "venue": "Re22 Kültür Sanat Konser Salonu, Antalya",
+      "price": "₺3600",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ii-uluslararasi-antalya-oda-muzigi-festivali-kombine-20261113173410c8e3cbb6ed9428b9b953a11ec7b62ee.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/ii-uluslararasi-antalya-oda-muzigi-festivali-kombine",
+      "source": "Biletinial"
+    },
+    {
       "id": "a57f18d9944c",
       "title": "Uykusuz Bir Rüya, Salim",
       "category": "Tiyatro & Sahne",
@@ -1876,14 +1828,14 @@
       "source": "Bubilet"
     },
     {
-      "id": "924de7347783",
-      "title": "8. Uluslararası Meze Festivali",
+      "id": "5ad4b8c34417",
+      "title": "8. Akra Meze Festivali",
       "category": "Festival & Parti",
       "date_iso": "2026-12-11T19:00:00",
       "date_display": "11 Aralık 2026 • 19:00",
       "venue": "Akra Antalya",
       "price": "Biletix'te İncele",
-      "image": "https://www.biletix.com/static/images/live/event/eventimages/5CMEZ-BU27.avif",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5CMEZ-201126su.avif",
       "url": "https://www.biletix.com/etkinlik/5CMEZ/TURKIYE/tr",
       "source": "Biletix"
     },
@@ -2500,6 +2452,18 @@
       "source": "Bubilet"
     },
     {
+      "id": "9bb6b0b207ec",
+      "title": "Romantizmin İki Ustası | Marc Sabbah ile Mendelssohn ve Brahms",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-22T20:00:00",
+      "date_display": "22 Aralık 2026 • 20:00",
+      "venue": "Re22 Kültür Sanat Konser Salonu, Antalya",
+      "price": "₺1100",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/romantizmin-iki-ustasi-marc-sabbah-ile-mendelssohn-ve-brahms-20261113172331cc3828b0dd7449bd931756ce25daf1fc.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/romantizmin-iki-ustasi-marc-sabbah-ile-mendelssohn-ve-brahms",
+      "source": "Biletinial"
+    },
+    {
       "id": "39e923737319",
       "title": "Özel Bir Rica",
       "category": "Tiyatro & Sahne",
@@ -2534,6 +2498,18 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/jurnal-20260928070555776-781758eaa7a9.png",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/jurnal",
       "source": "Bubilet"
+    },
+    {
+      "id": "85a7b7185d2c",
+      "title": "Festivalin Genç Sesleri: Can Özhan ile Keman ve Oda Müziği",
+      "category": "Festival & Parti",
+      "date_iso": "2026-12-24T20:00:00",
+      "date_display": "24 Aralık 2026 • 20:00",
+      "venue": "Re22 Kültür Sanat Konser Salonu, Antalya",
+      "price": "₺750",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/festivalin-genc-sesleri-can-ozhan-ile-keman-ve-oda-muzigi-20261113173218196623349fcf41fab283bf0192266313.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/festivalin-genc-sesleri-can-ozhan-ile-keman-ve-oda-muzigi",
+      "source": "Biletinial"
     },
     {
       "id": "da8d69e6a08d",
@@ -2689,6 +2665,18 @@
       "price": "Biletix'te İncele",
       "image": "https://www.biletix.com/static/images/live/event/eventimages/tuffing-26su.avif",
       "url": "https://www.biletix.com/etkinlik/5HKSN/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
+      "id": "082f0b454c76",
+      "title": "Erkan Güleryüz & Orkestrası ile 2027 Yılbaşı Galası",
+      "category": "Konser & Müzik",
+      "date_iso": "2026-12-31T19:30:00",
+      "date_display": "31 Aralık 2026 • 19:30",
+      "venue": "Megasaray Westbeach, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5STT4-BU27.avif",
+      "url": "https://www.biletix.com/etkinlik/5STT4/TURKIYE/tr",
       "source": "Biletix"
     },
     {
@@ -2884,6 +2872,18 @@
       "source": "Bubilet"
     },
     {
+      "id": "1650fa49b427",
+      "title": "Renkler ve Yansımalar | Aslıhan And Say, Can Özhan ve Müge Hendekli",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-18T20:00:00",
+      "date_display": "18 Ocak 2027 • 20:00",
+      "venue": "Re22 Kültür Sanat Konser Salonu, Antalya",
+      "price": "₺1100",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/renkler-ve-yansimalar-aslihan-and-say-can-ozhan-ve-muge-hendekli-202611131725501ab02087732540f2a170155dbec09384.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/renkler-ve-yansimalar-aslihan-and-say-can-ozhan-ve-muge-hendekli",
+      "source": "Biletinial"
+    },
+    {
       "id": "a76a14cc1c14",
       "title": "Gökhan Türkmen",
       "category": "Konser & Müzik",
@@ -2894,6 +2894,18 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/gokhan-turkmen-konseri-16066.jpg",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/gokhan-turkmen-konseri",
       "source": "Bubilet"
+    },
+    {
+      "id": "52a7204772e4",
+      "title": "Floransa Anıları | Cihat Aşkın, Gözde Yaşar ve Cameratalia",
+      "category": "Konser & Müzik",
+      "date_iso": "2027-01-21T20:00:00",
+      "date_display": "21 Ocak 2027 • 20:00",
+      "venue": "Re22 Kültür Sanat Konser Salonu, Antalya",
+      "price": "₺1100",
+      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/floransa-anilari-cihat-askin-gozde-yasar-ve-cameratalia-20261113172821216a303ac334c469c578ce4ca55a709.jpg",
+      "url": "https://biletinial.com/tr-tr/muzik/floransa-anilari-cihat-askin-gozde-yasar-ve-cameratalia",
+      "source": "Biletinial"
     },
     {
       "id": "deffcc3c696b",
@@ -2980,16 +2992,16 @@
       "source": "Biletinial"
     },
     {
-      "id": "ca6bfb8e8477",
-      "title": "Kanaviçe",
+      "id": "e372ba662b52",
+      "title": "Alevli Günler",
       "category": "Tiyatro & Sahne",
-      "date_iso": "2027-01-28T20:00:00",
-      "date_display": "28 Ocak 2027 • 20:00",
-      "venue": "Antalya",
-      "price": "₺500",
-      "image": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kanavice-2026891623153e7827c4a9b41e4a4e1b3c7636ac6a5.jpg",
-      "url": "https://biletinial.com/tr-tr/tiyatro/kanavice",
-      "source": "Biletinial"
+      "date_iso": "2027-01-29T20:30:00",
+      "date_display": "29 Ocak 2027 • 20:30",
+      "venue": "Türkan Şoray Kültür Merkezi, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/alevligunler-2SKC1.png",
+      "url": "https://www.biletix.com/etkinlik/6SK13/TURKIYE/tr",
+      "source": "Biletix"
     },
     {
       "id": "b67a69c2ee2c",
@@ -3002,6 +3014,18 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/mavi-gri-konseri-99853.png",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/mavi-gri-konseri",
       "source": "Bubilet"
+    },
+    {
+      "id": "0014a275adc5",
+      "title": "Alevli Günler",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2027-01-30T20:30:00",
+      "date_display": "30 Ocak 2027 • 20:30",
+      "venue": "Atatürk KM - Aspendos Salonu, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/alevligunler-2SKC1.png",
+      "url": "https://www.biletix.com/etkinlik/6SK14/TURKIYE/tr",
+      "source": "Biletix"
     },
     {
       "id": "01c074b204ba",
@@ -3052,6 +3076,18 @@
       "source": "Bubilet"
     },
     {
+      "id": "433bebedb653",
+      "title": "Kocamın  Karısı",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2027-02-21T20:00:00",
+      "date_display": "21 Şubat 2027 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/5BP9626su.avif",
+      "url": "https://www.biletix.com/etkinlik/6BP02/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
       "id": "e56bc5e06abb",
       "title": "Kirill Richter - Towards the Belove",
       "category": "Konser & Müzik",
@@ -3076,6 +3112,18 @@
       "source": "Bubilet"
     },
     {
+      "id": "9b9ec73dd6c0",
+      "title": "Cambazın Cenazesi",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2027-03-16T20:00:00",
+      "date_display": "16 Mart 2027 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/cambazincenazesi_3BPS5_24_10.jpg",
+      "url": "https://www.biletix.com/etkinlik/6BP04/TURKIYE/tr",
+      "source": "Biletix"
+    },
+    {
       "id": "ecebdf89e770",
       "title": "Jül Sezar",
       "category": "Konser & Müzik",
@@ -3086,6 +3134,18 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=750,quality=80,format=auto/files/Etkinlik/jul-sezar-20260818093315372-8f9a6e1a9f0c.jpg",
       "url": "https://www.bubilet.com.tr/antalya/etkinlik/jul-sezar",
       "source": "Bubilet"
+    },
+    {
+      "id": "9fee03c7af72",
+      "title": "Soytarılar",
+      "category": "Tiyatro & Sahne",
+      "date_iso": "2027-03-31T20:00:00",
+      "date_display": "31 Mart 2027 • 20:00",
+      "venue": "Türkan Şoray Kültür Merkezi, Antalya",
+      "price": "Biletix'te İncele",
+      "image": "https://www.biletix.com/static/images/live/event/eventimages/soytarilar548193388_26su.avif",
+      "url": "https://www.biletix.com/etkinlik/6BP03/TURKIYE/tr",
+      "source": "Biletix"
     },
     {
       "id": "1d65286fafcf",
